@@ -18,6 +18,8 @@ jobs:
     if: github.event.repository.private == false && vars.PUBLIC_AUTOMATION_ENABLED == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      CODEQL_OVERLAY_DATABASE_MODE: none
     permissions:
       actions: read
       contents: read
@@ -29,5 +31,7 @@ jobs:
       - uses: github/codeql-action/init@b96794f015dfd88f77b49b1c93e0fa7110f94c63 # v4.38.0
         with:
           build-mode: none
+          trap-caching: false
+          dependency-caching: false
           languages: python,javascript-typescript
       - uses: github/codeql-action/analyze@b96794f015dfd88f77b49b1c93e0fa7110f94c63 # v4.38.0

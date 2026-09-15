@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this experiment, cite this repository and the upstream MAUD, Qwen and QLoRA work listed in NOTICE and docs/methods.md."
 title: "Qwen3-8B on MAUD: Agreement-Held-Out QLoRA Experiment"
 type: software
-version: 0.2.0
+version: 0.2.1
 authors:
   - name: "MAUD Qwen contributors"
 repository-code: "https://github.com/intelligent-iterations/maud-qwen"
