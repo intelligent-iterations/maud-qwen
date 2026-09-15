@@ -1,0 +1,24 @@
+{
+  "dataset_commit": "4640316078dcd370debb877f350c39a28b181ffe",
+  "files": {
+    "vendor/maud/data.zip": "75af5a33d038e9254864f043da38072490ffe11e8488d58d0a2dd39c8f554519",
+    "data/official/MAUD_train.csv": "bac9f2d034ad487d5398ee2ac1c876679afea509ba8e7f1092112955c6180ff9",
+    "data/official/MAUD_dev.csv": "e977f99abcfd43f785272c23bcf08f8208579a6458d9088d2d5ba64c67e4cc1f",
+    "data/official/MAUD_test.csv": "afcbc88a4f14e8c14056469446e79f610a6eaf3a1425e61729637bd69251e697",
+    "manifests/agreements.json": "e2d9d9df0148699a4acdbe7a0d3b3e2f776b9ab7281545c27da196ec4aee9cab",
+    "manifests/questions.json": "d5c625560bafac4a62d12be5af9ce0d1965c91c5de0101a26abf0667be4a1fa1",
+    "manifests/excluded.jsonl": "b8bb4c1be94dd9bc474005e5ad56d974f69c81b2d04290339484a701ab1c8861",
+    "manifests/train_overlap.json": "bbb6434c7f961340b18e529b8ae324f6a155d5555da134f0a7727d561a383035",
+    "manifests/examples.jsonl": "768033d5e6d1672968fe8d8b81a27912c526a4f1141dcb203eabf62d63e5f240",
+    "manifests/contracts.json": "69ba2416659c46e17ddaa6cef8bf3d04da58798a20cea0db85d388a644f7e3bd",
+    "manifests/coverage.json": "bad03023885691164f2fa9e7d34cc302877e3726e7a3cbefad98f0a5b53c2093",
+    "data/heldout/train.jsonl": "ee8bec99d7eb3d3293b78ac00e9de95371f24e77605392b0ab09c38b8c2f8977",
+    "data/heldout/validation.jsonl": "609bde0d1b6a8b172822db35315940c6f6d7eecb17eea2731533d9fe04b54e1d",
+    "data/heldout/test.jsonl": "52489ffe5ae063d66a52bcc550b40364847b583ee89727ad06e489a2c92844df",
+    "reports/exact_overlap.jsonl": "e135978fefc3af76fac8f0508af03056681d3f558c24ca4a2c087fb244ece2f3",
+    "reports/near_overlap.jsonl": "59e94942d4a862677950e2204a88c91096c1bde37e1cb54057bbf3b8212e5fad",
+    "configs/initial.json": "c8b665229ea6089834fca2638aa61d48343d7458e2dc1c4bb3e40aad334e3c71",
+    "docs/evaluation_protocol.md": "bd83ec4722f64e6aae177766eb8c633834960748511dc2d83751d07081d4aaf2",
+    "src/maud_qwen/prompt.py": "992c0ef2aad6ed874516b5f3c7b6cbc9d7ac2df9bcc5e0fbac6c6f3917ed3747"
+  }
+}

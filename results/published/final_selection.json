@@ -1,0 +1,131 @@
+{
+  "config": {
+    "model_id": "Qwen/Qwen3-8B",
+    "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "dataset_repository": "https://github.com/The-Atticus-Project/maud.git",
+    "dataset_commit": "4640316078dcd370debb877f350c39a28b181ffe",
+    "seed": 42,
+    "split_seed": "maud-agreement-v1-42",
+    "agreement_counts": [
+      106,
+      23,
+      23
+    ],
+    "context_length": 4096,
+    "context_policy": "full_passage_or_error",
+    "max_new_tokens": 8,
+    "do_sample": false,
+    "enable_thinking": false,
+    "quantization": {
+      "load_in_4bit": true,
+      "bnb_4bit_quant_type": "nf4",
+      "bnb_4bit_use_double_quant": true,
+      "compute_dtype": "bfloat16"
+    },
+    "lora": {
+      "r": 8,
+      "lora_alpha": 16,
+      "lora_dropout": 0.0,
+      "bias": "none",
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    },
+    "sampling": "natural_frequency",
+    "per_device_train_batch_size": 1,
+    "gradient_accumulation_steps": 16,
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "optimizer": "torch.optim.AdamW",
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_epsilon": 1e-08,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.03,
+    "max_grad_norm": 1.0,
+    "gradient_checkpointing": true,
+    "gradient_checkpointing_use_reentrant": false,
+    "attention_implementation": "sdpa",
+    "epochs": 6,
+    "save_steps": 100,
+    "validation": "every_epoch",
+    "selection_metric": "question_macro_f1",
+    "early_stopping_patience": 2,
+    "early_stopping_min_delta": 0.0,
+    "eligible_min_train_agreements": 10,
+    "eligible_min_class_train_agreements": 3,
+    "rare_label_train_frequency_max": 0.1,
+    "near_duplicate_word_ngram": 5,
+    "near_duplicate_jaccard": 0.9,
+    "bootstrap_replicates": 2000
+  },
+  "platform": "Linux-6.17.0-14-generic-x86_64-with-glibc2.35",
+  "code_commit": "874c27a33e4f3982ed2241bbaf05aa612d5749b4",
+  "code_dirty": null,
+  "freeze_sha256": "2102136c0be405200b0152951053f7678765711ed136b495eaae73d29d5ff655",
+  "config_sha256": "a15afea28b226d9235d6be977ae253417dcacc46b61e2aa8ed9d3d1713927081",
+  "context_manifest_sha256": "34803a3b7e72f7f294c0d47e7b0e9ec9c11f66f0e5bbe99e5bc4b07393e3a3c7",
+  "runtime_config": {
+    "deterministic_algorithms": true,
+    "cublas_workspace_config": ":4096:8",
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "allow_tf32": false
+  },
+  "runtime_config_sha256": "ae7a3a72ae4408d0e9386025cdd057619c284b95a8be28fa5e39d7e51cc32711",
+  "adapter": "outputs/initial/epoch-5",
+  "adapter_sha256": "a544b41c61871f08d86f07819531fd8dbf195a245c3b233c7adcfd56ada328b7",
+  "selected_epoch": 5,
+  "validation_score": 0.6547289885621957,
+  "selection_metric": "question_macro_f1",
+  "training_completed": {
+    "epoch": 6,
+    "row_offset": 0,
+    "global_step": 9462,
+    "best_score": 0.6547289885621957,
+    "best_checkpoint": "outputs/initial/epoch-5",
+    "bad_epochs": 1,
+    "planned_steps": 9462,
+    "steps_per_epoch": 1577,
+    "completed_epoch_validation": [
+      {
+        "epoch": 1,
+        "score": 0.6148824650866382,
+        "checkpoint": "outputs/initial/epoch-1"
+      },
+      {
+        "epoch": 2,
+        "score": 0.6294363237675651,
+        "checkpoint": "outputs/initial/epoch-2"
+      },
+      {
+        "epoch": 3,
+        "score": 0.6396498588134188,
+        "checkpoint": "outputs/initial/epoch-3"
+      },
+      {
+        "epoch": 4,
+        "score": 0.6525067185042546,
+        "checkpoint": "outputs/initial/epoch-4"
+      },
+      {
+        "epoch": 5,
+        "score": 0.6547289885621957,
+        "checkpoint": "outputs/initial/epoch-5"
+      },
+      {
+        "epoch": 6,
+        "score": 0.6514448485614696,
+        "checkpoint": "outputs/initial/epoch-6"
+      }
+    ],
+    "stop_reason": "completed_six_epochs"
+  },
+  "test_access": "final comparison only, selection fixed before scoring"
+}

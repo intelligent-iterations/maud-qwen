@@ -1,0 +1,7628 @@
+{
+  "verified_utc": "2026-09-10T21:28:38.111242+00:00",
+  "split": "validation",
+  "metrics_match": true,
+  "input_identities_match": true,
+  "example_count": 5043,
+  "score": {
+    "n": 5043,
+    "question_macro_f1": 0.6525067185042546,
+    "parent_question_macro_f1": 0.6546046601631895,
+    "accuracy": 0.8891532817767203,
+    "invalid_output_rate": 0.0,
+    "eligible_tasks_scored": 119,
+    "missing_eligible_tasks": [],
+    "rare_answer_n": 154,
+    "rare_answer_accuracy": 0.37662337662337664,
+    "rare_class_macro_recall": 0.3678634416729655,
+    "per_question": {
+      "10-0": {
+        "n": 47,
+        "accuracy": 0.9574468085106383,
+        "macro_f1": 0.4891304347826087,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Approval",
+            "support": 45,
+            "precision": 0.9574468085106383,
+            "recall": 1.0,
+            "f1": 0.9782608695652174
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 45
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+        "subquestion": "Approval"
+      },
+      "10-1": {
+        "n": 47,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Authority",
+            "support": 47,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 47
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+        "subquestion": "Authority"
+      },
+      "10-10": {
+        "n": 47,
+        "accuracy": 0.8723404255319149,
+        "macro_f1": 0.7482142857142857,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 38,
+            "precision": 0.8809523809523809,
+            "recall": 0.9736842105263158,
+            "f1": 0.925
+          },
+          {
+            "label": 1,
+            "answer": "Rights Agreement",
+            "support": 9,
+            "precision": 0.8,
+            "recall": 0.4444444444444444,
+            "f1": 0.5714285714285714
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 37
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 5
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 4
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+        "subquestion": "Rights Agreement"
+      },
+      "10-11": {
+        "n": 47,
+        "accuracy": 0.44680851063829785,
+        "macro_f1": 0.44655797101449274,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 27,
+            "precision": 0.5238095238095238,
+            "recall": 0.4074074074074074,
+            "f1": 0.4583333333333333
+          },
+          {
+            "label": 1,
+            "answer": "Subsidiaries",
+            "support": 20,
+            "precision": 0.38461538461538464,
+            "recall": 0.5,
+            "f1": 0.43478260869565216
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 11
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 16
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 10
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 10
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+        "subquestion": "Subsidiaries"
+      },
+      "10-12": {
+        "n": 47,
+        "accuracy": 0.7872340425531915,
+        "macro_f1": 0.7863636363636364,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 30,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8
+          },
+          {
+            "label": 1,
+            "answer": "Takeover Statutes",
+            "support": 17,
+            "precision": 0.6296296296296297,
+            "recall": 1.0,
+            "f1": 0.7727272727272727
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 20
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 10
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 17
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+        "subquestion": "Takeover Statutes"
+      },
+      "10-13": {
+        "n": 47,
+        "accuracy": 0.9574468085106383,
+        "macro_f1": 0.7388888888888889,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 44,
+            "precision": 0.9565217391304348,
+            "recall": 1.0,
+            "f1": 0.9777777777777777
+          },
+          {
+            "label": 1,
+            "answer": "Tax",
+            "support": 3,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 44
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 1
+          }
+        ],
+        "eligible": false,
+        "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+        "subquestion": "Tax"
+      },
+      "10-2": {
+        "n": 47,
+        "accuracy": 0.8085106382978723,
+        "macro_f1": 0.6768525592055004,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 9,
+            "precision": 0.5,
+            "recall": 0.4444444444444444,
+            "f1": 0.47058823529411764
+          },
+          {
+            "label": 1,
+            "answer": "Brokers' Fee",
+            "support": 38,
+            "precision": 0.8717948717948718,
+            "recall": 0.8947368421052632,
+            "f1": 0.8831168831168831
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 4
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 5
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 4
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 34
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+        "subquestion": "Brokers' Fee"
+      },
+      "10-3": {
+        "n": 47,
+        "accuracy": 0.8723404255319149,
+        "macro_f1": 0.4659090909090909,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Capitalization-Other",
+            "support": 41,
+            "precision": 0.8723404255319149,
+            "recall": 1.0,
+            "f1": 0.9318181818181818
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 6
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 41
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+        "subquestion": "Capitalization-Other"
+      },
+      "10-4": {
+        "n": 47,
+        "accuracy": 0.9787234042553191,
+        "macro_f1": 0.4946236559139785,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Enforceability",
+            "support": 46,
+            "precision": 0.9787234042553191,
+            "recall": 1.0,
+            "f1": 0.989247311827957
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 46
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+        "subquestion": "Enforceability"
+      },
+      "10-5": {
+        "n": 47,
+        "accuracy": 0.6595744680851063,
+        "macro_f1": 0.5523809523809524,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 13,
+            "precision": 0.36363636363636365,
+            "recall": 0.3076923076923077,
+            "f1": 0.3333333333333333
+          },
+          {
+            "label": 1,
+            "answer": "No MAE",
+            "support": 34,
+            "precision": 0.75,
+            "recall": 0.7941176470588235,
+            "f1": 0.7714285714285715
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 4
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 9
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 7
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 27
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+        "subquestion": "No MAE"
+      },
+      "10-6": {
+        "n": 47,
+        "accuracy": 0.9574468085106383,
+        "macro_f1": 0.7388888888888889,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 44,
+            "precision": 0.9565217391304348,
+            "recall": 1.0,
+            "f1": 0.9777777777777777
+          },
+          {
+            "label": 1,
+            "answer": "No-Conflict",
+            "support": 3,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 44
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+        "subquestion": "No-Conflict"
+      },
+      "10-7": {
+        "n": 47,
+        "accuracy": 0.723404255319149,
+        "macro_f1": 0.723404255319149,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 20,
+            "precision": 0.6296296296296297,
+            "recall": 0.85,
+            "f1": 0.723404255319149
+          },
+          {
+            "label": 1,
+            "answer": "Opinion of Financial Advisor",
+            "support": 27,
+            "precision": 0.85,
+            "recall": 0.6296296296296297,
+            "f1": 0.723404255319149
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 17
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 10
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 17
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+        "subquestion": "Opinion of Financial Advisor"
+      },
+      "10-8": {
+        "n": 47,
+        "accuracy": 0.8936170212765957,
+        "macro_f1": 0.7426067907995619,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 7,
+            "precision": 0.75,
+            "recall": 0.42857142857142855,
+            "f1": 0.5454545454545454
+          },
+          {
+            "label": 1,
+            "answer": "Organization",
+            "support": 40,
+            "precision": 0.9069767441860465,
+            "recall": 0.975,
+            "f1": 0.9397590361445783
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 3
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 4
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 39
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+        "subquestion": "Organization"
+      },
+      "10-9": {
+        "n": 47,
+        "accuracy": 0.851063829787234,
+        "macro_f1": 0.7486631016042781,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 37,
+            "precision": 0.875,
+            "recall": 0.9459459459459459,
+            "f1": 0.9090909090909091
+          },
+          {
+            "label": 1,
+            "answer": "Other",
+            "support": 10,
+            "precision": 0.7142857142857143,
+            "recall": 0.5,
+            "f1": 0.5882352941176471
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 35
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 5
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 5
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+        "subquestion": "Other"
+      },
+      "101": {
+        "n": 33,
+        "accuracy": 0.9393939393939394,
+        "macro_f1": 0.53125,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "2 business days or less",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "3 business days",
+            "support": 6,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 2,
+            "answer": "3 calendar days",
+            "support": 3,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5
+          },
+          {
+            "label": 3,
+            "answer": "4 business days",
+            "support": 19,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 4,
+            "answer": "4 calendar days",
+            "support": 3,
+            "precision": 0.6,
+            "recall": 1.0,
+            "f1": 0.75
+          },
+          {
+            "label": 5,
+            "answer": "5 business days",
+            "support": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 6,
+            "answer": "5 calendar days",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 7,
+            "answer": "Greater than 5 business days",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 6
+          },
+          {
+            "label": 2,
+            "prediction": 2,
+            "n": 1
+          },
+          {
+            "label": 2,
+            "prediction": 4,
+            "n": 2
+          },
+          {
+            "label": 3,
+            "prediction": 3,
+            "n": 19
+          },
+          {
+            "label": 4,
+            "prediction": 4,
+            "n": 3
+          },
+          {
+            "label": 5,
+            "prediction": 5,
+            "n": 2
+          }
+        ],
+        "eligible": true,
+        "question": "Initial matching rights period (FTR)-Answer",
+        "subquestion": "<NONE>"
+      },
+      "102": {
+        "n": 19,
+        "accuracy": 0.7894736842105263,
+        "macro_f1": 0.3856209150326797,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "2 business days or less",
+            "support": 9,
+            "precision": 0.875,
+            "recall": 0.7777777777777778,
+            "f1": 0.8235294117647058
+          },
+          {
+            "label": 1,
+            "answer": "3 business days",
+            "support": 8,
+            "precision": 0.7777777777777778,
+            "recall": 0.875,
+            "f1": 0.8235294117647058
+          },
+          {
+            "label": 2,
+            "answer": "3 days",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 3,
+            "answer": "4 business days",
+            "support": 1,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          },
+          {
+            "label": 4,
+            "answer": "5 business days",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 5,
+            "answer": ">5 business days",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 7
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 0,
+            "prediction": 3,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 7
+          },
+          {
+            "label": 2,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 3,
+            "prediction": 3,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "Additional matching rights period for modifications (FTR)-Answer",
+        "subquestion": "<NONE>"
+      },
+      "103": {
+        "n": 33,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Continuous matching right",
+            "support": 33,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "None",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 33
+          }
+        ],
+        "eligible": true,
+        "question": "Number of additional matching rights periods for modifications (FTR)",
+        "subquestion": "<NONE>"
+      },
+      "105-0": {
+        "n": 46,
+        "accuracy": 0.9347826086956522,
+        "macro_f1": 0.48314606741573035,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 46,
+            "precision": 1.0,
+            "recall": 0.9347826086956522,
+            "f1": 0.9662921348314607
+          },
+          {
+            "label": 1,
+            "answer": "Different Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period (no closing requirement)",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 43
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 3
+          }
+        ],
+        "eligible": true,
+        "question": "Acquisition Proposal Timing-Answer",
+        "subquestion": "Different Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period (no closing requirement)"
+      },
+      "105-1": {
+        "n": 46,
+        "accuracy": 0.9130434782608695,
+        "macro_f1": 0.6434108527131783,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 41,
+            "precision": 0.9111111111111111,
+            "recall": 1.0,
+            "f1": 0.9534883720930233
+          },
+          {
+            "label": 1,
+            "answer": "Different Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period and transaction must close after Tail Period",
+            "support": 5,
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1": 0.3333333333333333
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 41
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 4
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 1
+          }
+        ],
+        "eligible": false,
+        "question": "Acquisition Proposal Timing-Answer",
+        "subquestion": "Different Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period and transaction must close after Tail Period"
+      },
+      "105-2": {
+        "n": 46,
+        "accuracy": 0.8478260869565217,
+        "macro_f1": 0.8165242165242166,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 13,
+            "precision": 0.7142857142857143,
+            "recall": 0.7692307692307693,
+            "f1": 0.7407407407407407
+          },
+          {
+            "label": 1,
+            "answer": "Different Acquisition Proposal - Must sign during Tail Period (no closing requirement)",
+            "support": 33,
+            "precision": 0.90625,
+            "recall": 0.8787878787878788,
+            "f1": 0.8923076923076924
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 10
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 4
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 29
+          }
+        ],
+        "eligible": true,
+        "question": "Acquisition Proposal Timing-Answer",
+        "subquestion": "Different Acquisition Proposal - Must sign during Tail Period (no closing requirement)"
+      },
+      "105-3": {
+        "n": 46,
+        "accuracy": 0.717391304347826,
+        "macro_f1": 0.48225108225108226,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 39,
+            "precision": 0.8421052631578947,
+            "recall": 0.8205128205128205,
+            "f1": 0.8311688311688312
+          },
+          {
+            "label": 1,
+            "answer": "Different Acquisition Proposal - Must sign during Tail Period and close after Tail Period",
+            "support": 7,
+            "precision": 0.125,
+            "recall": 0.14285714285714285,
+            "f1": 0.13333333333333333
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 32
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 7
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 6
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "Acquisition Proposal Timing-Answer",
+        "subquestion": "Different Acquisition Proposal - Must sign during Tail Period and close after Tail Period"
+      },
+      "105-4": {
+        "n": 46,
+        "accuracy": 0.9782608695652174,
+        "macro_f1": 0.4945054945054945,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 45,
+            "precision": 0.9782608695652174,
+            "recall": 1.0,
+            "f1": 0.989010989010989
+          },
+          {
+            "label": 1,
+            "answer": "Different Acquisition Proposal must close during Tail Period",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 45
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          }
+        ],
+        "eligible": false,
+        "question": "Acquisition Proposal Timing-Answer",
+        "subquestion": "Different Acquisition Proposal must close during Tail Period"
+      },
+      "105-5": {
+        "n": 46,
+        "accuracy": 0.9347826086956522,
+        "macro_f1": 0.7680672268907562,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 41,
+            "precision": 0.9318181818181818,
+            "recall": 1.0,
+            "f1": 0.9647058823529412
+          },
+          {
+            "label": 1,
+            "answer": "Same Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period and transaction must close after Tail Period",
+            "support": 5,
+            "precision": 1.0,
+            "recall": 0.4,
+            "f1": 0.5714285714285714
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 41
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 2
+          }
+        ],
+        "eligible": false,
+        "question": "Acquisition Proposal Timing-Answer",
+        "subquestion": "Same Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period and transaction must close after Tail Period"
+      },
+      "105-6": {
+        "n": 46,
+        "accuracy": 0.9565217391304348,
+        "macro_f1": 0.4888888888888889,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 46,
+            "precision": 1.0,
+            "recall": 0.9565217391304348,
+            "f1": 0.9777777777777777
+          },
+          {
+            "label": 1,
+            "answer": "Same Acquisition Proposal - Must be approved or not opposed to (or another similar action) during Tail Period (no closing requirement)",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 44
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 2
+          }
+        ],
+        "eligible": true,
+        "question": "Acquisition Proposal Timing-Answer",
+        "subquestion": "Same Acquisition Proposal - Must be approved or not opposed to (or another similar action) during Tail Period (no closing requirement)"
+      },
+      "105-7": {
+        "n": 46,
+        "accuracy": 0.9782608695652174,
+        "macro_f1": 0.4945054945054945,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 45,
+            "precision": 0.9782608695652174,
+            "recall": 1.0,
+            "f1": 0.989010989010989
+          },
+          {
+            "label": 1,
+            "answer": "Same Acquisition Proposal - Must close during Tail Period",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 45
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          }
+        ],
+        "eligible": false,
+        "question": "Acquisition Proposal Timing-Answer",
+        "subquestion": "Same Acquisition Proposal - Must close during Tail Period"
+      },
+      "105-8": {
+        "n": 46,
+        "accuracy": 0.8478260869565217,
+        "macro_f1": 0.784037558685446,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 13,
+            "precision": 0.875,
+            "recall": 0.5384615384615384,
+            "f1": 0.6666666666666666
+          },
+          {
+            "label": 1,
+            "answer": "Same Acquisition Proposal - Must sign during Tail Period (no closing requirement)",
+            "support": 33,
+            "precision": 0.8421052631578947,
+            "recall": 0.9696969696969697,
+            "f1": 0.9014084507042254
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 7
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 6
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 32
+          }
+        ],
+        "eligible": true,
+        "question": "Acquisition Proposal Timing-Answer",
+        "subquestion": "Same Acquisition Proposal - Must sign during Tail Period (no closing requirement)"
+      },
+      "105-9": {
+        "n": 46,
+        "accuracy": 0.7391304347826086,
+        "macro_f1": 0.5460526315789473,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 39,
+            "precision": 0.8648648648648649,
+            "recall": 0.8205128205128205,
+            "f1": 0.8421052631578947
+          },
+          {
+            "label": 1,
+            "answer": "Same Acquisition Proposal - Must sign during Tail Period and close after Tail Period",
+            "support": 7,
+            "precision": 0.2222222222222222,
+            "recall": 0.2857142857142857,
+            "f1": 0.25
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 32
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 7
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 5
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 2
+          }
+        ],
+        "eligible": true,
+        "question": "Acquisition Proposal Timing-Answer",
+        "subquestion": "Same Acquisition Proposal - Must sign during Tail Period and close after Tail Period"
+      },
+      "106": {
+        "n": 23,
+        "accuracy": 0.5652173913043478,
+        "macro_f1": 0.5208333333333333,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 5,
+            "precision": 0.2727272727272727,
+            "recall": 0.6,
+            "f1": 0.375
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 18,
+            "precision": 0.8333333333333334,
+            "recall": 0.5555555555555556,
+            "f1": 0.6666666666666666
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 3
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 8
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 10
+          }
+        ],
+        "eligible": true,
+        "question": "Acquisition Proposal required to be publicly disclosed-Answer (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "107-0": {
+        "n": 40,
+        "accuracy": 0.7,
+        "macro_f1": 0.48051948051948057,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 36,
+            "precision": 0.9,
+            "recall": 0.75,
+            "f1": 0.8181818181818182
+          },
+          {
+            "label": 1,
+            "answer": "No",
+            "support": 4,
+            "precision": 0.1,
+            "recall": 0.25,
+            "f1": 0.14285714285714285
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 27
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 9
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "Acquisition Proposal required to be publicly disclosed-Answer",
+        "subquestion": "No"
+      },
+      "107-1": {
+        "n": 40,
+        "accuracy": 0.45,
+        "macro_f1": 0.45,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 15,
+            "precision": 0.36,
+            "recall": 0.6,
+            "f1": 0.45
+          },
+          {
+            "label": 1,
+            "answer": "“Publicly disclosed” requirement applies to Acquisition Proposal + Breach Trigger",
+            "support": 25,
+            "precision": 0.6,
+            "recall": 0.36,
+            "f1": 0.45
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 9
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 6
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 16
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 9
+          }
+        ],
+        "eligible": true,
+        "question": "Acquisition Proposal required to be publicly disclosed-Answer",
+        "subquestion": "“Publicly disclosed” requirement applies to Acquisition Proposal + Breach Trigger"
+      },
+      "107-2": {
+        "n": 40,
+        "accuracy": 0.55,
+        "macro_f1": 0.4642857142857143,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 8,
+            "precision": 0.1875,
+            "recall": 0.375,
+            "f1": 0.25
+          },
+          {
+            "label": 1,
+            "answer": "“Publicly disclosed” requirement applies to Acquisition Proposal + No-Vote / MTC Failure Trigger",
+            "support": 32,
+            "precision": 0.7916666666666666,
+            "recall": 0.59375,
+            "f1": 0.6785714285714286
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 3
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 5
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 13
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 19
+          }
+        ],
+        "eligible": true,
+        "question": "Acquisition Proposal required to be publicly disclosed-Answer",
+        "subquestion": "“Publicly disclosed” requirement applies to Acquisition Proposal + No-Vote / MTC Failure Trigger"
+      },
+      "107-3": {
+        "n": 40,
+        "accuracy": 0.475,
+        "macro_f1": 0.4470046082949308,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 20,
+            "precision": 0.4827586206896552,
+            "recall": 0.7,
+            "f1": 0.5714285714285714
+          },
+          {
+            "label": 1,
+            "answer": "“Publicly disclosed” requirement applies to Acquisition Proposal + Outside Date Trigger",
+            "support": 20,
+            "precision": 0.45454545454545453,
+            "recall": 0.25,
+            "f1": 0.3225806451612903
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 14
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 6
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 15
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 5
+          }
+        ],
+        "eligible": true,
+        "question": "Acquisition Proposal required to be publicly disclosed-Answer",
+        "subquestion": "“Publicly disclosed” requirement applies to Acquisition Proposal + Outside Date Trigger"
+      },
+      "108": {
+        "n": 23,
+        "accuracy": 0.6956521739130435,
+        "macro_f1": 0.5818181818181818,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 8,
+            "precision": 0.6666666666666666,
+            "recall": 0.25,
+            "f1": 0.36363636363636365
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 15,
+            "precision": 0.7,
+            "recall": 0.9333333333333333,
+            "f1": 0.8
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 2
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 6
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 14
+          }
+        ],
+        "eligible": true,
+        "question": "Acquisition Proposal required to be still pending-Answer (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "109": {
+        "n": 46,
+        "accuracy": 0.9782608695652174,
+        "macro_f1": 0.3690756302521009,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "12 months or longer",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Other",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 2,
+            "answer": "within 12 months",
+            "support": 42,
+            "precision": 0.9767441860465116,
+            "recall": 1.0,
+            "f1": 0.9882352941176471
+          },
+          {
+            "label": 3,
+            "answer": "within 6 months",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 4,
+            "answer": "within 9 months",
+            "support": 4,
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571428571428571
+          }
+        ],
+        "confusions": [
+          {
+            "label": 2,
+            "prediction": 2,
+            "n": 42
+          },
+          {
+            "label": 4,
+            "prediction": 2,
+            "n": 1
+          },
+          {
+            "label": 4,
+            "prediction": 4,
+            "n": 3
+          }
+        ],
+        "eligible": true,
+        "question": "Tail Period Length-Answer",
+        "subquestion": "<NONE>"
+      },
+      "11-0": {
+        "n": 46,
+        "accuracy": 0.9565217391304348,
+        "macro_f1": 0.4888888888888889,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 44,
+            "precision": 0.9565217391304348,
+            "recall": 1.0,
+            "f1": 0.9777777777777777
+          },
+          {
+            "label": 1,
+            "answer": "Capitalization R&Ws",
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 44
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 2
+          }
+        ],
+        "eligible": true,
+        "question": "Materiality/MAE Scrape applies to",
+        "subquestion": "Capitalization R&Ws"
+      },
+      "11-1": {
+        "n": 46,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "General R&Ws",
+            "support": 46,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 46
+          }
+        ],
+        "eligible": false,
+        "question": "Materiality/MAE Scrape applies to",
+        "subquestion": "General R&Ws"
+      },
+      "11-2": {
+        "n": 46,
+        "accuracy": 0.9347826086956522,
+        "macro_f1": 0.48314606741573035,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 43,
+            "precision": 0.9347826086956522,
+            "recall": 1.0,
+            "f1": 0.9662921348314607
+          },
+          {
+            "label": 1,
+            "answer": "Specified R&Ws only",
+            "support": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 43
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 3
+          }
+        ],
+        "eligible": true,
+        "question": "Materiality/MAE Scrape applies to",
+        "subquestion": "Specified R&Ws only"
+      },
+      "11-3": {
+        "n": 46,
+        "accuracy": 0.8913043478260869,
+        "macro_f1": 0.47126436781609193,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 43,
+            "precision": 0.9318181818181818,
+            "recall": 0.9534883720930233,
+            "f1": 0.9425287356321839
+          },
+          {
+            "label": 1,
+            "answer": "fundamental/Special R&Ws",
+            "support": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 41
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 3
+          }
+        ],
+        "eligible": true,
+        "question": "Materiality/MAE Scrape applies to",
+        "subquestion": "fundamental/Special R&Ws"
+      },
+      "113": {
+        "n": 23,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 23,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 23
+          }
+        ],
+        "eligible": false,
+        "question": "Breach of No Shop required to be willful, material and/or intentional",
+        "subquestion": "<NONE>"
+      },
+      "115": {
+        "n": 7,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 4,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 4
+          }
+        ],
+        "eligible": false,
+        "question": "Breach of Meeting Covenant required to be willful, material and/or intentional",
+        "subquestion": "<NONE>"
+      },
+      "117": {
+        "n": 47,
+        "accuracy": 0.9574468085106383,
+        "macro_f1": 0.9044715447154472,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Consent may not be unreasonably withheld, conditioned or delayed",
+            "support": 40,
+            "precision": 0.9523809523809523,
+            "recall": 1.0,
+            "f1": 0.975609756097561
+          },
+          {
+            "label": 1,
+            "answer": "Flat consent",
+            "support": 7,
+            "precision": 1.0,
+            "recall": 0.7142857142857143,
+            "f1": 0.8333333333333334
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 40
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 5
+          }
+        ],
+        "eligible": true,
+        "question": "Buyer consent requirement (ordinary course)-Answer",
+        "subquestion": "<NONE>"
+      },
+      "118": {
+        "n": 47,
+        "accuracy": 0.8723404255319149,
+        "macro_f1": 0.821969696969697,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 11,
+            "precision": 0.7272727272727273,
+            "recall": 0.7272727272727273,
+            "f1": 0.7272727272727273
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 36,
+            "precision": 0.9166666666666666,
+            "recall": 0.9166666666666666,
+            "f1": 0.9166666666666666
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 8
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 33
+          }
+        ],
+        "eligible": true,
+        "question": "Includes \"consistent with past practice\"",
+        "subquestion": "<NONE>"
+      },
+      "119": {
+        "n": 47,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Commercially reasonable efforts",
+            "support": 16,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Flat covenant (no efforts standard)",
+            "support": 26,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 2,
+            "answer": "Reasonable best efforts",
+            "support": 5,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 16
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 26
+          },
+          {
+            "label": 2,
+            "prediction": 2,
+            "n": 5
+          }
+        ],
+        "eligible": true,
+        "question": "Ordinary course efforts standard-Answer",
+        "subquestion": "<NONE>"
+      },
+      "120": {
+        "n": 23,
+        "accuracy": 0.9130434782608695,
+        "macro_f1": 0.8722222222222222,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 4,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 19,
+            "precision": 1.0,
+            "recall": 0.8947368421052632,
+            "f1": 0.9444444444444444
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 4
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 17
+          }
+        ],
+        "eligible": true,
+        "question": "Ordinary Course Covenant includes carve-out for Pandemic responses-Answer (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "122": {
+        "n": 45,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Consent may not be unreasonably withheld, conditioned or delayed",
+            "support": 45,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Flat consent",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 45
+          }
+        ],
+        "eligible": true,
+        "question": "Buyer consent requirement (negative interim covenant)-Answer",
+        "subquestion": "<NONE>"
+      },
+      "123": {
+        "n": 45,
+        "accuracy": 0.9111111111111111,
+        "macro_f1": 0.8308270676691729,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Applies only to specified negative covenants",
+            "support": 9,
+            "precision": 1.0,
+            "recall": 0.5555555555555556,
+            "f1": 0.7142857142857143
+          },
+          {
+            "label": 1,
+            "answer": "Applies to all negative covenants",
+            "support": 36,
+            "precision": 0.9,
+            "recall": 1.0,
+            "f1": 0.9473684210526315
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 5
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 4
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 36
+          }
+        ],
+        "eligible": true,
+        "question": "Application of Buyer consent requirement (negative interim covenant)-Answer",
+        "subquestion": "<NONE>"
+      },
+      "124": {
+        "n": 23,
+        "accuracy": 0.8260869565217391,
+        "macro_f1": 0.8174603174603174,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 13,
+            "precision": 0.8,
+            "recall": 0.9230769230769231,
+            "f1": 0.8571428571428571
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 10,
+            "precision": 0.875,
+            "recall": 0.7,
+            "f1": 0.7777777777777778
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 12
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 7
+          }
+        ],
+        "eligible": true,
+        "question": "Negative Interim Covenant includes carveout for pandemic responses-Answer (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "126": {
+        "n": 41,
+        "accuracy": 0.9512195121951219,
+        "macro_f1": 0.4914529914529915,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Commercially reasonable efforts",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Flat standard",
+            "support": 2,
+            "precision": 0.5,
+            "recall": 0.5,
+            "f1": 0.5
+          },
+          {
+            "label": 2,
+            "answer": "Reasonable best efforts",
+            "support": 39,
+            "precision": 0.9743589743589743,
+            "recall": 0.9743589743589743,
+            "f1": 0.9743589743589743
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 2,
+            "n": 1
+          },
+          {
+            "label": 2,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 2,
+            "prediction": 2,
+            "n": 38
+          }
+        ],
+        "eligible": true,
+        "question": "General Antitrust Efforts Standard-Answer",
+        "subquestion": "<NONE>"
+      },
+      "13": {
+        "n": 45,
+        "accuracy": 0.8888888888888888,
+        "macro_f1": 0.3137254901960784,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "All Covenants",
+            "support": 40,
+            "precision": 0.8888888888888888,
+            "recall": 1.0,
+            "f1": 0.9411764705882353
+          },
+          {
+            "label": 1,
+            "answer": "Each Covenant",
+            "support": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 2,
+            "answer": "Hybrid/Other Standard",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 40
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 5
+          }
+        ],
+        "eligible": true,
+        "question": "Compliance with Target Covenant Closing Condition-Answer",
+        "subquestion": "<NONE>"
+      },
+      "130": {
+        "n": 47,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "\"entitled to seek\" specific performance",
+            "support": 8,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "\"entitled to\" specific performance",
+            "support": 39,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 8
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 39
+          }
+        ],
+        "eligible": true,
+        "question": "Specific Performance-Answer",
+        "subquestion": "<NONE>"
+      },
+      "15": {
+        "n": 1,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Governmental litigation only",
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Non-Governmental & governmental litigation",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 1
+          }
+        ],
+        "eligible": false,
+        "question": "Absence of Litigation Closing Condition: Governmental v. Non-Governmental-Answer",
+        "subquestion": "<NONE>"
+      },
+      "16": {
+        "n": 1,
+        "accuracy": 0.0,
+        "macro_f1": 0.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Pending",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Pending or threatened (without \"writing\" requirement)",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 2,
+            "answer": "Pending or threatened in writing",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "Absence of Litigation Closing Condition: Pending v. Threatened v. Threatened in Writing-Answer",
+        "subquestion": "<NONE>"
+      },
+      "21": {
+        "n": 23,
+        "accuracy": 0.9565217391304348,
+        "macro_f1": 0.9309309309309309,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 4,
+            "precision": 0.8,
+            "recall": 1.0,
+            "f1": 0.8888888888888888
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 19,
+            "precision": 1.0,
+            "recall": 0.9473684210526315,
+            "f1": 0.972972972972973
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 4
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 18
+          }
+        ],
+        "eligible": true,
+        "question": "MAE definition includes adverse impact on Target's ability to consummate (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "22": {
+        "n": 33,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 29,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 4,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 29
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 4
+          }
+        ],
+        "eligible": true,
+        "question": "\"Ability to consummate\" concept is subject to MAE carveouts",
+        "subquestion": "<NONE>"
+      },
+      "23": {
+        "n": 23,
+        "accuracy": 0.9565217391304348,
+        "macro_f1": 0.4888888888888889,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 23,
+            "precision": 1.0,
+            "recall": 0.9565217391304348,
+            "f1": 0.9777777777777777
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 22
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          }
+        ],
+        "eligible": false,
+        "question": "MAE definition includes reference to Target \"prospects\" (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "24": {
+        "n": 23,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 20,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 20
+          }
+        ],
+        "eligible": true,
+        "question": "MAE Forward looking standard (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "25-0": {
+        "n": 32,
+        "accuracy": 0.875,
+        "macro_f1": 0.7142857142857143,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 29,
+            "precision": 0.9629629629629629,
+            "recall": 0.896551724137931,
+            "f1": 0.9285714285714286
+          },
+          {
+            "label": 1,
+            "answer": "No",
+            "support": 3,
+            "precision": 0.4,
+            "recall": 0.6666666666666666,
+            "f1": 0.5
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 26
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 2
+          }
+        ],
+        "eligible": true,
+        "question": "FLS (MAE) applies to",
+        "subquestion": "No"
+      },
+      "25-1": {
+        "n": 32,
+        "accuracy": 0.8125,
+        "macro_f1": 0.7922077922077921,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 10,
+            "precision": 0.6666666666666666,
+            "recall": 0.8,
+            "f1": 0.7272727272727273
+          },
+          {
+            "label": 1,
+            "answer": "ability to consummate transaction",
+            "support": 22,
+            "precision": 0.9,
+            "recall": 0.8181818181818182,
+            "f1": 0.8571428571428571
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 8
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 4
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 18
+          }
+        ],
+        "eligible": true,
+        "question": "FLS (MAE) applies to",
+        "subquestion": "ability to consummate transaction"
+      },
+      "25-2": {
+        "n": 32,
+        "accuracy": 0.625,
+        "macro_f1": 0.5636363636363637,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 4,
+            "precision": 0.25,
+            "recall": 1.0,
+            "f1": 0.4
+          },
+          {
+            "label": 1,
+            "answer": "business and operation of Target",
+            "support": 28,
+            "precision": 1.0,
+            "recall": 0.5714285714285714,
+            "f1": 0.7272727272727273
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 4
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 12
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 16
+          }
+        ],
+        "eligible": true,
+        "question": "FLS (MAE) applies to",
+        "subquestion": "business and operation of Target"
+      },
+      "26": {
+        "n": 32,
+        "accuracy": 1.0,
+        "macro_f1": 0.6,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "\"Could\" (reasonably) be expected to",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "\"Would\"",
+            "support": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 2,
+            "answer": "\"Would\" (reasonably) be expected to",
+            "support": 27,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 3,
+            "answer": "No",
+            "support": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 4,
+            "answer": "Other forward-looking standard",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 2,
+            "prediction": 2,
+            "n": 27
+          },
+          {
+            "label": 3,
+            "prediction": 3,
+            "n": 3
+          }
+        ],
+        "eligible": true,
+        "question": "FLS (MAE) Standard-Answer",
+        "subquestion": "<NONE>"
+      },
+      "27": {
+        "n": 35,
+        "accuracy": 0.9428571428571428,
+        "macro_f1": 0.4852941176470588,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Applies to Target and subsidiaries \"taken as a whole\"",
+            "support": 35,
+            "precision": 1.0,
+            "recall": 0.9428571428571428,
+            "f1": 0.9705882352941176
+          },
+          {
+            "label": 1,
+            "answer": "No",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 33
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 2
+          }
+        ],
+        "eligible": true,
+        "question": "MAE applies to Target and subsidiaries (MAE)-Answer",
+        "subquestion": "<NONE>"
+      },
+      "28": {
+        "n": 23,
+        "accuracy": 0.9130434782608695,
+        "macro_f1": 0.7261904761904762,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 3,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 20,
+            "precision": 0.9090909090909091,
+            "recall": 1.0,
+            "f1": 0.9523809523809523
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 20
+          }
+        ],
+        "eligible": true,
+        "question": "General political and/or social conditions (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "29": {
+        "n": 35,
+        "accuracy": 0.9142857142857143,
+        "macro_f1": 0.47761194029850745,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 32,
+            "precision": 0.9142857142857143,
+            "recall": 1.0,
+            "f1": 0.9552238805970149
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 32
+          }
+        ],
+        "eligible": true,
+        "question": "General political and/or social conditions:  subject to \"disproportionate impact\" modifier",
+        "subquestion": "<NONE>"
+      },
+      "3": {
+        "n": 46,
+        "accuracy": 0.9782608695652174,
+        "macro_f1": 0.7331932773109243,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "All Cash",
+            "support": 26,
+            "precision": 1.0,
+            "recall": 0.9615384615384616,
+            "f1": 0.9803921568627451
+          },
+          {
+            "label": 1,
+            "answer": "All Stock",
+            "support": 10,
+            "precision": 0.9090909090909091,
+            "recall": 1.0,
+            "f1": 0.9523809523809523
+          },
+          {
+            "label": 2,
+            "answer": "Mixed Cash/Stock",
+            "support": 10,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 3,
+            "answer": "Mixed Cash/Stock: Election",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 25
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 10
+          },
+          {
+            "label": 2,
+            "prediction": 2,
+            "n": 10
+          }
+        ],
+        "eligible": true,
+        "question": "Type of Consideration-Answer",
+        "subquestion": "<NONE>"
+      },
+      "30": {
+        "n": 23,
+        "accuracy": 0.9130434782608695,
+        "macro_f1": 0.7261904761904762,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 1,
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "f1": 0.5
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 22,
+            "precision": 1.0,
+            "recall": 0.9090909090909091,
+            "f1": 0.9523809523809523
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 20
+          }
+        ],
+        "eligible": true,
+        "question": "General economic and financial conditions (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "31": {
+        "n": 35,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 34,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 34
+          }
+        ],
+        "eligible": true,
+        "question": "General economic and financial conditions: subject to \"disproportionate impact\" modifier",
+        "subquestion": "<NONE>"
+      },
+      "32": {
+        "n": 23,
+        "accuracy": 0.9565217391304348,
+        "macro_f1": 0.4888888888888889,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 22,
+            "precision": 0.9565217391304348,
+            "recall": 1.0,
+            "f1": 0.9777777777777777
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 22
+          }
+        ],
+        "eligible": false,
+        "question": "Changes in Target's industry (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "33": {
+        "n": 23,
+        "accuracy": 0.9565217391304348,
+        "macro_f1": 0.4888888888888889,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 22,
+            "precision": 0.9565217391304348,
+            "recall": 1.0,
+            "f1": 0.9777777777777777
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 22
+          }
+        ],
+        "eligible": false,
+        "question": "Change in Target's industry: subject to \"disproportionate impact\" modifier",
+        "subquestion": "<NONE>"
+      },
+      "34": {
+        "n": 23,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 23,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 23
+          }
+        ],
+        "eligible": false,
+        "question": "Change in law (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "35": {
+        "n": 35,
+        "accuracy": 0.9142857142857143,
+        "macro_f1": 0.7619047619047619,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 3,
+            "precision": 0.5,
+            "recall": 0.6666666666666666,
+            "f1": 0.5714285714285714
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 32,
+            "precision": 0.967741935483871,
+            "recall": 0.9375,
+            "f1": 0.9523809523809523
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 2
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 30
+          }
+        ],
+        "eligible": true,
+        "question": "Change in law:  subject to \"disproportionate impact\" modifier",
+        "subquestion": "<NONE>"
+      },
+      "36": {
+        "n": 23,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 23,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 23
+          }
+        ],
+        "eligible": true,
+        "question": "Changes in GAAP or other accounting principles (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "37": {
+        "n": 35,
+        "accuracy": 0.8285714285714286,
+        "macro_f1": 0.65,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 3,
+            "precision": 0.2857142857142857,
+            "recall": 0.6666666666666666,
+            "f1": 0.4
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 32,
+            "precision": 0.9642857142857143,
+            "recall": 0.84375,
+            "f1": 0.9
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 2
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 5
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 27
+          }
+        ],
+        "eligible": true,
+        "question": "Changes in GAAP or other accounting principles:  subject to \"disproportionate impact\" modifier",
+        "subquestion": "<NONE>"
+      },
+      "38": {
+        "n": 23,
+        "accuracy": 0.9565217391304348,
+        "macro_f1": 0.4888888888888889,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 23,
+            "precision": 1.0,
+            "recall": 0.9565217391304348,
+            "f1": 0.9777777777777777
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 22
+          }
+        ],
+        "eligible": true,
+        "question": "Announcement, pendency or consummation of deal (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "39-0": {
+        "n": 35,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 35,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "No",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 35
+          }
+        ],
+        "eligible": false,
+        "question": "A/P/C application to-Answer",
+        "subquestion": "No"
+      },
+      "39-1": {
+        "n": 35,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "announcement",
+            "support": 35,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 35
+          }
+        ],
+        "eligible": false,
+        "question": "A/P/C application to-Answer",
+        "subquestion": "announcement"
+      },
+      "39-2": {
+        "n": 35,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 19,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "consummation",
+            "support": 16,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 19
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 16
+          }
+        ],
+        "eligible": true,
+        "question": "A/P/C application to-Answer",
+        "subquestion": "consummation"
+      },
+      "39-3": {
+        "n": 35,
+        "accuracy": 0.9428571428571428,
+        "macro_f1": 0.8994252873563219,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 6,
+            "precision": 0.8333333333333334,
+            "recall": 0.8333333333333334,
+            "f1": 0.8333333333333334
+          },
+          {
+            "label": 1,
+            "answer": "pendency",
+            "support": 29,
+            "precision": 0.9655172413793104,
+            "recall": 0.9655172413793104,
+            "f1": 0.9655172413793104
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 5
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 28
+          }
+        ],
+        "eligible": true,
+        "question": "A/P/C application to-Answer",
+        "subquestion": "pendency"
+      },
+      "42": {
+        "n": 23,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 23,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 23
+          }
+        ],
+        "eligible": true,
+        "question": "Failure to meet projections (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "43": {
+        "n": 23,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 23,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 23
+          }
+        ],
+        "eligible": false,
+        "question": "Failure to meet projections: subject to \"disproportionate impact\" modifier",
+        "subquestion": "<NONE>"
+      },
+      "44": {
+        "n": 23,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 20,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 20
+          }
+        ],
+        "eligible": true,
+        "question": "Changes in market price/trading volume of Target's securities or credit rating (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "45": {
+        "n": 34,
+        "accuracy": 0.9411764705882353,
+        "macro_f1": 0.48484848484848486,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 32,
+            "precision": 0.9411764705882353,
+            "recall": 1.0,
+            "f1": 0.9696969696969697
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 32
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 2
+          }
+        ],
+        "eligible": false,
+        "question": "Target's securities or credit rating: subject to \"disproportionate impact\" modifier",
+        "subquestion": "<NONE>"
+      },
+      "46": {
+        "n": 23,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 23,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 23
+          }
+        ],
+        "eligible": false,
+        "question": "War, terrorism, natural disasters, \"acts of God\" or force majeure-Answer (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "47-0": {
+        "n": 35,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 24,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "\"act of God\"",
+            "support": 11,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 24
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 11
+          }
+        ],
+        "eligible": true,
+        "question": "W/N/A/F applies to-Answer",
+        "subquestion": "\"act of God\""
+      },
+      "47-1": {
+        "n": 35,
+        "accuracy": 0.9714285714285714,
+        "macro_f1": 0.4927536231884058,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Natural disaster",
+            "support": 34,
+            "precision": 0.9714285714285714,
+            "recall": 1.0,
+            "f1": 0.9855072463768116
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 34
+          }
+        ],
+        "eligible": true,
+        "question": "W/N/A/F applies to-Answer",
+        "subquestion": "Natural disaster"
+      },
+      "47-2": {
+        "n": 35,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 35,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "No",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 35
+          }
+        ],
+        "eligible": false,
+        "question": "W/N/A/F applies to-Answer",
+        "subquestion": "No"
+      },
+      "47-3": {
+        "n": 35,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "War or terrorism",
+            "support": 35,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 35
+          }
+        ],
+        "eligible": false,
+        "question": "W/N/A/F applies to-Answer",
+        "subquestion": "War or terrorism"
+      },
+      "47-4": {
+        "n": 35,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 28,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "force majeure",
+            "support": 7,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 28
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 7
+          }
+        ],
+        "eligible": true,
+        "question": "W/N/A/F applies to-Answer",
+        "subquestion": "force majeure"
+      },
+      "48-0": {
+        "n": 35,
+        "accuracy": 0.9714285714285714,
+        "macro_f1": 0.9659863945578231,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 25,
+            "precision": 1.0,
+            "recall": 0.96,
+            "f1": 0.9795918367346939
+          },
+          {
+            "label": 1,
+            "answer": "\"act of God\"",
+            "support": 10,
+            "precision": 0.9090909090909091,
+            "recall": 1.0,
+            "f1": 0.9523809523809523
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 24
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 10
+          }
+        ],
+        "eligible": true,
+        "question": "W/N/A/F subject to \"disproportionate impact\"-Answer",
+        "subquestion": "\"act of God\""
+      },
+      "48-1": {
+        "n": 35,
+        "accuracy": 0.9428571428571428,
+        "macro_f1": 0.4852941176470588,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Natural disaster",
+            "support": 33,
+            "precision": 0.9428571428571428,
+            "recall": 1.0,
+            "f1": 0.9705882352941176
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 33
+          }
+        ],
+        "eligible": true,
+        "question": "W/N/A/F subject to \"disproportionate impact\"-Answer",
+        "subquestion": "Natural disaster"
+      },
+      "48-2": {
+        "n": 35,
+        "accuracy": 0.9714285714285714,
+        "macro_f1": 0.4927536231884058,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 34,
+            "precision": 0.9714285714285714,
+            "recall": 1.0,
+            "f1": 0.9855072463768116
+          },
+          {
+            "label": 1,
+            "answer": "No",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 34
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "W/N/A/F subject to \"disproportionate impact\"-Answer",
+        "subquestion": "No"
+      },
+      "48-3": {
+        "n": 35,
+        "accuracy": 0.8857142857142857,
+        "macro_f1": 0.4696969696969697,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "War or terrorism",
+            "support": 34,
+            "precision": 0.96875,
+            "recall": 0.9117647058823529,
+            "f1": 0.9393939393939394
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 31
+          }
+        ],
+        "eligible": true,
+        "question": "W/N/A/F subject to \"disproportionate impact\"-Answer",
+        "subquestion": "War or terrorism"
+      },
+      "48-4": {
+        "n": 35,
+        "accuracy": 0.9428571428571428,
+        "macro_f1": 0.8994252873563219,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 29,
+            "precision": 0.9655172413793104,
+            "recall": 0.9655172413793104,
+            "f1": 0.9655172413793104
+          },
+          {
+            "label": 1,
+            "answer": "force majeure",
+            "support": 6,
+            "precision": 0.8333333333333334,
+            "recall": 0.8333333333333334,
+            "f1": 0.8333333333333334
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 28
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 5
+          }
+        ],
+        "eligible": true,
+        "question": "W/N/A/F subject to \"disproportionate impact\"-Answer",
+        "subquestion": "force majeure"
+      },
+      "49": {
+        "n": 23,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 23,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 23
+          }
+        ],
+        "eligible": true,
+        "question": "Pandemic or other public health event-Answer (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "50": {
+        "n": 23,
+        "accuracy": 0.9565217391304348,
+        "macro_f1": 0.4888888888888889,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 22,
+            "precision": 0.9565217391304348,
+            "recall": 1.0,
+            "f1": 0.9777777777777777
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 22
+          }
+        ],
+        "eligible": true,
+        "question": "Pandemic or other public health event: Specific reference to COVID-19",
+        "subquestion": "<NONE>"
+      },
+      "51": {
+        "n": 35,
+        "accuracy": 0.9714285714285714,
+        "macro_f1": 0.9659863945578231,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 10,
+            "precision": 0.9090909090909091,
+            "recall": 1.0,
+            "f1": 0.9523809523809523
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 25,
+            "precision": 1.0,
+            "recall": 0.96,
+            "f1": 0.9795918367346939
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 10
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 24
+          }
+        ],
+        "eligible": true,
+        "question": "Pandemic or other public health event: specific reference to pandemic-related governmental responses or measures",
+        "subquestion": "<NONE>"
+      },
+      "52": {
+        "n": 35,
+        "accuracy": 0.7428571428571429,
+        "macro_f1": 0.4262295081967213,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 34,
+            "precision": 0.9629629629629629,
+            "recall": 0.7647058823529411,
+            "f1": 0.8524590163934426
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 8
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 26
+          }
+        ],
+        "eligible": true,
+        "question": "Pandemic or other public health event:  subject to \"disproportionate impact\" modifier",
+        "subquestion": "<NONE>"
+      },
+      "53": {
+        "n": 23,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 23,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 23
+          }
+        ],
+        "eligible": true,
+        "question": "Actions required under transaction agreement-Answer (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "54": {
+        "n": 23,
+        "accuracy": 0.9130434782608695,
+        "macro_f1": 0.8722222222222222,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 6,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 17,
+            "precision": 0.8947368421052632,
+            "recall": 1.0,
+            "f1": 0.9444444444444444
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 4
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 17
+          }
+        ],
+        "eligible": true,
+        "question": "Actions taken with consent or approval of Buyer-Answer (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "55": {
+        "n": 23,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 8,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 15,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 8
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 15
+          }
+        ],
+        "eligible": true,
+        "question": "Target stockholder proceedings-Answer (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "57": {
+        "n": 23,
+        "accuracy": 0.9130434782608695,
+        "macro_f1": 0.8083333333333333,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 20,
+            "precision": 0.95,
+            "recall": 0.95,
+            "f1": 0.95
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 3,
+            "precision": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "f1": 0.6666666666666666
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 19
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 2
+          }
+        ],
+        "eligible": true,
+        "question": "Matters listed on disclosure schedules-Answer (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "58": {
+        "n": 23,
+        "accuracy": 0.6956521739130435,
+        "macro_f1": 0.41025641025641024,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 18,
+            "precision": 0.7619047619047619,
+            "recall": 0.8888888888888888,
+            "f1": 0.8205128205128205
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 16
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 5
+          }
+        ],
+        "eligible": true,
+        "question": "Actions taken by Buyer-Answer (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "59": {
+        "n": 23,
+        "accuracy": 0.782608695652174,
+        "macro_f1": 0.782608695652174,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 10,
+            "precision": 0.6923076923076923,
+            "recall": 0.9,
+            "f1": 0.782608695652174
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 13,
+            "precision": 0.9,
+            "recall": 0.6923076923076923,
+            "f1": 0.782608695652174
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 9
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 4
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 9
+          }
+        ],
+        "eligible": true,
+        "question": "Action prohibited/omission required by the agreement-Answer",
+        "subquestion": "<NONE>"
+      },
+      "6": {
+        "n": 47,
+        "accuracy": 0.9574468085106383,
+        "macro_f1": 0.9160714285714285,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "At Closing Only",
+            "support": 6,
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1": 0.8571428571428571
+          },
+          {
+            "label": 1,
+            "answer": "At Signing & At Closing",
+            "support": 41,
+            "precision": 1.0,
+            "recall": 0.9512195121951219,
+            "f1": 0.975
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 6
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 39
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Target \"General\" R&W: Bringdown Timing Answer",
+        "subquestion": "<NONE>"
+      },
+      "60": {
+        "n": 23,
+        "accuracy": 0.9565217391304348,
+        "macro_f1": 0.8878048780487805,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 2,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 21,
+            "precision": 1.0,
+            "recall": 0.9523809523809523,
+            "f1": 0.975609756097561
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 20
+          }
+        ],
+        "eligible": true,
+        "question": "Relational language (MAE carveout)-Answer (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "61-0": {
+        "n": 33,
+        "accuracy": 0.8787878787878788,
+        "macro_f1": 0.8690476190476191,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 14,
+            "precision": 1.0,
+            "recall": 0.7142857142857143,
+            "f1": 0.8333333333333334
+          },
+          {
+            "label": 1,
+            "answer": "\"Arising from/out of\"",
+            "support": 19,
+            "precision": 0.8260869565217391,
+            "recall": 1.0,
+            "f1": 0.9047619047619048
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 10
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 4
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 19
+          }
+        ],
+        "eligible": true,
+        "question": "Relational language (MAE carveout)-Answer (Dropdown)",
+        "subquestion": "\"Arising from/out of\""
+      },
+      "61-1": {
+        "n": 33,
+        "accuracy": 0.9393939393939394,
+        "macro_f1": 0.9093406593406593,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 27,
+            "precision": 1.0,
+            "recall": 0.9259259259259259,
+            "f1": 0.9615384615384616
+          },
+          {
+            "label": 1,
+            "answer": "\"Attributable to\"",
+            "support": 6,
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1": 0.8571428571428571
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 25
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 6
+          }
+        ],
+        "eligible": true,
+        "question": "Relational language (MAE carveout)-Answer (Dropdown)",
+        "subquestion": "\"Attributable to\""
+      },
+      "61-2": {
+        "n": 33,
+        "accuracy": 0.9393939393939394,
+        "macro_f1": 0.9318181818181819,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 23,
+            "precision": 1.0,
+            "recall": 0.9130434782608695,
+            "f1": 0.9545454545454546
+          },
+          {
+            "label": 1,
+            "answer": "\"Relating to\"",
+            "support": 10,
+            "precision": 0.8333333333333334,
+            "recall": 1.0,
+            "f1": 0.9090909090909091
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 21
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 10
+          }
+        ],
+        "eligible": true,
+        "question": "Relational language (MAE carveout)-Answer (Dropdown)",
+        "subquestion": "\"Relating to\""
+      },
+      "61-3": {
+        "n": 33,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 5,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "\"Resulting from\"",
+            "support": 28,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 5
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 28
+          }
+        ],
+        "eligible": true,
+        "question": "Relational language (MAE carveout)-Answer (Dropdown)",
+        "subquestion": "\"Resulting from\""
+      },
+      "61-4": {
+        "n": 33,
+        "accuracy": 0.9696969696969697,
+        "macro_f1": 0.8253968253968254,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 31,
+            "precision": 0.96875,
+            "recall": 1.0,
+            "f1": 0.9841269841269841
+          },
+          {
+            "label": 1,
+            "answer": "No",
+            "support": 2,
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 31
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "Relational language (MAE carveout)-Answer (Dropdown)",
+        "subquestion": "No"
+      },
+      "61-5": {
+        "n": 33,
+        "accuracy": 0.9393939393939394,
+        "macro_f1": 0.484375,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 31,
+            "precision": 0.9393939393939394,
+            "recall": 1.0,
+            "f1": 0.96875
+          },
+          {
+            "label": 1,
+            "answer": "Other",
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 31
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 2
+          }
+        ],
+        "eligible": true,
+        "question": "Relational language (MAE carveout)-Answer (Dropdown)",
+        "subquestion": "Other"
+      },
+      "61-6": {
+        "n": 33,
+        "accuracy": 0.9696969696969697,
+        "macro_f1": 0.8253968253968254,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 31,
+            "precision": 0.96875,
+            "recall": 1.0,
+            "f1": 0.9841269841269841
+          },
+          {
+            "label": 1,
+            "answer": "Relational language varies among carveouts",
+            "support": 2,
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 31
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "Relational language (MAE carveout)-Answer (Dropdown)",
+        "subquestion": "Relational language varies among carveouts"
+      },
+      "62": {
+        "n": 33,
+        "accuracy": 0.7878787878787878,
+        "macro_f1": 0.3885394828791055,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "All MAE carveouts",
+            "support": 27,
+            "precision": 0.9615384615384616,
+            "recall": 0.9259259259259259,
+            "f1": 0.9433962264150944
+          },
+          {
+            "label": 1,
+            "answer": "No",
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 2,
+            "answer": "Some MAE carveouts",
+            "support": 4,
+            "precision": 0.2,
+            "recall": 0.25,
+            "f1": 0.2222222222222222
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 25
+          },
+          {
+            "label": 0,
+            "prediction": 2,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 2,
+            "n": 2
+          },
+          {
+            "label": 2,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 2,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 2,
+            "prediction": 2,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "Relational language (MAE) applies to",
+        "subquestion": "<NONE>"
+      },
+      "66": {
+        "n": 43,
+        "accuracy": 0.7674418604651163,
+        "macro_f1": 0.7611111111111111,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Actual knowledge",
+            "support": 16,
+            "precision": 0.65,
+            "recall": 0.8125,
+            "f1": 0.7222222222222222
+          },
+          {
+            "label": 1,
+            "answer": "Constructive knowledge",
+            "support": 27,
+            "precision": 0.8695652173913043,
+            "recall": 0.7407407407407407,
+            "f1": 0.8
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 13
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 7
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 20
+          }
+        ],
+        "eligible": true,
+        "question": "Knowledge Definition-Answer",
+        "subquestion": "<NONE>"
+      },
+      "67": {
+        "n": 27,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Based on investigation or inquiry",
+            "support": 27,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Based on role",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 27
+          }
+        ],
+        "eligible": false,
+        "question": "Constructive Knowledge-Answer",
+        "subquestion": "<NONE>"
+      },
+      "68": {
+        "n": 23,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 21,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 21
+          }
+        ],
+        "eligible": true,
+        "question": "Knowledge Definition limited to one or more identified persons-Answer (Y/",
+        "subquestion": "<NONE>"
+      },
+      "7": {
+        "n": 47,
+        "accuracy": 0.9361702127659575,
+        "macro_f1": 0.24175824175824176,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "All/The R&Ws accurate at MAE standard",
+            "support": 44,
+            "precision": 0.9361702127659575,
+            "recall": 1.0,
+            "f1": 0.967032967032967
+          },
+          {
+            "label": 1,
+            "answer": "All/The R&Ws accurate in all respects (repeating R&Ws)",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 2,
+            "answer": "Each R&W accurate at MAE standard",
+            "support": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 3,
+            "answer": "R&Ws accurate at another materiality standard (e.g., hybrid standard)",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 44
+          },
+          {
+            "label": 2,
+            "prediction": 0,
+            "n": 3
+          }
+        ],
+        "eligible": false,
+        "question": "Accuracy of Target \"General\" R&W: Bringdown Standard Answer",
+        "subquestion": "<NONE>"
+      },
+      "70": {
+        "n": 23,
+        "accuracy": 0.9565217391304348,
+        "macro_f1": 0.4888888888888889,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 22,
+            "precision": 0.9565217391304348,
+            "recall": 1.0,
+            "f1": 0.9777777777777777
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 22
+          }
+        ],
+        "eligible": true,
+        "question": "Liability for breaches of no-shop by Target Representatives (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "72": {
+        "n": 44,
+        "accuracy": 0.6818181818181818,
+        "macro_f1": 0.6791666666666667,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Reasonable standard",
+            "support": 21,
+            "precision": 0.6842105263157895,
+            "recall": 0.6190476190476191,
+            "f1": 0.65
+          },
+          {
+            "label": 1,
+            "answer": "Strict liability",
+            "support": 23,
+            "precision": 0.68,
+            "recall": 0.7391304347826086,
+            "f1": 0.7083333333333334
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 13
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 8
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 6
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 17
+          }
+        ],
+        "eligible": true,
+        "question": "Liability standard for no-shop breach by Target Non-D&O Representatives",
+        "subquestion": "<NONE>"
+      },
+      "74": {
+        "n": 47,
+        "accuracy": 0.9361702127659575,
+        "macro_f1": 0.5937689050211736,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "\"Breach\" of fiduciary duties",
+            "support": 1,
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "f1": 0.5
+          },
+          {
+            "label": 1,
+            "answer": "\"Inconsistent\" with fiduciary duties",
+            "support": 17,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 2,
+            "answer": "\"Reasonably likely/expected breach\" of fiduciary duties",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 3,
+            "answer": "\"Reasonably likely/expected to be inconsistent\" with fiduciary duties",
+            "support": 9,
+            "precision": 0.9,
+            "recall": 1.0,
+            "f1": 0.9473684210526315
+          },
+          {
+            "label": 4,
+            "answer": "\"Reasonably likely/expected violation\" of fiduciary duties",
+            "support": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 5,
+            "answer": "\"Required to comply\" with fiduciary duties",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 6,
+            "answer": "\"Violation\" of fiduciary duties",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 7,
+            "answer": "None",
+            "support": 16,
+            "precision": 1.0,
+            "recall": 0.8125,
+            "f1": 0.896551724137931
+          },
+          {
+            "label": 8,
+            "answer": "Other specified standard",
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 17
+          },
+          {
+            "label": 3,
+            "prediction": 3,
+            "n": 9
+          },
+          {
+            "label": 4,
+            "prediction": 4,
+            "n": 3
+          },
+          {
+            "label": 7,
+            "prediction": 0,
+            "n": 2
+          },
+          {
+            "label": 7,
+            "prediction": 3,
+            "n": 1
+          },
+          {
+            "label": 7,
+            "prediction": 7,
+            "n": 13
+          },
+          {
+            "label": 8,
+            "prediction": 8,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "Fiduciary exception:  Board determination standard-Answer (no-shop)",
+        "subquestion": "<NONE>"
+      },
+      "75": {
+        "n": 47,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Acquisition Proposal only",
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Superior Offer, or Acquisition Proposal reasonably likely/expected to result in a Superior Offer",
+            "support": 46,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 46
+          }
+        ],
+        "eligible": true,
+        "question": "Fiduciary exception: Board determination trigger (no shop)-Answer",
+        "subquestion": "<NONE>"
+      },
+      "77": {
+        "n": 29,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 28,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 28
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "COR permitted with board fiduciary determination only",
+        "subquestion": "<NONE>"
+      },
+      "78": {
+        "n": 1,
+        "accuracy": 0.0,
+        "macro_f1": 0.0,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "\"Reasonably likely/expected breach\" of fiduciary duties",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "\"Reasonably likely/expected to be inconsistent\" with fiduciary duties",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 2,
+            "answer": "More likely than not violate fiduciary duties",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 3,
+            "answer": "Other specified standard",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 2,
+            "prediction": 3,
+            "n": 1
+          }
+        ],
+        "eligible": false,
+        "question": "COR standard (board determination only)-answer",
+        "subquestion": "<NONE>"
+      },
+      "8": {
+        "n": 47,
+        "accuracy": 0.9574468085106383,
+        "macro_f1": 0.6191860465116279,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Accurate in all material respects",
+            "support": 3,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5
+          },
+          {
+            "label": 1,
+            "answer": "Accurate in all respects",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 2,
+            "answer": "Accurate in all respects with below-threshold carveout",
+            "support": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 3,
+            "answer": "Accurate in all respects with de minimis exception",
+            "support": 42,
+            "precision": 0.9545454545454546,
+            "recall": 1.0,
+            "f1": 0.9767441860465116
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 0,
+            "prediction": 3,
+            "n": 2
+          },
+          {
+            "label": 2,
+            "prediction": 2,
+            "n": 2
+          },
+          {
+            "label": 3,
+            "prediction": 3,
+            "n": 42
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Target Capitalization R&W (outstanding shares): Bringdown Standard Answer",
+        "subquestion": "<NONE>"
+      },
+      "80": {
+        "n": 29,
+        "accuracy": 0.9310344827586207,
+        "macro_f1": 0.4666666666666666,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "\"Breach\" of fiduciary duties",
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "\"Inconsistent\" with fiduciary duties",
+            "support": 18,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 2,
+            "answer": "\"Reasonably likely/expected breach\" of fiduciary duties",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 3,
+            "answer": "\"Reasonably likely/expected to be inconsistent\" with fiduciary duties",
+            "support": 6,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 4,
+            "answer": "\"Reasonably likely/expected violation\" of fiduciary duties",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 5,
+            "answer": "\"Required to comply\" with fiduciary duties",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 6,
+            "answer": "\"Violation\" of fiduciary duties",
+            "support": 1,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          },
+          {
+            "label": 7,
+            "answer": "More likely than not violate fiduciary duties",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 8,
+            "answer": "None",
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 9,
+            "answer": "Other specified standard",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 18
+          },
+          {
+            "label": 3,
+            "prediction": 3,
+            "n": 6
+          },
+          {
+            "label": 4,
+            "prediction": 6,
+            "n": 1
+          },
+          {
+            "label": 6,
+            "prediction": 6,
+            "n": 1
+          },
+          {
+            "label": 7,
+            "prediction": 9,
+            "n": 1
+          },
+          {
+            "label": 8,
+            "prediction": 8,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "COR standard (superior offer)",
+        "subquestion": "<NONE>"
+      },
+      "81": {
+        "n": 29,
+        "accuracy": 0.9655172413793104,
+        "macro_f1": 0.49122807017543857,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 29,
+            "precision": 1.0,
+            "recall": 0.9655172413793104,
+            "f1": 0.9824561403508771
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 28
+          }
+        ],
+        "eligible": true,
+        "question": "COR permitted in response to Intervening Event",
+        "subquestion": "<NONE>"
+      },
+      "82": {
+        "n": 29,
+        "accuracy": 0.896551724137931,
+        "macro_f1": 0.3958573958573959,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "\"Breach\" of fiduciary duties",
+            "support": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "\"Inconsistent\" with fiduciary duties",
+            "support": 18,
+            "precision": 0.9473684210526315,
+            "recall": 1.0,
+            "f1": 0.972972972972973
+          },
+          {
+            "label": 2,
+            "answer": "\"Reasonably likely/expected breach\" of fiduciary duties",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 3,
+            "answer": "\"Reasonably likely/expected to be inconsistent\" with fiduciary duties",
+            "support": 7,
+            "precision": 1.0,
+            "recall": 0.8571428571428571,
+            "f1": 0.9230769230769231
+          },
+          {
+            "label": 4,
+            "answer": "\"Reasonably likely/expected violation\" of fiduciary duties",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 5,
+            "answer": "\"Required to comply\" with fiduciary duties",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 6,
+            "answer": "\"Violation\" of fiduciary duties",
+            "support": 1,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          },
+          {
+            "label": 7,
+            "answer": "More likely than not violate fiduciary duties",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 8,
+            "answer": "Other specified standard",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 18
+          },
+          {
+            "label": 3,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 3,
+            "prediction": 3,
+            "n": 6
+          },
+          {
+            "label": 4,
+            "prediction": 6,
+            "n": 1
+          },
+          {
+            "label": 6,
+            "prediction": 6,
+            "n": 1
+          },
+          {
+            "label": 7,
+            "prediction": 8,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "COR standard (intervening event)",
+        "subquestion": "<NONE>"
+      },
+      "84": {
+        "n": 43,
+        "accuracy": 0.813953488372093,
+        "macro_f1": 0.4325396825396825,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "2 business days or less",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 1,
+            "answer": "3 business days",
+            "support": 10,
+            "precision": 0.9,
+            "recall": 0.9,
+            "f1": 0.9
+          },
+          {
+            "label": 2,
+            "answer": "3 calendar days",
+            "support": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 3,
+            "answer": "4 business days",
+            "support": 22,
+            "precision": 0.9130434782608695,
+            "recall": 0.9545454545454546,
+            "f1": 0.9333333333333333
+          },
+          {
+            "label": 4,
+            "answer": "4 calendar days",
+            "support": 3,
+            "precision": 0.3333333333333333,
+            "recall": 0.6666666666666666,
+            "f1": 0.4444444444444444
+          },
+          {
+            "label": 5,
+            "answer": "5 business days",
+            "support": 5,
+            "precision": 1.0,
+            "recall": 0.6,
+            "f1": 0.75
+          },
+          {
+            "label": 6,
+            "answer": "Greater than 5 business days",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 9
+          },
+          {
+            "label": 1,
+            "prediction": 3,
+            "n": 1
+          },
+          {
+            "label": 2,
+            "prediction": 3,
+            "n": 1
+          },
+          {
+            "label": 2,
+            "prediction": 4,
+            "n": 2
+          },
+          {
+            "label": 3,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 3,
+            "prediction": 3,
+            "n": 21
+          },
+          {
+            "label": 4,
+            "prediction": 2,
+            "n": 1
+          },
+          {
+            "label": 4,
+            "prediction": 4,
+            "n": 2
+          },
+          {
+            "label": 5,
+            "prediction": 4,
+            "n": 2
+          },
+          {
+            "label": 5,
+            "prediction": 5,
+            "n": 3
+          }
+        ],
+        "eligible": true,
+        "question": "Initial matching rights period (COR)-Answer",
+        "subquestion": "<NONE>"
+      },
+      "85": {
+        "n": 43,
+        "accuracy": 0.813953488372093,
+        "macro_f1": 0.4012987012987013,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "2 business days or less",
+            "support": 18,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          },
+          {
+            "label": 1,
+            "answer": "3 business days",
+            "support": 18,
+            "precision": 0.8181818181818182,
+            "recall": 1.0,
+            "f1": 0.9
+          },
+          {
+            "label": 2,
+            "answer": "3 days",
+            "support": 3,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5
+          },
+          {
+            "label": 3,
+            "answer": "4 business days",
+            "support": 1,
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "f1": 0.5
+          },
+          {
+            "label": 4,
+            "answer": "5 business days",
+            "support": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 5,
+            "answer": "> 5 business days",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 6,
+            "answer": "None",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 15
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 0,
+            "prediction": 3,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 18
+          },
+          {
+            "label": 2,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 2,
+            "prediction": 2,
+            "n": 1
+          },
+          {
+            "label": 3,
+            "prediction": 3,
+            "n": 1
+          },
+          {
+            "label": 4,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 4,
+            "prediction": 6,
+            "n": 2
+          }
+        ],
+        "eligible": true,
+        "question": "Additional matching rights period for modifications (COR)-Answer",
+        "subquestion": "<NONE>"
+      },
+      "86": {
+        "n": 43,
+        "accuracy": 0.9302325581395349,
+        "macro_f1": 0.4819277108433735,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Continuous matching right",
+            "support": 43,
+            "precision": 1.0,
+            "recall": 0.9302325581395349,
+            "f1": 0.963855421686747
+          },
+          {
+            "label": 1,
+            "answer": "None",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 40
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 3
+          }
+        ],
+        "eligible": true,
+        "question": "Number of additional matching rights periods for modifications (COR)",
+        "subquestion": "<NONE>"
+      },
+      "88": {
+        "n": 42,
+        "accuracy": 0.7857142857142857,
+        "macro_f1": 0.525,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "\"All or substantially all\"",
+            "support": 3,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5
+          },
+          {
+            "label": 1,
+            "answer": "50%",
+            "support": 19,
+            "precision": 0.875,
+            "recall": 0.7368421052631579,
+            "f1": 0.8
+          },
+          {
+            "label": 2,
+            "answer": "Greater than 50% but not \"all or substantially all\"",
+            "support": 20,
+            "precision": 0.72,
+            "recall": 0.9,
+            "f1": 0.8
+          },
+          {
+            "label": 3,
+            "answer": "Less than 50%",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 0,
+            "prediction": 2,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 14
+          },
+          {
+            "label": 1,
+            "prediction": 2,
+            "n": 5
+          },
+          {
+            "label": 2,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 2,
+            "prediction": 2,
+            "n": 18
+          }
+        ],
+        "eligible": true,
+        "question": "Definition includes stock deals-Answer",
+        "subquestion": "<NONE>"
+      },
+      "89": {
+        "n": 42,
+        "accuracy": 0.7142857142857143,
+        "macro_f1": 0.44189189189189193,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "\"All or substantially all\"",
+            "support": 9,
+            "precision": 1.0,
+            "recall": 0.1111111111111111,
+            "f1": 0.2
+          },
+          {
+            "label": 1,
+            "answer": "50%",
+            "support": 19,
+            "precision": 0.8888888888888888,
+            "recall": 0.8421052631578947,
+            "f1": 0.8648648648648649
+          },
+          {
+            "label": 2,
+            "answer": "Greater than 50% but not \"all or substantially all\"",
+            "support": 14,
+            "precision": 0.5652173913043478,
+            "recall": 0.9285714285714286,
+            "f1": 0.7027027027027027
+          },
+          {
+            "label": 3,
+            "answer": "Less than 50%",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 0,
+            "prediction": 2,
+            "n": 7
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 16
+          },
+          {
+            "label": 1,
+            "prediction": 2,
+            "n": 3
+          },
+          {
+            "label": 2,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 2,
+            "prediction": 2,
+            "n": 13
+          }
+        ],
+        "eligible": true,
+        "question": "Definition includes asset deals-Answer",
+        "subquestion": "<NONE>"
+      },
+      "9": {
+        "n": 47,
+        "accuracy": 0.6595744680851063,
+        "macro_f1": 0.5497311827956989,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Accurate at another materiality standard (e.g., hybrid standard)",
+            "support": 9,
+            "precision": 0.42857142857142855,
+            "recall": 0.3333333333333333,
+            "f1": 0.375
+          },
+          {
+            "label": 1,
+            "answer": "Accurate in all material respects",
+            "support": 31,
+            "precision": 0.7741935483870968,
+            "recall": 0.7741935483870968,
+            "f1": 0.7741935483870968
+          },
+          {
+            "label": 2,
+            "answer": "Accurate in all respects",
+            "support": 7,
+            "precision": 0.4444444444444444,
+            "recall": 0.5714285714285714,
+            "f1": 0.5
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 3
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 5
+          },
+          {
+            "label": 0,
+            "prediction": 2,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 24
+          },
+          {
+            "label": 1,
+            "prediction": 2,
+            "n": 4
+          },
+          {
+            "label": 2,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 2,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 2,
+            "prediction": 2,
+            "n": 4
+          }
+        ],
+        "eligible": true,
+        "question": "Accuracy of Fundamental Target R&Ws: Bringdown Standard",
+        "subquestion": "<NONE>"
+      },
+      "90": {
+        "n": 32,
+        "accuracy": 0.90625,
+        "macro_f1": 0.47540983606557374,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 29,
+            "precision": 0.90625,
+            "recall": 1.0,
+            "f1": 0.9508196721311475
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 29
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 3
+          }
+        ],
+        "eligible": true,
+        "question": "\"Financial point of view\" is the sole consideration",
+        "subquestion": "<NONE>"
+      },
+      "92": {
+        "n": 43,
+        "accuracy": 0.7674418604651163,
+        "macro_f1": 0.3911764705882353,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Known, but consequences unknown or not reasonably foreseeable, at signing",
+            "support": 27,
+            "precision": 0.8695652173913043,
+            "recall": 0.7407407407407407,
+            "f1": 0.8
+          },
+          {
+            "label": 1,
+            "answer": "Known, but consequences unknown, at signing",
+            "support": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "label": 2,
+            "answer": "Not known and not reasonably foreseeable at signing",
+            "support": 14,
+            "precision": 0.65,
+            "recall": 0.9285714285714286,
+            "f1": 0.7647058823529411
+          },
+          {
+            "label": 3,
+            "answer": "Not known at signing",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 20
+          },
+          {
+            "label": 0,
+            "prediction": 2,
+            "n": 7
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 2
+          },
+          {
+            "label": 2,
+            "prediction": 0,
+            "n": 1
+          },
+          {
+            "label": 2,
+            "prediction": 2,
+            "n": 13
+          }
+        ],
+        "eligible": true,
+        "question": "Definition contains knowledge requirement - answer",
+        "subquestion": "<NONE>"
+      },
+      "93": {
+        "n": 43,
+        "accuracy": 1.0,
+        "macro_f1": 0.5,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 43,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 43
+          }
+        ],
+        "eligible": true,
+        "question": "Knowledge persons include Target management (intervening event)",
+        "subquestion": "<NONE>"
+      },
+      "94": {
+        "n": 43,
+        "accuracy": 0.8837209302325582,
+        "macro_f1": 0.7981220657276995,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "May occur or arise prior to signing",
+            "support": 35,
+            "precision": 0.9166666666666666,
+            "recall": 0.9428571428571428,
+            "f1": 0.9295774647887324
+          },
+          {
+            "label": 1,
+            "answer": "Must occur or arise after signing",
+            "support": 8,
+            "precision": 0.7142857142857143,
+            "recall": 0.625,
+            "f1": 0.6666666666666666
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 33
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 2
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 3
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 5
+          }
+        ],
+        "eligible": true,
+        "question": "Intervening Event - Required to Occur After Signing - answer",
+        "subquestion": "<NONE>"
+      },
+      "95": {
+        "n": 21,
+        "accuracy": 0.9523809523809523,
+        "macro_f1": 0.9384164222873901,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "No",
+            "support": 6,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          },
+          {
+            "label": 1,
+            "answer": "Yes",
+            "support": 15,
+            "precision": 0.9375,
+            "recall": 1.0,
+            "f1": 0.967741935483871
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 5
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 15
+          }
+        ],
+        "eligible": true,
+        "question": "Definition contains a materiality standard (Y/N)",
+        "subquestion": "<NONE>"
+      },
+      "97": {
+        "n": 35,
+        "accuracy": 0.9714285714285714,
+        "macro_f1": 0.4927536231884058,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "Superior Offer",
+            "support": 34,
+            "precision": 0.9714285714285714,
+            "recall": 1.0,
+            "f1": 0.9855072463768116
+          },
+          {
+            "label": 1,
+            "answer": "Superior Offer, Intervening Event",
+            "support": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 34
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 1
+          }
+        ],
+        "eligible": false,
+        "question": "FTR Triggers-Answer",
+        "subquestion": "<NONE>"
+      },
+      "99-0": {
+        "n": 34,
+        "accuracy": 0.8823529411764706,
+        "macro_f1": 0.46875,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 30,
+            "precision": 0.8823529411764706,
+            "recall": 1.0,
+            "f1": 0.9375
+          },
+          {
+            "label": 1,
+            "answer": "(Material) breach of other provisions of agreement",
+            "support": 4,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 30
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 4
+          }
+        ],
+        "eligible": true,
+        "question": "Limitations on FTR Exercise-Answer",
+        "subquestion": "(Material) breach of other provisions of agreement"
+      },
+      "99-1": {
+        "n": 34,
+        "accuracy": 0.7941176470588235,
+        "macro_f1": 0.4426229508196721,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 28,
+            "precision": 0.8181818181818182,
+            "recall": 0.9642857142857143,
+            "f1": 0.8852459016393442
+          },
+          {
+            "label": 1,
+            "answer": "Any breach of no-shop",
+            "support": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 27
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 1
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 6
+          }
+        ],
+        "eligible": true,
+        "question": "Limitations on FTR Exercise-Answer",
+        "subquestion": "Any breach of no-shop"
+      },
+      "99-2": {
+        "n": 34,
+        "accuracy": 0.7352941176470589,
+        "macro_f1": 0.6713211600429645,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 24,
+            "precision": 0.8,
+            "recall": 0.8333333333333334,
+            "f1": 0.8163265306122449
+          },
+          {
+            "label": 1,
+            "answer": "Breach of no-shop resulting in a Superior Offer",
+            "support": 10,
+            "precision": 0.5555555555555556,
+            "recall": 0.5,
+            "f1": 0.5263157894736842
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 20
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 4
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 5
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 5
+          }
+        ],
+        "eligible": true,
+        "question": "Limitations on FTR Exercise-Answer",
+        "subquestion": "Breach of no-shop resulting in a Superior Offer"
+      },
+      "99-3": {
+        "n": 34,
+        "accuracy": 0.6176470588235294,
+        "macro_f1": 0.4440251572327044,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 26,
+            "precision": 0.7407407407407407,
+            "recall": 0.7692307692307693,
+            "f1": 0.7547169811320755
+          },
+          {
+            "label": 1,
+            "answer": "Material breach of no-shop",
+            "support": 8,
+            "precision": 0.14285714285714285,
+            "recall": 0.125,
+            "f1": 0.13333333333333333
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 20
+          },
+          {
+            "label": 0,
+            "prediction": 1,
+            "n": 6
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 7
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "Limitations on FTR Exercise-Answer",
+        "subquestion": "Material breach of no-shop"
+      },
+      "99-4": {
+        "n": 34,
+        "accuracy": 0.8529411764705882,
+        "macro_f1": 0.6018735362997658,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 28,
+            "precision": 0.8484848484848485,
+            "recall": 1.0,
+            "f1": 0.9180327868852459
+          },
+          {
+            "label": 1,
+            "answer": "Material breach of no-shop resulting in a Superior Offer",
+            "support": 6,
+            "precision": 1.0,
+            "recall": 0.16666666666666666,
+            "f1": 0.2857142857142857
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 28
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 5
+          },
+          {
+            "label": 1,
+            "prediction": 1,
+            "n": 1
+          }
+        ],
+        "eligible": true,
+        "question": "Limitations on FTR Exercise-Answer",
+        "subquestion": "Material breach of no-shop resulting in a Superior Offer"
+      },
+      "99-5": {
+        "n": 34,
+        "accuracy": 0.8823529411764706,
+        "macro_f1": 0.46875,
+        "invalid_output_rate": 0.0,
+        "per_label": [
+          {
+            "label": 0,
+            "answer": "<OTHER>",
+            "support": 30,
+            "precision": 0.8823529411764706,
+            "recall": 1.0,
+            "f1": 0.9375
+          },
+          {
+            "label": 1,
+            "answer": "Other",
+            "support": 4,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ],
+        "confusions": [
+          {
+            "label": 0,
+            "prediction": 0,
+            "n": 30
+          },
+          {
+            "label": 1,
+            "prediction": 0,
+            "n": 4
+          }
+        ],
+        "eligible": false,
+        "question": "Limitations on FTR Exercise-Answer",
+        "subquestion": "Other"
+      }
+    },
+    "per_category": {
+      "Conditions to Closing": {
+        "question_macro_f1": 0.5693147188139032,
+        "accuracy": 0.8662952646239555,
+        "n": 1077,
+        "eligible_tasks": 21
+      },
+      "Deal Protection and Related Provisions": {
+        "question_macro_f1": 0.5502887304562722,
+        "accuracy": 0.8407130534790109,
+        "n": 1739,
+        "eligible_tasks": 39
+      },
+      "General Information": {
+        "question_macro_f1": 0.7331932773109243,
+        "accuracy": 0.9782608695652174,
+        "n": 46,
+        "eligible_tasks": 1
+      },
+      "Knowledge": {
+        "question_macro_f1": 0.8805555555555555,
+        "accuracy": 0.8924731182795699,
+        "n": 93,
+        "eligible_tasks": 2
+      },
+      "Material Adverse Effect": {
+        "question_macro_f1": 0.7340153551108051,
+        "accuracy": 0.9378990133488102,
+        "n": 1723,
+        "eligible_tasks": 47
+      },
+      "Operating and Efforts Covenant": {
+        "question_macro_f1": 0.779800480061231,
+        "accuracy": 0.9371069182389937,
+        "n": 318,
+        "eligible_tasks": 8
+      },
+      "Remedies": {
+        "question_macro_f1": 1.0,
+        "accuracy": 1.0,
+        "n": 47,
+        "eligible_tasks": 1
+      }
+    },
+    "per_agreement": {
+      "contract_110": {
+        "n": 298,
+        "question_macro_f1": 0.42065846112456284,
+        "parent_question_macro_f1": 0.40083924012495437,
+        "accuracy": 0.9161073825503355,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 118,
+        "missing_eligible_tasks": [
+          "16"
+        ],
+        "rare_answer_n": 4,
+        "rare_answer_accuracy": 0.0,
+        "rare_class_macro_recall": 0.0
+      },
+      "contract_116": {
+        "n": 138,
+        "question_macro_f1": 0.40508138283562006,
+        "parent_question_macro_f1": 0.4063551527837242,
+        "accuracy": 0.9057971014492754,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 118,
+        "missing_eligible_tasks": [
+          "16"
+        ],
+        "rare_answer_n": 7,
+        "rare_answer_accuracy": 0.14285714285714285,
+        "rare_class_macro_recall": 0.14285714285714285
+      },
+      "contract_121": {
+        "n": 135,
+        "question_macro_f1": 0.42072118702553485,
+        "parent_question_macro_f1": 0.4152781794229162,
+        "accuracy": 0.9407407407407408,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 115,
+        "missing_eligible_tasks": [
+          "11-0",
+          "11-2",
+          "11-3",
+          "16"
+        ],
+        "rare_answer_n": 1,
+        "rare_answer_accuracy": 1.0,
+        "rare_class_macro_recall": 1.0
+      },
+      "contract_122": {
+        "n": 306,
+        "question_macro_f1": 0.4268327952649986,
+        "parent_question_macro_f1": 0.4211534497248783,
+        "accuracy": 0.9248366013071896,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 118,
+        "missing_eligible_tasks": [
+          "16"
+        ],
+        "rare_answer_n": 2,
+        "rare_answer_accuracy": 0.0,
+        "rare_class_macro_recall": 0.0
+      },
+      "contract_129": {
+        "n": 124,
+        "question_macro_f1": 0.4511018646940978,
+        "parent_question_macro_f1": 0.43442159692159693,
+        "accuracy": 0.9596774193548387,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 103,
+        "missing_eligible_tasks": [
+          "101",
+          "102",
+          "103",
+          "16",
+          "88",
+          "89",
+          "90",
+          "92",
+          "93",
+          "94",
+          "95",
+          "99-0",
+          "99-1",
+          "99-2",
+          "99-3",
+          "99-4"
+        ],
+        "rare_answer_n": 4,
+        "rare_answer_accuracy": 0.5,
+        "rare_class_macro_recall": 0.5
+      },
+      "contract_136": {
+        "n": 138,
+        "question_macro_f1": 0.3761265805757331,
+        "parent_question_macro_f1": 0.3657754943469229,
+        "accuracy": 0.8623188405797102,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 118,
+        "missing_eligible_tasks": [
+          "16"
+        ],
+        "rare_answer_n": 4,
+        "rare_answer_accuracy": 0.5,
+        "rare_class_macro_recall": 0.5
+      },
+      "contract_143": {
+        "n": 137,
+        "question_macro_f1": 0.4258411341744675,
+        "parent_question_macro_f1": 0.40265286613970824,
+        "accuracy": 0.9343065693430657,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 117,
+        "missing_eligible_tasks": [
+          "16",
+          "90"
+        ],
+        "rare_answer_n": 0,
+        "rare_answer_accuracy": null,
+        "rare_class_macro_recall": null
+      },
+      "contract_145": {
+        "n": 263,
+        "question_macro_f1": 0.40719819426241444,
+        "parent_question_macro_f1": 0.3855856566273233,
+        "accuracy": 0.8859315589353612,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 109,
+        "missing_eligible_tasks": [
+          "101",
+          "102",
+          "103",
+          "16",
+          "90",
+          "99-0",
+          "99-1",
+          "99-2",
+          "99-3",
+          "99-4"
+        ],
+        "rare_answer_n": 13,
+        "rare_answer_accuracy": 0.5384615384615384,
+        "rare_class_macro_recall": 0.619047619047619
+      },
+      "contract_15": {
+        "n": 271,
+        "question_macro_f1": 0.3906633722671458,
+        "parent_question_macro_f1": 0.3612606395215091,
+        "accuracy": 0.8597785977859779,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 106,
+        "missing_eligible_tasks": [
+          "101",
+          "102",
+          "103",
+          "16",
+          "92",
+          "93",
+          "94",
+          "95",
+          "99-0",
+          "99-1",
+          "99-2",
+          "99-3",
+          "99-4"
+        ],
+        "rare_answer_n": 17,
+        "rare_answer_accuracy": 0.5294117647058824,
+        "rare_class_macro_recall": 0.619047619047619
+      },
+      "contract_151": {
+        "n": 141,
+        "question_macro_f1": 0.41498265973055887,
+        "parent_question_macro_f1": 0.3937983312983313,
+        "accuracy": 0.9290780141843972,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 119,
+        "missing_eligible_tasks": [],
+        "rare_answer_n": 4,
+        "rare_answer_accuracy": 0.25,
+        "rare_class_macro_recall": 0.25
+      },
+      "contract_22": {
+        "n": 319,
+        "question_macro_f1": 0.3819054402387736,
+        "parent_question_macro_f1": 0.37248240794293425,
+        "accuracy": 0.8369905956112853,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 117,
+        "missing_eligible_tasks": [
+          "16",
+          "90"
+        ],
+        "rare_answer_n": 10,
+        "rare_answer_accuracy": 0.5,
+        "rare_class_macro_recall": 0.5833333333333333
+      },
+      "contract_3": {
+        "n": 139,
+        "question_macro_f1": 0.3976425881086898,
+        "parent_question_macro_f1": 0.39679526822383965,
+        "accuracy": 0.8705035971223022,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 118,
+        "missing_eligible_tasks": [
+          "16"
+        ],
+        "rare_answer_n": 8,
+        "rare_answer_accuracy": 0.0,
+        "rare_class_macro_recall": 0.0
+      },
+      "contract_34": {
+        "n": 309,
+        "question_macro_f1": 0.3943469195587839,
+        "parent_question_macro_f1": 0.36741076383933524,
+        "accuracy": 0.8802588996763754,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 118,
+        "missing_eligible_tasks": [
+          "16"
+        ],
+        "rare_answer_n": 16,
+        "rare_answer_accuracy": 0.375,
+        "rare_class_macro_recall": 0.3333333333333333
+      },
+      "contract_38": {
+        "n": 140,
+        "question_macro_f1": 0.39166330373957486,
+        "parent_question_macro_f1": 0.37168149311006454,
+        "accuracy": 0.8857142857142857,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 118,
+        "missing_eligible_tasks": [
+          "16"
+        ],
+        "rare_answer_n": 2,
+        "rare_answer_accuracy": 0.0,
+        "rare_class_macro_recall": 0.0
+      },
+      "contract_5": {
+        "n": 301,
+        "question_macro_f1": 0.39040496540496544,
+        "parent_question_macro_f1": 0.3742469153653364,
+        "accuracy": 0.8504983388704319,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 117,
+        "missing_eligible_tasks": [
+          "16",
+          "90"
+        ],
+        "rare_answer_n": 7,
+        "rare_answer_accuracy": 0.14285714285714285,
+        "rare_class_macro_recall": 0.25
+      },
+      "contract_60": {
+        "n": 282,
+        "question_macro_f1": 0.42829725829725823,
+        "parent_question_macro_f1": 0.41912790405941086,
+        "accuracy": 0.9219858156028369,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 110,
+        "missing_eligible_tasks": [
+          "101",
+          "102",
+          "103",
+          "16",
+          "99-0",
+          "99-1",
+          "99-2",
+          "99-3",
+          "99-4"
+        ],
+        "rare_answer_n": 8,
+        "rare_answer_accuracy": 0.5,
+        "rare_class_macro_recall": 0.4444444444444444
+      },
+      "contract_63": {
+        "n": 280,
+        "question_macro_f1": 0.3879909873553941,
+        "parent_question_macro_f1": 0.3930731966446252,
+        "accuracy": 0.8535714285714285,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 118,
+        "missing_eligible_tasks": [
+          "16"
+        ],
+        "rare_answer_n": 7,
+        "rare_answer_accuracy": 0.42857142857142855,
+        "rare_class_macro_recall": 0.3333333333333333
+      },
+      "contract_64": {
+        "n": 315,
+        "question_macro_f1": 0.4027508743610439,
+        "parent_question_macro_f1": 0.39332544439687295,
+        "accuracy": 0.8825396825396825,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 118,
+        "missing_eligible_tasks": [
+          "16"
+        ],
+        "rare_answer_n": 0,
+        "rare_answer_accuracy": null,
+        "rare_class_macro_recall": null
+      },
+      "contract_67": {
+        "n": 290,
+        "question_macro_f1": 0.39122444175410276,
+        "parent_question_macro_f1": 0.3743187368187368,
+        "accuracy": 0.8413793103448276,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 118,
+        "missing_eligible_tasks": [
+          "16"
+        ],
+        "rare_answer_n": 25,
+        "rare_answer_accuracy": 0.24,
+        "rare_class_macro_recall": 0.2424242424242424
+      },
+      "contract_70": {
+        "n": 140,
+        "question_macro_f1": 0.4055521926284638,
+        "parent_question_macro_f1": 0.3958878423164138,
+        "accuracy": 0.8928571428571429,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 118,
+        "missing_eligible_tasks": [
+          "16"
+        ],
+        "rare_answer_n": 4,
+        "rare_answer_accuracy": 0.75,
+        "rare_class_macro_recall": 0.75
+      },
+      "contract_71": {
+        "n": 140,
+        "question_macro_f1": 0.41143731503901,
+        "parent_question_macro_f1": 0.3915283129568844,
+        "accuracy": 0.9214285714285714,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 118,
+        "missing_eligible_tasks": [
+          "16"
+        ],
+        "rare_answer_n": 4,
+        "rare_answer_accuracy": 0.5,
+        "rare_class_macro_recall": 0.5
+      },
+      "contract_79": {
+        "n": 299,
+        "question_macro_f1": 0.4236783696529459,
+        "parent_question_macro_f1": 0.40913848056705193,
+        "accuracy": 0.9163879598662207,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 118,
+        "missing_eligible_tasks": [
+          "16"
+        ],
+        "rare_answer_n": 0,
+        "rare_answer_accuracy": null,
+        "rare_class_macro_recall": null
+      },
+      "contract_99": {
+        "n": 138,
+        "question_macro_f1": 0.4015503093892924,
+        "parent_question_macro_f1": 0.3966148930434644,
+        "accuracy": 0.8985507246376812,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 118,
+        "missing_eligible_tasks": [
+          "16"
+        ],
+        "rare_answer_n": 7,
+        "rare_answer_accuracy": 0.7142857142857143,
+        "rare_class_macro_recall": 0.7142857142857143
+      }
+    },
+    "per_data_type": {
+      "abridged": {
+        "n": 1898,
+        "question_macro_f1": 0.5616948936799299,
+        "parent_question_macro_f1": 0.5482133871445277,
+        "accuracy": 0.8614330874604847,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 93,
+        "missing_eligible_tasks": [
+          "102",
+          "106",
+          "108",
+          "120",
+          "124",
+          "16",
+          "21",
+          "24",
+          "28",
+          "30",
+          "36",
+          "38",
+          "42",
+          "44",
+          "49",
+          "50",
+          "53",
+          "54",
+          "55",
+          "57",
+          "58",
+          "59",
+          "60",
+          "68",
+          "70",
+          "95"
+        ],
+        "rare_answer_n": 60,
+        "rare_answer_accuracy": 0.31666666666666665,
+        "rare_class_macro_recall": 0.29666666666666663
+      },
+      "main": {
+        "n": 3145,
+        "question_macro_f1": 0.6740652690186655,
+        "parent_question_macro_f1": 0.6675300941908265,
+        "accuracy": 0.9058823529411765,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 119,
+        "missing_eligible_tasks": [],
+        "rare_answer_n": 94,
+        "rare_answer_accuracy": 0.4148936170212766,
+        "rare_class_macro_recall": 0.41005291005291006
+      }
+    },
+    "per_length_bucket": {
+      "0-1024": {
+        "n": 3689,
+        "question_macro_f1": 0.630829564234245,
+        "parent_question_macro_f1": 0.6429727653592552,
+        "accuracy": 0.8774735700731906,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 119,
+        "missing_eligible_tasks": [],
+        "rare_answer_n": 123,
+        "rare_answer_accuracy": 0.3821138211382114,
+        "rare_class_macro_recall": 0.36744562022339794
+      },
+      "1025-2048": {
+        "n": 1229,
+        "question_macro_f1": 0.6109102979696818,
+        "parent_question_macro_f1": 0.5747167484532754,
+        "accuracy": 0.9251423921887714,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 85,
+        "missing_eligible_tasks": [
+          "105-0",
+          "105-2",
+          "105-3",
+          "105-6",
+          "105-8",
+          "105-9",
+          "106",
+          "107-0",
+          "107-1",
+          "107-2",
+          "107-3",
+          "108",
+          "109",
+          "117",
+          "118",
+          "119",
+          "120",
+          "122",
+          "123",
+          "124",
+          "126",
+          "13",
+          "130",
+          "16",
+          "3",
+          "68",
+          "70",
+          "72",
+          "74",
+          "75",
+          "92",
+          "93",
+          "94",
+          "95"
+        ],
+        "rare_answer_n": 28,
+        "rare_answer_accuracy": 0.35714285714285715,
+        "rare_class_macro_recall": 0.35714285714285715
+      },
+      "2049-4096": {
+        "n": 125,
+        "question_macro_f1": 0.5419999999999999,
+        "parent_question_macro_f1": 0.40402930402930404,
+        "accuracy": 0.88,
+        "invalid_output_rate": 0.0,
+        "eligible_tasks_scored": 25,
+        "missing_eligible_tasks": [
+          "105-0",
+          "105-2",
+          "105-3",
+          "105-6",
+          "105-8",
+          "105-9",
+          "106",
+          "107-0",
+          "107-1",
+          "107-2",
+          "107-3",
+          "108",
+          "109",
+          "117",
+          "118",
+          "119",
+          "120",
+          "122",
+          "123",
+          "124",
+          "126",
+          "13",
+          "130",
+          "16",
+          "21",
+          "22",
+          "24",
+          "25-0",
+          "25-1",
+          "25-2",
+          "26",
+          "27",
+          "28",
+          "29",
+          "3",
+          "30",
+          "31",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39-2",
+          "39-3",
+          "42",
+          "44",
+          "47-0",
+          "47-1",
+          "47-4",
+          "48-0",
+          "48-1",
+          "48-2",
+          "48-3",
+          "48-4",
+          "49",
+          "50",
+          "51",
+          "52",
+          "53",
+          "54",
+          "55",
+          "57",
+          "58",
+          "59",
+          "60",
+          "61-0",
+          "61-1",
+          "61-2",
+          "61-3",
+          "61-4",
+          "61-5",
+          "61-6",
+          "62",
+          "66",
+          "68",
+          "70",
+          "72",
+          "74",
+          "75",
+          "77",
+          "80",
+          "81",
+          "82",
+          "88",
+          "89",
+          "90",
+          "92",
+          "93",
+          "94",
+          "95",
+          "99-0",
+          "99-1",
+          "99-2",
+          "99-3",
+          "99-4"
+        ],
+        "rare_answer_n": 3,
+        "rare_answer_accuracy": 0.3333333333333333,
+        "rare_class_macro_recall": 0.3333333333333333
+      }
+    },
+    "without_train_overlap": {
+      "n": 5036,
+      "question_macro_f1": 0.6524985816256833,
+      "parent_question_macro_f1": 0.6545922462074205,
+      "accuracy": 0.8889992057188245,
+      "invalid_output_rate": 0.0,
+      "eligible_tasks_scored": 119,
+      "missing_eligible_tasks": [],
+      "rare_answer_n": 154,
+      "rare_answer_accuracy": 0.37662337662337664,
+      "rare_class_macro_recall": 0.3678634416729655
+    }
+  },
+  "primary_difference": 0.01285685969083572,
+  "bootstrap_epoch4_minus_epoch3": {
+    "unit": "agreement",
+    "paired": true,
+    "replicates": 2000,
+    "seed": 42,
+    "agreements": 23,
+    "valid_replicates": 2000,
+    "replicates_missing_tasks": 697,
+    "left_ci95": [
+      0.5946840379977167,
+      0.643510286646929
+    ],
+    "right_ci95": [
+      0.604453569999171,
+      0.6586831716529263
+    ],
+    "difference_right_minus_left_ci95": [
+      0.00031471389975618324,
+      0.023228388447263555
+    ]
+  },
+  "rare_epoch3_epoch4": [
+    {
+      "correct": 59,
+      "n": 154,
+      "recall": 0.38311688311688313,
+      "precision": 0.6210526315789474,
+      "predictions": 95,
+      "incorrect_rare_predictions": 36
+    },
+    {
+      "correct": 58,
+      "n": 154,
+      "recall": 0.37662337662337664,
+      "precision": 0.6105263157894737,
+      "predictions": 95,
+      "incorrect_rare_predictions": 37
+    }
+  ],
+  "rare_paired_changes": {
+    "corrections": [
+      "dev:3435:6ee4bdc5facf220d",
+      "dev:6656:2dc1079c7e0df607",
+      "test:3886:9505af1a65cbdac9",
+      "train:12368:46e3f64b943d354a",
+      "train:12369:adf20efd691441b7",
+      "train:19895:8a60cd04518810cb"
+    ],
+    "regressions": [
+      "test:4085:66623a066ef0251d",
+      "test:4313:c101277f2d89b3ad",
+      "train:16097:cbb128422a95724b",
+      "train:20538:f1b2b7d6008b280f",
+      "train:20552:8b35468789987571",
+      "train:21409:41a1f4ee73db6637",
+      "train:816:7cc0e8a308dff157"
+    ]
+  },
+  "validation_performance": {
+    "inference_seconds": 3818.14205143624,
+    "examples_per_second": 1.3207994705443227,
+    "generated_tokens_per_second": 2.6415989410886453,
+    "latency_p50_seconds": 0.6401549009606242,
+    "latency_p95_seconds": 1.8072694441885686,
+    "peak_allocated_gib": 11.677799701690674,
+    "peak_reserved_gib": 12.14453125,
+    "memory_scope": "current process segment; latency includes all prediction rows"
+  },
+  "recent_training_mean_seconds_per_step": 26.52081638189673,
+  "recent_training_steps": 200,
+  "prediction_sha256": [
+    "ada13f759f70307b79eb8fccc0b1f6df773a348a886fa3abe5d049dc93f15f9d",
+    "4ce6ac4f9321d5dcb53f698458a260b73c8d96de128d91ce50535690d37076f8"
+  ],
+  "invalid_outputs": 0,
+  "truncated_rows": 0,
+  "test_accessed": false
+}

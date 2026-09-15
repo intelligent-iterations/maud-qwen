@@ -1,0 +1,38 @@
+MAUD Qwen experiment
+Copyright 2026 the MAUD Qwen contributors.
+
+Original project code and documentation are licensed under Apache License 2.0.
+
+MAUD dataset attribution
+MAUD: An Expert-Annotated Legal NLP Dataset for Merger Agreement Understanding
+Steven H. Wang, Antoine Scardigli, Leonard Tang, Wei Chen, Dimitry Levkin,
+Anya Chen, Spencer Ball, Thomas Woodside, Oliver Zhang, and Dan Hendrycks.
+Dataset curated by The Atticus Project.
+https://www.atticusprojectai.org/maud
+https://github.com/The-Atticus-Project/maud
+https://arxiv.org/abs/2301.00876
+
+MAUD is licensed under Creative Commons Attribution 4.0 International:
+https://creativecommons.org/licenses/by/4.0/
+The licensor identifies MAUD's license at:
+https://www.atticusprojectai.org/legal/
+
+MAUD-derived question/answer strings, agreement identifiers, labels and metadata
+in manifests, predictions and reports retain CC BY 4.0 attribution. They are
+not relicensed under Apache-2.0. This project reorganizes examples into frozen
+whole-agreement partitions, excludes ambiguous counterfactual provenance, maps
+binary subquestion targets, and adds model predictions and evaluation metadata.
+Expert labels are preserved. The full passage dataset and upstream code are
+obtained from the pinned official repository by the preparation command.
+Any MAUD excerpts in audit records retain the same CC BY 4.0 attribution.
+
+Qwen model attribution
+Qwen/Qwen3-8B, Qwen team, Alibaba Cloud.
+https://huggingface.co/Qwen/Qwen3-8B
+Pinned model revision: b968826d9c46dd6066d109eabc6255188de91218
+Qwen3-8B is licensed under Apache License 2.0 by its authors. Model weights
+and trained adapters are not included in this repository. Downloaded models
+and each installed dependency retain their own licenses and notices.
+
+The project adapts published methods; it is not an official MAUD or Qwen release
+and does not imply endorsement by those projects.

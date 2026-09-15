@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '19 6 * * 1'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    name: Tests and leak checks
+    if: github.event.repository.private == false && vars.PUBLIC_AUTOMATION_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+          cache: false
+      - name: Install verified Gitleaks binary
+        run: bash scripts/install_gitleaks_ci.sh
+      - name: Audit publication surface and history
+        run: make security
+      - name: Install CPU test environment
+        run: |
+          python -m pip install --no-cache-dir torch==2.11.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --no-cache-dir -e '.[test]'
+      - name: Reconstruct frozen data
+        run: python -m maud_qwen prepare
+      - name: Run CPU tests
+        run: python -m pytest -q
+      - name: Reproduce saved prediction scores
+        run: python scripts/reproduce_results.py

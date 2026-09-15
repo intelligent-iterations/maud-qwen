@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Fine-tuning Qwen3-8B on MAUD with one RTX 3090: measured results on held-out merger agreements, documented methods, controlled experiments and reproducible evaluation.">
+<meta name="theme-color" content="#fcfaf6">
+<title>I Fine-Tuned a Local AI on Merger Law — Intelligent Iterations</title>
+<style>{{CSS}}</style>
+</head>
+<body>
+<a class="skip" href="#article">Skip to article</a>
+<header class="masthead"><a href="#top" class="wordmark">intelligent iterations<span>engineering notes</span></a><span class="edition">MACHINE LEARNING / EXPERIMENT 01</span></header>
+<main id="top">
+<header class="article-header">
+<p class="eyebrow">APPLIED ML / CASE STUDY <span>·</span> QWEN3–8B × MAUD</p>
+<h1>I fine-tuned<br>a local AI on<br><em>merger law.</em></h1>
+<p class="dek">Qwen3-8B, trained on one RTX 3090 and evaluated on 23 held-out merger agreements.</p>
+<p class="meta">Research notes <span>·</span> <time datetime="2026-09-13">13 September 2026</time> <span>·</span> {{READING_MINUTES}} minute read</p>
+<nav class="contents" aria-label="In this article"><a href="#overview">Key results</a><a href="#setup">Hardware</a><a href="#split">Dataset</a><a href="#methods">Methods</a><a href="#selection">Experiments</a><a href="#rare">Rare answers</a><a href="#next">Next steps</a></nav>
+</header>
+<article id="article">
+<p class="prose lead">I fine-tuned Qwen3-8B to answer predefined M&amp;A questions from supplied contract passages. On agreements held out from fine-tuning, the selected model improved both macro-F1 and accuracy over untuned Qwen.</p>
+<aside class="study-overview" id="overview" aria-labelledby="overview-title">
+<h2 id="overview-title">Key results</h2>
+<dl class="summary-stats">
+<div><dt>Macro-F1 · primary metric</dt><dd>{{BASE_F1}} <span aria-label="to">→</span> <strong>{{TUNED_F1}}</strong></dd><dd class="stat-context">Untuned Qwen → selected adapter</dd></div>
+<div><dt>Answer accuracy</dt><dd>{{BASE_ACCURACY}} <span aria-label="to">→</span> <strong>{{TUNED_ACCURACY}}</strong></dd><dd class="stat-context">Same prompts and evaluation policy</dd></div>
+<div><dt>Final test</dt><dd><strong>23</strong> agreements</dd><dd class="stat-context">5,283 examples · excluded from fine-tuning</dd></div>
+</dl>
+<p>Rare-answer precision improved, while rare-answer recall fell in this sample. <a href="#rare">See the separate recall and precision results.</a></p>
+</aside>
+<p class="prose">The study asked whether a local fine-tune could improve a specific contract-reading task. Each answer was checked against an expert label. I fixed the evaluation protocol before training, selected the checkpoint on validation, and then ran the final test.</p>
+
+<h2 id="setup">Hardware and runtime</h2>
+<p class="prose">I used an <strong>RTX 3090 with 24 GB of VRAM</strong> and 4-bit QLoRA to fine-tune Qwen3-8B locally. The hardware configuration, throughput and recovery checks were recorded with the experiment.</p>
+<p class="prose"><strong>Measured throughput:</strong> about 26.6 seconds per optimizer step. With validation included, this projected to roughly <strong>12–13 hours per epoch</strong> under the recorded thermal limits.</p>
+<p class="prose"><strong>Operational controls:</strong> after early temperature concerns, I capped GPU power at 200 W and CPU frequency at 3 GHz. A guard paused work for high temperatures or missing telemetry. A sensor failure triggered a protective pause; checkpoint recovery was verified before training resumed.</p>
+
+<h2 id="split">Dataset: MAUD merger-agreement questions</h2>
+<p class="prose"><a href="https://arxiv.org/html/2301.00876v3">MAUD</a> stands for <em>Merger Agreement Understanding Dataset</em>. It has expert labels for questions about M&amp;A deal terms: closing conditions, material adverse effects, deal protection and more.</p>
+<p class="prose"><strong>Why MAUD:</strong> its predefined questions and expert answer labels support direct, repeatable scoring. Its 92 parent questions become 144 question/subquestion tasks in our representation. The dataset supplies answer labels, so those were the training targets; no reasoning supervision was invented.</p>
+<p class="prose"><strong>Hypothesis:</strong> fine-tuning on MAUD would improve answers on merger agreements kept out of fine-tuning.</p>
+<p class="prose"><strong>Data audit:</strong> I independently confirmed the official counts—25,827 training, 6,753 validation and 6,651 test examples. Main-data rows from all 152 agreements appeared in every official split. Testing generalization to unseen agreements therefore required a separate split by source agreement.</p>
+<p class="prose"><strong>Split policy:</strong> deterministic agreement-level partitions were frozen before model experiments. Abridged passages stayed with their source. I excluded 3,680 counterfactual examples with ambiguous source provenance and audited duplicates and label coverage.</p>
+<figure aria-labelledby="split-title"><div class="figure-surface"><p class="figure-kicker">01 / Agreement-level partitions</p><h3 class="figure-title" id="split-title">One agreement belongs to one partition.</h3>
+<div class="data-split">
+<div class="split-group"><div class="split-label">TRAIN</div><strong class="split-number">106</strong><p class="split-description">agreements · 25,225 examples<br>Learn the adapter weights.</p><div class="documents" aria-hidden="true"><i class="document"></i><i class="document"></i><i class="document"></i><i class="document"></i><i class="document"></i><i class="document"></i><i class="document"></i></div></div>
+<div class="split-group"><div class="split-label">VALIDATION</div><strong class="split-number">23</strong><p class="split-description">agreements · 5,043 examples<br>Compare and select checkpoints.</p><div class="documents" aria-hidden="true"><i class="document"></i><i class="document"></i><i class="document"></i></div></div>
+<div class="split-group test"><div class="split-label">FINAL TEST</div><strong class="split-number">23</strong><p class="split-description">agreements · 5,283 examples<br>Evaluate the frozen choice.</p><div class="documents" aria-hidden="true"><i class="document"></i><i class="document"></i><i class="document"></i></div></div>
+</div><p class="split-caption">Abridged passages follow their source agreement. Document icons are schematic; the numbers above are the actual counts. “Unseen” refers to this fine-tuning split, not a claim about Qwen’s unknown pretraining exposure.</p></div>
+<figcaption><strong>Figure 1.</strong> The official data remain preserved separately. Our agreement-held-out scores are not directly comparable with published MAUD scores on different splits.</figcaption></figure>
+<p class="prose"><strong>Why accuracy was insufficient:</strong> choosing each question’s most common training answer achieved <strong>81.13% test accuracy</strong>, with <strong>zero rare answers correct</strong>. I used equal-task macro-F1 as the primary metric to reduce the dominance of frequent answers.</p>
+
+<h2 id="methods">Methods and research basis</h2>
+<p class="prose">I considered reproducing an original MAUD LegalBERT experiment first. I prioritized Qwen to address this study’s objective: measuring improvement in a local generative model. The LegalBERT reproduction remains separate work.</p>
+<p class="prose">This is a <strong>literature-informed adaptation</strong>. The table separates published precedents from the settings tested here.</p>
+<div class="prose table-scroll" role="region" aria-label="Published methods and our adaptations" tabindex="0"><table class="methods-table"><thead><tr><th scope="col">Starting point</th><th scope="col">Published evidence and this implementation</th></tr></thead><tbody>
+<tr><th scope="row">4-bit QLoRA</th><td><a href="https://arxiv.org/abs/2305.14314">QLoRA</a> demonstrated memory-efficient adapter training with a frozen quantized base. I used NF4 and double quantization. Its effectiveness on MAUD required evaluation.</td></tr>
+<tr><th scope="row">Batch size, learning rate, epochs</th><td><a href="https://arxiv.org/html/2301.00876v3">MAUD’s multitask experiments</a> used batch 16 and searched learning rates {1e-5, 3e-5, 1e-4} and epochs 1–6 for encoder models. I used batch 16 and ran 3e-5 through six epochs. I did not run the full grid.</td></tr>
+<tr><th scope="row">LoRA settings</th><td><a href="https://aclanthology.org/2025.findings-acl.171.pdf#page=13">Domaino1s</a> used rank 8, alpha 16 and dropout 0 with Qwen2.5-7B. I used those as starting candidates; its model and supervision were different.</td></tr>
+<tr><th scope="row">Selection and evaluation</th><td>MAUD selected using validation AUPR across three runs. I selected using agreement-held-out macro-F1 with one training seed. Whole-agreement splits, this primary metric and MLflow logging were our choices.</td></tr>
+</tbody></table></div>
+<p class="prose"><strong>Evidence boundary:</strong> the cited papers support individual methods. This study evaluates their combination on Qwen3-8B and MAUD; it does not establish the best possible configuration.</p>
+<p class="prose">I retained natural answer frequencies, departing from MAUD’s balanced-answer sampling. Its minority-class AUPR requires meaningful answer-option scores, so it was not reported for this letter-generation evaluation. An exact benchmark reproduction would require the original models, official splits, sampling, search and scorer. Our scores are reported separately.</p>
+
+<h2 id="qlora">QLoRA and the training configuration</h2>
+<p class="prose">QLoRA keeps most of the base model’s large linear weights frozen in compact 4-bit storage. Small LoRA matrices learn adjustments alongside them. In this run, about <strong>21.8 million adapter parameters</strong> were trainable.</p>
+<figure aria-labelledby="qlora-title"><div class="figure-surface"><p class="figure-kicker">02 / Frozen and trainable parameters</p><h3 class="figure-title" id="qlora-title">A frozen base, with trainable adjustments.</h3>
+<div class="qlora-flow"><div class="weight-block frozen"><div class="weight-label">Base linear weights / frozen</div><strong>NF4 · 4-bit</strong><p>Compact storage for the large pretrained matrices.</p></div><div class="flow-symbol" aria-hidden="true">+</div><div class="weight-block adapter"><div class="weight-label">LoRA adapters / trainable</div><strong>FP32</strong><p>Small matrices learn how to adjust the base output.</p></div><div class="flow-symbol" aria-hidden="true">→</div><div class="answer-block"><div class="weight-label">Answer format</div><div class="answer-token">A</div><small>Illustrative token.<br>One valid answer letter.</small></div></div>
+<p class="compute-note"><strong>BF16 compute</strong> for quantized base operations · double quantization · some nonquantized base components remain higher precision. These are different jobs for different data types; the base is not updated during adapter training. Diagram is conceptual, not a literal complete forward pass.</p></div>
+<figcaption><strong>Figure 2.</strong> A QLoRA checkpoint adds adapter weights to the pinned base model. The experiment used the same base quantization and nonquantized-parameter casting for untuned and tuned evaluation.</figcaption></figure>
+<p class="prose">The mixed data types have different jobs: NF4 saves storage, BF16 handles the quantized base’s calculations, and FP32 keeps the small trainable adapters at higher precision. The “8B” in the model name refers to its parameter count.</p>
+<p class="prose">Each training example taught the model to produce an answer letter and an end token. Instructions and padding were masked from the loss. I used Qwen’s documented non-thinking format, then graded answers deterministically. No LLM judge was needed.</p>
+<p class="prose"><strong>Context handling:</strong> complete prompt lengths were measured before selecting a 4,096-token context. Overflow raised an error. Both final evaluations had zero passage truncation.</p>
+<details><summary>Full training configuration and model revision</summary><div class="table-scroll"><table class="technical"><tbody>
+<tr><td>Base model</td><td>Qwen/Qwen3-8B · pinned revision <code>b968826d9c46</code></td></tr>
+<tr><td>Quantization / compute</td><td>NF4, double quantization, BF16 compute; FP32 trainable adapters</td></tr>
+<tr><td>LoRA targets</td><td><code>q_proj</code>, <code>k_proj</code>, <code>v_proj</code>, <code>o_proj</code>, <code>gate_proj</code>, <code>up_proj</code>, <code>down_proj</code> across 36 layers</td></tr>
+<tr><td>LoRA settings</td><td>Rank 8 · alpha 16 · dropout 0 · 21,823,488 trainable parameters</td></tr>
+<tr><td>Batch / context</td><td>Microbatch 1 · accumulate 16 · 4,096-token limit · gradient checkpointing</td></tr>
+<tr><td>Optimizer</td><td>PyTorch AdamW, nonfused/nonforeach · learning rate 3e-5 · weight decay 0.01 · betas 0.9/0.999 · epsilon 1e-8 · clip 1.0</td></tr>
+<tr><td>Schedule / sampling</td><td>Cosine · 284 warmup steps of 9,462 · natural frequency · seed 42</td></tr>
+<tr><td>Checkpoint selection</td><td>Highest validation primary macro-F1 · earliest on ties · patience 2 · at most 6 epochs</td></tr>
+<tr><td>Evaluation</td><td>Greedy decoding · at most 8 new tokens · strict answer-letter grading · no LLM judge</td></tr>
+</tbody></table></div><p>Token lengths included instructions and choices. Context overflow was configured to fail explicitly; both final evaluations recorded zero runtime truncation.</p></details>
+
+<h2 id="selection">Experiment 1: checkpoint selection</h2>
+<p class="prose"><strong>Result: epoch five had the highest validation macro-F1.</strong> All six normal epochs completed, with evaluation after each epoch. One epoch meant one natural-frequency pass through 25,225 training examples.</p>
+<p class="prose"><strong>Selection rule:</strong> keep the checkpoint with the highest primary validation macro-F1. This rule was fixed before training.</p>
+<p class="prose">Macro-F1 is computed across each task’s answer labels, then averaged equally across eligible tasks. Training-data coverage rules left 119 eligible tasks.</p>
+<figure><button class="plot-zoom" type="button" aria-label="Enlarge the validation learning curve" data-title="Validation only · checkpoint selection"><picture><source media="(max-width:760px)" srcset="{{VALIDATION_MOBILE}}"><img class="chart-image" src="{{VALIDATION_CHART}}" width="1120" height="550" alt="Validation macro-F1 rises from 0.6149 at epoch 1 to 0.6547 at epoch 5, then falls to 0.6514 at epoch 6. A weighted third-epoch branch scores 0.6456."></picture></button><span class="plot-hint">CLICK TO ENLARGE ↗</span><figcaption><strong>Figure 3.</strong> Validation data only: 5,043 examples from 23 agreements. The vertical axis starts at 0.60 to show the modest checkpoint differences. The weighted branch resumes epoch 2; it is a separate candidate, not an extra epoch of the normal run.</figcaption></figure>
+<p class="prose"><strong>Interpretation:</strong> validation macro-F1 increased from 0.6149 at epoch one to 0.6547 at epoch five, then declined to 0.6514. The paired intervals for the later checkpoint differences included zero. Epoch five was selected under the predefined rule; repeated training would be needed to assess selection stability.</p>
+<p class="prose">Accuracy, macro-F1 and rare-answer recall favored different checkpoints. Using a predefined primary metric kept selection consistent across those tradeoffs.</p>
+
+<h2 id="weighting">Experiment 2: rare-answer weighting</h2>
+<p class="prose"><strong>Hypothesis:</strong> increasing the loss weight of rare-target examples would improve rare-answer recall.</p>
+<p class="prose">I restored the saved second epoch and trained an alternative third epoch with <strong>3× loss weight</strong> on rare-target examples. The comparison was normal epoch three versus weighted epoch three: the same starting checkpoint and another pass through the data.</p>
+<div class="prose table-scroll" role="region" aria-label="Normal and weighted third-epoch validation results" tabindex="0"><table class="branch-table"><caption>Validation after one additional epoch</caption><thead><tr><th scope="col">Variant</th><th scope="col">Macro-F1</th><th scope="col">Rare answers correct</th></tr></thead><tbody>{{WEIGHTED_ROWS}}</tbody></table></div>
+<p class="prose"><strong>Result:</strong> the small macro-F1 increase had a difference interval crossing zero. Rare correctness fell from 59/154 to 56/154, so the intervention did not meet its predefined rare-recall goal.</p>
+<p class="prose"><strong>Decision:</strong> retain the normal training path for final selection and preserve the weighted branch in the experiment record. This result applies to the tested weight, schedule and seed; it does not rule out other weighting configurations.</p>
+
+<h2 id="final">Final results on held-out agreements</h2>
+<p class="prose">I froze epoch five and its hashes before running the test comparison. Untuned and tuned Qwen used the same quantization, prompt, context policy and decoding. The test was kept out of prompt tuning and checkpoint selection.</p>
+<figure id="results" aria-labelledby="results-title">
+<div class="figure-surface">
+<div class="figure-head"><div><p class="figure-kicker">04 / Held-out test results</p><h2 class="figure-title" id="results-title">Three systems evaluated on the same agreements.</h2></div><span class="figure-stamp">5,283 EXAMPLES<br>23 AGREEMENTS</span></div>
+<div class="metric-tabs" role="group" aria-label="Choose a metric"><button type="button" data-metric="question_macro_f1" aria-pressed="true">Macro-F1 · primary</button><button type="button" data-metric="accuracy" aria-pressed="false">Accuracy</button><button type="button" data-metric="rare_recall" aria-pressed="false">Rare recall</button></div>
+<p class="metric-description" id="metric-description" aria-live="polite">Primary metric: calculate F1 across every valid answer label, then average equally across the 119 eligible question/subquestion tasks. Higher is better.</p>
+<div class="bars" aria-label="Final test scores">{{RESULT_BARS}}</div>
+<div class="axis" aria-hidden="true"><span>0</span><span id="axis-mid">0.5</span><span id="axis-max">1.0</span></div>
+<div class="result-note"><strong class="delta">+{{F1_DELTA}}</strong><p><strong>Tuned-minus-base macro-F1.</strong> The paired 95% agreement-bootstrap interval is <strong>[{{F1_CI}}]</strong>. The interval stays above zero: an improvement on the metric chosen before training.</p></div>
+</div>
+<figcaption><strong>Figure 4.</strong> Switch metrics to see the tradeoff. Epoch 5 was selected on validation before any final-test predictions. All systems use the same test population; both Qwen evaluations use the same quantization, prompt, context policy and decoding.</figcaption>
+</figure>
+<ul class="prose findings">
+<li><strong>Primary result:</strong> the selected adapter outperformed untuned Qwen and the training-majority baseline on macro-F1.</li>
+<li><strong>Output validity:</strong> invalid answers fell from six to zero.</li>
+<li><strong>Overlap sensitivity:</strong> removing 94 preflagged test rows left macro-F1 at 0.3668 for base Qwen and 0.6791 for the adapter.</li>
+</ul>
+<details><summary>Exact scores, metric definitions and uncertainty</summary>
+<div class="table-scroll" role="region" aria-label="Exact final test scores" tabindex="0"><table class="small-table"><thead><tr><th scope="col">System</th><th scope="col">Macro-F1</th><th scope="col">Accuracy</th><th scope="col">Rare correct</th><th scope="col">Rare precision</th><th scope="col">Invalid</th></tr></thead><tbody>{{RESULT_ROWS}}</tbody></table></div>
+<p><strong>Accuracy</strong> counts every example equally. <strong>Macro-F1</strong> balances precision and recall across each task’s fixed answer labels, then gives eligible tasks equal weight. Undefined class F1 is zero. <strong>Rare recall</strong> is correctness on examples whose gold label occurs in at most 10% of that task’s training rows, including labels absent from training. <strong>Rare precision</strong> is correctness among the model’s rare-label predictions. Invalid answers count as wrong.</p>
+<p>The intervals use 2,000 paired resamples of whole agreements, seed 42. All 119 eligible tasks occur in the full test; 722 bootstrap draws omit tasks absent from their sampled agreements, following the frozen rule. The intervals do not include variability from retraining with other seeds.</p>
+</details>
+
+<h2 id="rare">Rare answers: precision and recall</h2>
+<p class="prose"><strong>Recall decreased; precision increased.</strong> The base model answered 66 rare cases correctly and the adapter answered 57. Incorrect rare-label predictions fell from <strong>1,300 to 47</strong>. These measure different aspects of performance.</p>
+<figure aria-labelledby="rare-title"><div class="figure-surface"><p class="figure-kicker">05 / Rare-answer performance</p><h3 class="figure-title" id="rare-title">Rare-answer recall and precision moved differently.</h3>
+<div class="rare-panels"><section class="rare-panel"><h4 class="rare-question">When the correct answer was rare</h4><p class="rare-definition">Recall: the proportion of 154 rare cases answered correctly.</p><div class="rare-pair"><div class="rare-cell"><span>UNTUNED QWEN</span><strong>{{BASE_RARE_RECALL}}</strong><small>66 correct / 154 cases</small></div><span class="arrow" aria-hidden="true">→</span><div class="rare-cell tuned"><span>EPOCH 5</span><strong>{{TUNED_RARE_RECALL}}</strong><small>57 correct / 154 cases</small></div></div><p class="rare-meaning"><strong>9 fewer</strong> rare answers correct.</p></section>
+<section class="rare-panel"><h4 class="rare-question">When the model chose a rare answer</h4><p class="rare-definition">Precision: the proportion of rare-label predictions that were correct.</p><div class="rare-pair"><div class="rare-cell"><span>UNTUNED QWEN</span><strong>{{BASE_RARE_PRECISION}}</strong><small>66 correct / 1,366 predictions</small></div><span class="arrow" aria-hidden="true">→</span><div class="rare-cell tuned"><span>EPOCH 5</span><strong>{{TUNED_RARE_PRECISION}}</strong><small>57 correct / 104 predictions</small></div></div><p class="rare-meaning">Incorrect rare predictions: <strong>1,300 → 47.</strong></p></section></div></div>
+<figcaption><strong>Figure 5.</strong> Same models, different denominators. Rare recall is lower in this sample, but its exploratory difference interval, −22.50 to +11.91 percentage points, includes zero. Nine examples do not establish a reliable population-level decline.</figcaption></figure>
+<p class="prose"><strong>Error analysis:</strong> rare targets represented 2.84% of training examples, and some labels had very little agreement-level support. Validation review also identified abridged source passages missing relevant context. These observations motivate further investigation into support and passage quality; they do not establish a single cause for the errors.</p>
+
+<h2 id="next">Next experiments</h2>
+<p class="prose">The following studies are proposed and remain unrun:</p>
+<ol class="prose next-experiments">
+<li><strong>Measure training variability.</strong> Repeat the selected recipe with at least three independent seeds. Agreement-level bootstrap intervals measure uncertainty across agreements; repeated training would measure sensitivity to initialization and data order.</li>
+<li><strong>Test passage quality.</strong> Audit training passages under predefined rules, preserve original labels and document exclusions. Compare a controlled data variant on validation to test whether missing context contributes to rare-answer errors.</li>
+<li><strong>Test hyperparameter interactions.</strong> Predefine a small joint search over learning rate, training duration and rare-example weight. Compare candidates on validation to test whether the weighting outcome depends on the training schedule.</li>
+</ol>
+<p class="prose">An original LegalBERT/MAUD reproduction would also add a published reference point. That remains separate work. The current final test is now closed to tuning; another confirmatory claim would need previously unused agreements.</p>
+
+<h2 id="scope">Scope and reproducibility</h2>
+<p class="prose"><strong>Supported conclusion:</strong> this fine-tune improved the predefined primary metric for passage-based MAUD questions on held-out agreements. The study used one training seed and 154 rare test cases. Full-contract retrieval, open-ended legal advice and general legal expertise were outside its scope.</p>
+<p class="prose">MLflow kept the configurations, predictions and artifacts on premises. Final inference took about 52 minutes for base Qwen and 63 for the adapter, using roughly 11.52 and 11.60 GiB of peak allocated GPU memory. A larger untuned API comparison remains unrun.</p>
+<ul class="prose findings">
+<li><strong>Traceable inputs:</strong> pinned model and data revisions, frozen split manifests and recorded preprocessing.</li>
+<li><strong>Verifiable outputs:</strong> saved example-level predictions, deterministic scoring and independently reproduced metric calculations.</li>
+<li><strong>Recoverable training:</strong> adapters, optimizer, scheduler, RNG and trainer state saved in checkpoints, with resumption verified.</li>
+</ul>
+
+<section class="sources" id="evidence" aria-labelledby="evidence-title"><h2 id="evidence-title">Sources and experiment records</h2>
+<div class="download-links"><a href="{{EVIDENCE_DOWNLOAD}}" download="maud-experiment-evidence.json">Experiment data ↓</a><a href="{{REPORT_DOWNLOAD}}" download="maud-final-test-report.md">Full test report ↓</a><a href="{{CHART_DOWNLOAD}}" download="maud-validation-curve.svg">Validation figure ↓</a></div>
+<p>Results come from frozen predictions and independently rescored comparisons. The downloads preserve exact values and intervals.</p>
+<ol><li><a href="https://arxiv.org/html/2301.00876v3">MAUD paper</a> and <a href="https://github.com/The-Atticus-Project/maud/tree/4640316078dcd370debb877f350c39a28b181ffe">official data/code at the inspected commit</a>.</li>
+<li><a href="https://arxiv.org/abs/2305.14314">QLoRA paper</a>.</li>
+<li><a href="https://huggingface.co/Qwen/Qwen3-8B/tree/b968826d9c46dd6066d109eabc6255188de91218">Qwen3-8B model and documentation at the pinned revision</a>.</li>
+<li><a href="https://aclanthology.org/2025.findings-acl.171.pdf">Domaino1s paper and LoRA settings</a>.</li></ol>
+<details><summary>Hashes, tracking and design provenance</summary><div class="table-scroll"><table class="technical"><tbody>{{PROVENANCE_ROWS}}</tbody></table></div><p>Design inspired by the website-copy-maker project’s <em>From Framer to Firebase</em> post: warm paper, rust accents, bold type and annotated figures. This HTML includes its styles, scripts, charts and downloads. External source links are optional.</p></details>
+</section>
+</article>
+<footer class="page-footer"><span>INTELLIGENT ITERATIONS / MAUD RESEARCH NOTES</span><a href="#top">Back to top ↑</a></footer>
+</main>
+<dialog id="figure-dialog" aria-labelledby="detail-title"><div class="dialog-head"><p id="detail-title">Figure detail</p><button type="button" id="close-figure">Close ×</button></div><img id="detail-image" alt=""></dialog>
+<script type="application/json" id="experiment-data">{{DATA_JSON}}</script>
+<script>{{JS}}</script>
+</body></html>

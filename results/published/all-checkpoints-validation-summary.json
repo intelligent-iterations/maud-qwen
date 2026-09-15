@@ -1,0 +1,490 @@
+{
+  "created_utc": "2026-09-09T19:44:34.061950+00:00",
+  "split": "agreement-held-out validation",
+  "validation_examples": 5043,
+  "validation_agreements": 23,
+  "eligible_tasks": 119,
+  "rare_rows": 154,
+  "rows": [
+    {
+      "checkpoint": "Base",
+      "accuracy": 0.49454689668847907,
+      "question_macro_f1": 0.35307647983426327,
+      "rare_correct": 82,
+      "rare_n": 154,
+      "rare_recall": 0.5324675324675324,
+      "rare_precision": 0.06332046332046332,
+      "rare_predictions": 1295,
+      "incorrect_rare_predictions": 1213,
+      "rare_class_macro_recall": 0.43148148148148147,
+      "invalid_outputs": 16
+    },
+    {
+      "checkpoint": "Epoch 1",
+      "accuracy": 0.8724965298433472,
+      "question_macro_f1": 0.6148824650866382,
+      "rare_correct": 56,
+      "rare_n": 154,
+      "rare_recall": 0.36363636363636365,
+      "rare_precision": 0.717948717948718,
+      "rare_predictions": 78,
+      "incorrect_rare_predictions": 22,
+      "rare_class_macro_recall": 0.39061476442428816,
+      "invalid_outputs": 0
+    },
+    {
+      "checkpoint": "Epoch 2",
+      "accuracy": 0.8828078524687686,
+      "question_macro_f1": 0.6294363237675651,
+      "rare_correct": 49,
+      "rare_n": 154,
+      "rare_recall": 0.3181818181818182,
+      "rare_precision": 0.5975609756097561,
+      "rare_predictions": 82,
+      "incorrect_rare_predictions": 33,
+      "rare_class_macro_recall": 0.32183169564121944,
+      "invalid_outputs": 0
+    },
+    {
+      "checkpoint": "Epoch 3",
+      "accuracy": 0.8857822724568709,
+      "question_macro_f1": 0.6396498588134188,
+      "rare_correct": 59,
+      "rare_n": 154,
+      "rare_recall": 0.38311688311688313,
+      "rare_precision": 0.6210526315789474,
+      "rare_predictions": 95,
+      "incorrect_rare_predictions": 36,
+      "rare_class_macro_recall": 0.3668052406147644,
+      "invalid_outputs": 0
+    },
+    {
+      "checkpoint": "Weighted epoch 3",
+      "accuracy": 0.8903430497719611,
+      "question_macro_f1": 0.6456207889961788,
+      "rare_correct": 56,
+      "rare_n": 154,
+      "rare_recall": 0.36363636363636365,
+      "rare_precision": 0.5957446808510638,
+      "rare_predictions": 94,
+      "incorrect_rare_predictions": 38,
+      "rare_class_macro_recall": 0.3636306374401612,
+      "invalid_outputs": 0
+    },
+    {
+      "checkpoint": "Epoch 4",
+      "accuracy": 0.8891532817767203,
+      "question_macro_f1": 0.6525067185042546,
+      "rare_correct": 58,
+      "rare_n": 154,
+      "rare_recall": 0.37662337662337664,
+      "rare_precision": 0.6105263157894737,
+      "rare_predictions": 95,
+      "incorrect_rare_predictions": 37,
+      "rare_class_macro_recall": 0.3678634416729655,
+      "invalid_outputs": 0
+    },
+    {
+      "checkpoint": "Epoch 5",
+      "accuracy": 0.8855839777909974,
+      "question_macro_f1": 0.6547289885621957,
+      "rare_correct": 62,
+      "rare_n": 154,
+      "rare_recall": 0.4025974025974026,
+      "rare_precision": 0.5636363636363636,
+      "rare_predictions": 110,
+      "incorrect_rare_predictions": 48,
+      "rare_class_macro_recall": 0.3720962459057697,
+      "invalid_outputs": 0
+    },
+    {
+      "checkpoint": "Epoch 6",
+      "accuracy": 0.8806266111441602,
+      "question_macro_f1": 0.6514448485614696,
+      "rare_correct": 63,
+      "rare_n": 154,
+      "rare_recall": 0.4090909090909091,
+      "rare_precision": 0.5431034482758621,
+      "rare_predictions": 116,
+      "incorrect_rare_predictions": 53,
+      "rare_class_macro_recall": 0.38532375913328293,
+      "invalid_outputs": 0
+    }
+  ],
+  "per_category": {
+    "Base": {
+      "Conditions to Closing": {
+        "question_macro_f1": 0.37283739679005407,
+        "accuracy": 0.5533890436397401,
+        "n": 1077,
+        "eligible_tasks": 21
+      },
+      "Deal Protection and Related Provisions": {
+        "question_macro_f1": 0.2514267454729669,
+        "accuracy": 0.34905117883841286,
+        "n": 1739,
+        "eligible_tasks": 39
+      },
+      "General Information": {
+        "question_macro_f1": 0.44999999999999996,
+        "accuracy": 0.717391304347826,
+        "n": 46,
+        "eligible_tasks": 1
+      },
+      "Knowledge": {
+        "question_macro_f1": 0.5172271495442227,
+        "accuracy": 0.7741935483870968,
+        "n": 93,
+        "eligible_tasks": 2
+      },
+      "Material Adverse Effect": {
+        "question_macro_f1": 0.4104471671322898,
+        "accuracy": 0.575159605339524,
+        "n": 1723,
+        "eligible_tasks": 47
+      },
+      "Operating and Efforts Covenant": {
+        "question_macro_f1": 0.43249337430998414,
+        "accuracy": 0.5880503144654088,
+        "n": 318,
+        "eligible_tasks": 8
+      },
+      "Remedies": {
+        "question_macro_f1": 0.14545454545454545,
+        "accuracy": 0.1702127659574468,
+        "n": 47,
+        "eligible_tasks": 1
+      }
+    },
+    "Epoch 1": {
+      "Conditions to Closing": {
+        "question_macro_f1": 0.5370402583549774,
+        "accuracy": 0.8505106778087279,
+        "n": 1077,
+        "eligible_tasks": 21
+      },
+      "Deal Protection and Related Provisions": {
+        "question_macro_f1": 0.5114771725649777,
+        "accuracy": 0.7981598619896493,
+        "n": 1739,
+        "eligible_tasks": 39
+      },
+      "General Information": {
+        "question_macro_f1": 0.75,
+        "accuracy": 1.0,
+        "n": 46,
+        "eligible_tasks": 1
+      },
+      "Knowledge": {
+        "question_macro_f1": 0.8024493518337568,
+        "accuracy": 0.8924731182795699,
+        "n": 93,
+        "eligible_tasks": 2
+      },
+      "Material Adverse Effect": {
+        "question_macro_f1": 0.6913100657616917,
+        "accuracy": 0.9413813116656994,
+        "n": 1723,
+        "eligible_tasks": 47
+      },
+      "Operating and Efforts Covenant": {
+        "question_macro_f1": 0.762385799419282,
+        "accuracy": 0.9371069182389937,
+        "n": 318,
+        "eligible_tasks": 8
+      },
+      "Remedies": {
+        "question_macro_f1": 1.0,
+        "accuracy": 1.0,
+        "n": 47,
+        "eligible_tasks": 1
+      }
+    },
+    "Epoch 2": {
+      "Conditions to Closing": {
+        "question_macro_f1": 0.5503053774349983,
+        "accuracy": 0.8570102135561746,
+        "n": 1077,
+        "eligible_tasks": 21
+      },
+      "Deal Protection and Related Provisions": {
+        "question_macro_f1": 0.5396133028413589,
+        "accuracy": 0.8246118458884416,
+        "n": 1739,
+        "eligible_tasks": 39
+      },
+      "General Information": {
+        "question_macro_f1": 0.75,
+        "accuracy": 1.0,
+        "n": 46,
+        "eligible_tasks": 1
+      },
+      "Knowledge": {
+        "question_macro_f1": 0.8349780701754386,
+        "accuracy": 0.8494623655913979,
+        "n": 93,
+        "eligible_tasks": 2
+      },
+      "Material Adverse Effect": {
+        "question_macro_f1": 0.6968076094938246,
+        "accuracy": 0.942542077771329,
+        "n": 1723,
+        "eligible_tasks": 47
+      },
+      "Operating and Efforts Covenant": {
+        "question_macro_f1": 0.7664596256039573,
+        "accuracy": 0.940251572327044,
+        "n": 318,
+        "eligible_tasks": 8
+      },
+      "Remedies": {
+        "question_macro_f1": 1.0,
+        "accuracy": 1.0,
+        "n": 47,
+        "eligible_tasks": 1
+      }
+    },
+    "Epoch 3": {
+      "Conditions to Closing": {
+        "question_macro_f1": 0.588956496057332,
+        "accuracy": 0.8672237697307336,
+        "n": 1077,
+        "eligible_tasks": 21
+      },
+      "Deal Protection and Related Provisions": {
+        "question_macro_f1": 0.5481391550392054,
+        "accuracy": 0.8274870615296147,
+        "n": 1739,
+        "eligible_tasks": 39
+      },
+      "General Information": {
+        "question_macro_f1": 0.7331932773109243,
+        "accuracy": 0.9782608695652174,
+        "n": 46,
+        "eligible_tasks": 1
+      },
+      "Knowledge": {
+        "question_macro_f1": 0.8647798742138365,
+        "accuracy": 0.8817204301075269,
+        "n": 93,
+        "eligible_tasks": 2
+      },
+      "Material Adverse Effect": {
+        "question_macro_f1": 0.7023448084798941,
+        "accuracy": 0.9437028438769588,
+        "n": 1723,
+        "eligible_tasks": 47
+      },
+      "Operating and Efforts Covenant": {
+        "question_macro_f1": 0.7374825888462809,
+        "accuracy": 0.9245283018867925,
+        "n": 318,
+        "eligible_tasks": 8
+      },
+      "Remedies": {
+        "question_macro_f1": 1.0,
+        "accuracy": 1.0,
+        "n": 47,
+        "eligible_tasks": 1
+      }
+    },
+    "Weighted epoch 3": {
+      "Conditions to Closing": {
+        "question_macro_f1": 0.5574791820172111,
+        "accuracy": 0.8607242339832869,
+        "n": 1077,
+        "eligible_tasks": 21
+      },
+      "Deal Protection and Related Provisions": {
+        "question_macro_f1": 0.5528513572411647,
+        "accuracy": 0.8366877515813687,
+        "n": 1739,
+        "eligible_tasks": 39
+      },
+      "General Information": {
+        "question_macro_f1": 0.75,
+        "accuracy": 1.0,
+        "n": 46,
+        "eligible_tasks": 1
+      },
+      "Knowledge": {
+        "question_macro_f1": 0.8647798742138365,
+        "accuracy": 0.8817204301075269,
+        "n": 93,
+        "eligible_tasks": 2
+      },
+      "Material Adverse Effect": {
+        "question_macro_f1": 0.7269053344418529,
+        "accuracy": 0.950667440510737,
+        "n": 1723,
+        "eligible_tasks": 47
+      },
+      "Operating and Efforts Covenant": {
+        "question_macro_f1": 0.7395622085729595,
+        "accuracy": 0.9276729559748428,
+        "n": 318,
+        "eligible_tasks": 8
+      },
+      "Remedies": {
+        "question_macro_f1": 1.0,
+        "accuracy": 1.0,
+        "n": 47,
+        "eligible_tasks": 1
+      }
+    },
+    "Epoch 4": {
+      "Conditions to Closing": {
+        "question_macro_f1": 0.5693147188139032,
+        "accuracy": 0.8662952646239555,
+        "n": 1077,
+        "eligible_tasks": 21
+      },
+      "Deal Protection and Related Provisions": {
+        "question_macro_f1": 0.5502887304562722,
+        "accuracy": 0.8407130534790109,
+        "n": 1739,
+        "eligible_tasks": 39
+      },
+      "General Information": {
+        "question_macro_f1": 0.7331932773109243,
+        "accuracy": 0.9782608695652174,
+        "n": 46,
+        "eligible_tasks": 1
+      },
+      "Knowledge": {
+        "question_macro_f1": 0.8805555555555555,
+        "accuracy": 0.8924731182795699,
+        "n": 93,
+        "eligible_tasks": 2
+      },
+      "Material Adverse Effect": {
+        "question_macro_f1": 0.7340153551108051,
+        "accuracy": 0.9378990133488102,
+        "n": 1723,
+        "eligible_tasks": 47
+      },
+      "Operating and Efforts Covenant": {
+        "question_macro_f1": 0.779800480061231,
+        "accuracy": 0.9371069182389937,
+        "n": 318,
+        "eligible_tasks": 8
+      },
+      "Remedies": {
+        "question_macro_f1": 1.0,
+        "accuracy": 1.0,
+        "n": 47,
+        "eligible_tasks": 1
+      }
+    },
+    "Epoch 5": {
+      "Conditions to Closing": {
+        "question_macro_f1": 0.58007935864008,
+        "accuracy": 0.8672237697307336,
+        "n": 1077,
+        "eligible_tasks": 21
+      },
+      "Deal Protection and Related Provisions": {
+        "question_macro_f1": 0.551617300034296,
+        "accuracy": 0.8320874065554916,
+        "n": 1739,
+        "eligible_tasks": 39
+      },
+      "General Information": {
+        "question_macro_f1": 0.7331932773109243,
+        "accuracy": 0.9782608695652174,
+        "n": 46,
+        "eligible_tasks": 1
+      },
+      "Knowledge": {
+        "question_macro_f1": 0.8893653516295026,
+        "accuracy": 0.9032258064516129,
+        "n": 93,
+        "eligible_tasks": 2
+      },
+      "Material Adverse Effect": {
+        "question_macro_f1": 0.7390324437930407,
+        "accuracy": 0.9367382472431804,
+        "n": 1723,
+        "eligible_tasks": 47
+      },
+      "Operating and Efforts Covenant": {
+        "question_macro_f1": 0.7464449459099038,
+        "accuracy": 0.9276729559748428,
+        "n": 318,
+        "eligible_tasks": 8
+      },
+      "Remedies": {
+        "question_macro_f1": 1.0,
+        "accuracy": 1.0,
+        "n": 47,
+        "eligible_tasks": 1
+      }
+    },
+    "Epoch 6": {
+      "Conditions to Closing": {
+        "question_macro_f1": 0.5717270061401178,
+        "accuracy": 0.8588672237697307,
+        "n": 1077,
+        "eligible_tasks": 21
+      },
+      "Deal Protection and Related Provisions": {
+        "question_macro_f1": 0.5495500764034978,
+        "accuracy": 0.8274870615296147,
+        "n": 1739,
+        "eligible_tasks": 39
+      },
+      "General Information": {
+        "question_macro_f1": 0.7331932773109243,
+        "accuracy": 0.9782608695652174,
+        "n": 46,
+        "eligible_tasks": 1
+      },
+      "Knowledge": {
+        "question_macro_f1": 0.8893653516295026,
+        "accuracy": 0.9032258064516129,
+        "n": 93,
+        "eligible_tasks": 2
+      },
+      "Material Adverse Effect": {
+        "question_macro_f1": 0.7363557471507179,
+        "accuracy": 0.9332559489262914,
+        "n": 1723,
+        "eligible_tasks": 47
+      },
+      "Operating and Efforts Covenant": {
+        "question_macro_f1": 0.7453215966852889,
+        "accuracy": 0.9213836477987422,
+        "n": 318,
+        "eligible_tasks": 8
+      },
+      "Remedies": {
+        "question_macro_f1": 1.0,
+        "accuracy": 1.0,
+        "n": 47,
+        "eligible_tasks": 1
+      }
+    }
+  },
+  "source_sha256": {
+    "reports/untuned-qwen-validation.metrics.json": "f2244aa5d3b77ec77184b28b3c631ee43606bb3fc7e283629bb9fd59e1865146",
+    "reports/epoch1-validation.metrics.json": "c3d62d780b5bcc5b140a000883e1894d4610ff1f43ddf399405cde46b6c62ada",
+    "reports/epoch2-validation.metrics.json": "2eba07c94046a093e29408f10f5c5a31f38ba557c7bb069df4c12c7d695a4aae",
+    "reports/epoch3-rescored-validation.json.metrics.json": "08b405ba0220e4a3afd4d85edc9b26ac917a83f199591b6a0b45e5f00c1e58c1",
+    "reports/weighted-vs-control-epoch3.json": "5be48e28f296b0da519f3e0cf072a600e5431c70c87108f9b0991e9ec75b6bc7"
+  },
+  "rare_precision_derivation": "Correct rare-label predictions divided by all rare-label predictions, reconstructed from saved per-task confusion counts and frozen training rare-label mapping.",
+  "new_model_evaluation": false,
+  "test_accessed": false,
+  "updated_utc": "2026-09-12T00:01:06.052439+00:00",
+  "epoch4_evidence": {
+    "verification": "reports/epoch4-validation-verification.json",
+    "prediction_sha256": "4ce6ac4f9321d5dcb53f698458a260b73c8d96de128d91ce50535690d37076f8"
+  },
+  "completion_evidence": {
+    "verification": "reports/normal-completion-verification.json",
+    "prediction_sha256": {
+      "5": "97aa86a973a0d24ddcc73e575c16e3bbd63a5944d8061669d27bef66e30f8a57",
+      "6": "b34705d1546bf74b4cc8f347db77ded0bd7a1c04e711c46953b6cb29608739b4"
+    }
+  }
+}

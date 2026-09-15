@@ -1,0 +1,9 @@
+{
+  "parent_checkpoint": "outputs/initial/epoch-2",
+  "checkpoint_hashes_sha256": "edd529fa482cb9a7ede035ced64e298c20402c000527071a28890d141c11b7b8",
+  "trainer_state_sha256": "0965b1728d351388340fc1af9e6c2fc5d17b57bf2518883bde0ca7672f8389e1",
+  "experiment_sha256": "09021d45f6b60d0728cc592024951c12c03e60d138099d20e73ece010618196c",
+  "parent_code_commit": "874c27a33e4f3982ed2241bbaf05aa612d5749b4",
+  "global_step": 3154,
+  "epoch": 2
+}

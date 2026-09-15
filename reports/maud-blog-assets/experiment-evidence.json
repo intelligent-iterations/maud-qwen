@@ -1,0 +1,407 @@
+{
+  "title": "I fine-tuned a local AI on merger law",
+  "test": {
+    "verified_utc": "2026-09-12T03:28:34.759655+00:00",
+    "split": "test",
+    "test_examples": 5283,
+    "test_agreements": 23,
+    "primary_difference": 0.31277438075568414,
+    "primary_bootstrap": {
+      "unit": "agreement",
+      "paired": true,
+      "replicates": 2000,
+      "seed": 42,
+      "agreements": 23,
+      "valid_replicates": 2000,
+      "replicates_missing_tasks": 722,
+      "left_ci95": [
+        0.3419145457878944,
+        0.3714544841625272
+      ],
+      "right_ci95": [
+        0.6213674788054854,
+        0.6826662129306685
+      ],
+      "difference_right_minus_left_ci95": [
+        0.26120268521143175,
+        0.33225580908314173
+      ]
+    },
+    "secondary_intervals": {
+      "unit": "agreement",
+      "paired": true,
+      "replicates": 2000,
+      "seed": 42,
+      "accuracy_difference_ci95": [
+        0.37504843236036545,
+        0.427143968122439
+      ],
+      "rare_recall_difference_ci95_exploratory": [
+        -0.22500563063063064,
+        0.11906288156288147
+      ],
+      "rare_valid_replicates": 2000
+    },
+    "paired_errors": {
+      "rare": {
+        "regression": 48,
+        "correction": 39,
+        "both_wrong": 49,
+        "both_correct": 18
+      },
+      "nonrare": {
+        "both_correct": 2329,
+        "regression": 190,
+        "correction": 2318,
+        "both_wrong": 292
+      }
+    },
+    "rare_training_support": {
+      "zero": {
+        "n": 9,
+        "correct": {
+          "majority": 0,
+          "base": 7,
+          "epoch5": 1
+        }
+      },
+      "one_or_two": {
+        "n": 23,
+        "correct": {
+          "majority": 0,
+          "base": 11,
+          "epoch5": 4
+        }
+      },
+      "three_or_more": {
+        "n": 122,
+        "correct": {
+          "majority": 0,
+          "base": 48,
+          "epoch5": 52
+        }
+      }
+    },
+    "test_used_for_model_selection": false,
+    "additional_training_launched": false
+  },
+  "systems": {
+    "majority": {
+      "scores": {
+        "n": 5283,
+        "question_macro_f1": 0.40160913630188444,
+        "accuracy": 0.8112814688623888,
+        "eligible_tasks_scored": 119,
+        "missing_eligible_tasks": []
+      },
+      "rare": {
+        "n": 154,
+        "correct": 0,
+        "recall": 0.0,
+        "precision": null,
+        "predictions": 0,
+        "incorrect_predictions": 0
+      },
+      "invalid_outputs": 0,
+      "truncated_rows": 0,
+      "prediction_sha256": "86ba004aff81962ee38a6717bd9d2e3101b07f8b0395e8257884c79b0bc476a6"
+    },
+    "base": {
+      "scores": {
+        "n": 5283,
+        "question_macro_f1": 0.3660660374953815,
+        "accuracy": 0.4893053189475677,
+        "eligible_tasks_scored": 119,
+        "missing_eligible_tasks": []
+      },
+      "rare": {
+        "n": 154,
+        "correct": 66,
+        "recall": 0.42857142857142855,
+        "precision": 0.048316251830161056,
+        "predictions": 1366,
+        "incorrect_predictions": 1300
+      },
+      "invalid_outputs": 6,
+      "truncated_rows": 0,
+      "prediction_sha256": "64313079a2608b3ff6fe61b1a36c165a2cec6a46ac72f95d3ae2f9153954ecce"
+    },
+    "epoch5": {
+      "scores": {
+        "n": 5283,
+        "question_macro_f1": 0.6788404182510657,
+        "accuracy": 0.8904031800113572,
+        "eligible_tasks_scored": 119,
+        "missing_eligible_tasks": []
+      },
+      "rare": {
+        "n": 154,
+        "correct": 57,
+        "recall": 0.37012987012987014,
+        "precision": 0.5480769230769231,
+        "predictions": 104,
+        "incorrect_predictions": 47
+      },
+      "invalid_outputs": 0,
+      "truncated_rows": 0,
+      "prediction_sha256": "49638fd0de22dc333db63333c34a621b19c7c0887c9bd6fd17b7014161f9b090"
+    }
+  },
+  "validation": {
+    "examples": 5043,
+    "agreements": 23,
+    "eligible_tasks": 119,
+    "rows": [
+      {
+        "checkpoint": "Base",
+        "accuracy": 0.49454689668847907,
+        "question_macro_f1": 0.35307647983426327,
+        "rare_correct": 82,
+        "rare_n": 154,
+        "rare_recall": 0.5324675324675324,
+        "rare_precision": 0.06332046332046332,
+        "rare_predictions": 1295,
+        "incorrect_rare_predictions": 1213,
+        "rare_class_macro_recall": 0.43148148148148147,
+        "invalid_outputs": 16
+      },
+      {
+        "checkpoint": "Epoch 1",
+        "accuracy": 0.8724965298433472,
+        "question_macro_f1": 0.6148824650866382,
+        "rare_correct": 56,
+        "rare_n": 154,
+        "rare_recall": 0.36363636363636365,
+        "rare_precision": 0.717948717948718,
+        "rare_predictions": 78,
+        "incorrect_rare_predictions": 22,
+        "rare_class_macro_recall": 0.39061476442428816,
+        "invalid_outputs": 0
+      },
+      {
+        "checkpoint": "Epoch 2",
+        "accuracy": 0.8828078524687686,
+        "question_macro_f1": 0.6294363237675651,
+        "rare_correct": 49,
+        "rare_n": 154,
+        "rare_recall": 0.3181818181818182,
+        "rare_precision": 0.5975609756097561,
+        "rare_predictions": 82,
+        "incorrect_rare_predictions": 33,
+        "rare_class_macro_recall": 0.32183169564121944,
+        "invalid_outputs": 0
+      },
+      {
+        "checkpoint": "Epoch 3",
+        "accuracy": 0.8857822724568709,
+        "question_macro_f1": 0.6396498588134188,
+        "rare_correct": 59,
+        "rare_n": 154,
+        "rare_recall": 0.38311688311688313,
+        "rare_precision": 0.6210526315789474,
+        "rare_predictions": 95,
+        "incorrect_rare_predictions": 36,
+        "rare_class_macro_recall": 0.3668052406147644,
+        "invalid_outputs": 0
+      },
+      {
+        "checkpoint": "Weighted epoch 3",
+        "accuracy": 0.8903430497719611,
+        "question_macro_f1": 0.6456207889961788,
+        "rare_correct": 56,
+        "rare_n": 154,
+        "rare_recall": 0.36363636363636365,
+        "rare_precision": 0.5957446808510638,
+        "rare_predictions": 94,
+        "incorrect_rare_predictions": 38,
+        "rare_class_macro_recall": 0.3636306374401612,
+        "invalid_outputs": 0
+      },
+      {
+        "checkpoint": "Epoch 4",
+        "accuracy": 0.8891532817767203,
+        "question_macro_f1": 0.6525067185042546,
+        "rare_correct": 58,
+        "rare_n": 154,
+        "rare_recall": 0.37662337662337664,
+        "rare_precision": 0.6105263157894737,
+        "rare_predictions": 95,
+        "incorrect_rare_predictions": 37,
+        "rare_class_macro_recall": 0.3678634416729655,
+        "invalid_outputs": 0
+      },
+      {
+        "checkpoint": "Epoch 5",
+        "accuracy": 0.8855839777909974,
+        "question_macro_f1": 0.6547289885621957,
+        "rare_correct": 62,
+        "rare_n": 154,
+        "rare_recall": 0.4025974025974026,
+        "rare_precision": 0.5636363636363636,
+        "rare_predictions": 110,
+        "incorrect_rare_predictions": 48,
+        "rare_class_macro_recall": 0.3720962459057697,
+        "invalid_outputs": 0
+      },
+      {
+        "checkpoint": "Epoch 6",
+        "accuracy": 0.8806266111441602,
+        "question_macro_f1": 0.6514448485614696,
+        "rare_correct": 63,
+        "rare_n": 154,
+        "rare_recall": 0.4090909090909091,
+        "rare_precision": 0.5431034482758621,
+        "rare_predictions": 116,
+        "incorrect_rare_predictions": 53,
+        "rare_class_macro_recall": 0.38532375913328293,
+        "invalid_outputs": 0
+      }
+    ]
+  },
+  "selection": {
+    "config": {
+      "model_id": "Qwen/Qwen3-8B",
+      "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "dataset_repository": "https://github.com/The-Atticus-Project/maud.git",
+      "dataset_commit": "4640316078dcd370debb877f350c39a28b181ffe",
+      "seed": 42,
+      "split_seed": "maud-agreement-v1-42",
+      "agreement_counts": [
+        106,
+        23,
+        23
+      ],
+      "context_length": 4096,
+      "context_policy": "full_passage_or_error",
+      "max_new_tokens": 8,
+      "do_sample": false,
+      "enable_thinking": false,
+      "quantization": {
+        "load_in_4bit": true,
+        "bnb_4bit_quant_type": "nf4",
+        "bnb_4bit_use_double_quant": true,
+        "compute_dtype": "bfloat16"
+      },
+      "lora": {
+        "r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.0,
+        "bias": "none",
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj",
+          "gate_proj",
+          "up_proj",
+          "down_proj"
+        ]
+      },
+      "sampling": "natural_frequency",
+      "per_device_train_batch_size": 1,
+      "gradient_accumulation_steps": 16,
+      "learning_rate": 3e-05,
+      "weight_decay": 0.01,
+      "optimizer": "torch.optim.AdamW",
+      "adam_beta1": 0.9,
+      "adam_beta2": 0.999,
+      "adam_epsilon": 1e-08,
+      "scheduler": "cosine",
+      "warmup_ratio": 0.03,
+      "max_grad_norm": 1.0,
+      "gradient_checkpointing": true,
+      "gradient_checkpointing_use_reentrant": false,
+      "attention_implementation": "sdpa",
+      "epochs": 6,
+      "save_steps": 100,
+      "validation": "every_epoch",
+      "selection_metric": "question_macro_f1",
+      "early_stopping_patience": 2,
+      "early_stopping_min_delta": 0.0,
+      "eligible_min_train_agreements": 10,
+      "eligible_min_class_train_agreements": 3,
+      "rare_label_train_frequency_max": 0.1,
+      "near_duplicate_word_ngram": 5,
+      "near_duplicate_jaccard": 0.9,
+      "bootstrap_replicates": 2000
+    },
+    "platform": "Linux-6.17.0-14-generic-x86_64-with-glibc2.35",
+    "code_commit": "874c27a33e4f3982ed2241bbaf05aa612d5749b4",
+    "code_dirty": null,
+    "freeze_sha256": "2102136c0be405200b0152951053f7678765711ed136b495eaae73d29d5ff655",
+    "config_sha256": "a15afea28b226d9235d6be977ae253417dcacc46b61e2aa8ed9d3d1713927081",
+    "context_manifest_sha256": "34803a3b7e72f7f294c0d47e7b0e9ec9c11f66f0e5bbe99e5bc4b07393e3a3c7",
+    "runtime_config": {
+      "deterministic_algorithms": true,
+      "cublas_workspace_config": ":4096:8",
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "allow_tf32": false
+    },
+    "runtime_config_sha256": "ae7a3a72ae4408d0e9386025cdd057619c284b95a8be28fa5e39d7e51cc32711",
+    "adapter": "outputs/initial/epoch-5",
+    "adapter_sha256": "a544b41c61871f08d86f07819531fd8dbf195a245c3b233c7adcfd56ada328b7",
+    "selected_epoch": 5,
+    "validation_score": 0.6547289885621957,
+    "selection_metric": "question_macro_f1",
+    "training_completed": {
+      "epoch": 6,
+      "row_offset": 0,
+      "global_step": 9462,
+      "best_score": 0.6547289885621957,
+      "best_checkpoint": "outputs/initial/epoch-5",
+      "bad_epochs": 1,
+      "planned_steps": 9462,
+      "steps_per_epoch": 1577,
+      "completed_epoch_validation": [
+        {
+          "epoch": 1,
+          "score": 0.6148824650866382,
+          "checkpoint": "outputs/initial/epoch-1"
+        },
+        {
+          "epoch": 2,
+          "score": 0.6294363237675651,
+          "checkpoint": "outputs/initial/epoch-2"
+        },
+        {
+          "epoch": 3,
+          "score": 0.6396498588134188,
+          "checkpoint": "outputs/initial/epoch-3"
+        },
+        {
+          "epoch": 4,
+          "score": 0.6525067185042546,
+          "checkpoint": "outputs/initial/epoch-4"
+        },
+        {
+          "epoch": 5,
+          "score": 0.6547289885621957,
+          "checkpoint": "outputs/initial/epoch-5"
+        },
+        {
+          "epoch": 6,
+          "score": 0.6514448485614696,
+          "checkpoint": "outputs/initial/epoch-6"
+        }
+      ],
+      "stop_reason": "completed_six_epochs"
+    },
+    "test_access": "final comparison only, selection fixed before scoring"
+  },
+  "mlflow": {
+    "comparison_mlflow_run_id": "689e6215e31846d9ac1168def54357c5",
+    "evaluation_run_ids": {
+      "base": "039b37fc074a4e9ca2fa2ef5190dde57",
+      "epoch5": "3141b155aa5e47b8824534eabdf5bfab"
+    },
+    "finished_utc": "2026-09-12T03:28:36.441285+00:00",
+    "selection_sha256": "0b170b851921e905a6578b6b0a7e268e5633e419f1d47607be1807b20d6d328c",
+    "report": "reports/final-test-report.md"
+  },
+  "source_sha256": {
+    "final-test-verification.json": "edaef203d7a4b069671ba85a2b2cb09e7597d8890e24b126ddf23483e4249f96",
+    "all-checkpoints-validation-summary.json": "cccabad1f8ee0e3a36b327ae8e40dc6f7c89e65199b4707fd7718dd2a3f91782",
+    "final_selection.json": "0b170b851921e905a6578b6b0a7e268e5633e419f1d47607be1807b20d6d328c"
+  }
+}

@@ -1,0 +1,7418 @@
+{
+  "10-0": {
+    "answers": [
+      "<OTHER>",
+      "Approval"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        7,
+        225
+      ],
+      "label_agreements": [
+        3,
+        101
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        2,
+        45
+      ],
+      "label_agreements": [
+        2,
+        21
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        4,
+        41
+      ],
+      "label_agreements": [
+        2,
+        19
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "10-1": {
+    "answers": [
+      "<OTHER>",
+      "Authority"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        7,
+        225
+      ],
+      "label_agreements": [
+        3,
+        101
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        47
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        3,
+        42
+      ],
+      "label_agreements": [
+        1,
+        20
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "10-10": {
+    "answers": [
+      "<OTHER>",
+      "Rights Agreement"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        178,
+        54
+      ],
+      "label_agreements": [
+        80,
+        24
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        38,
+        9
+      ],
+      "label_agreements": [
+        18,
+        5
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        40,
+        5
+      ],
+      "label_agreements": [
+        18,
+        3
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "10-11": {
+    "answers": [
+      "<OTHER>",
+      "Subsidiaries"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        97,
+        135
+      ],
+      "label_agreements": [
+        49,
+        55
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        27,
+        20
+      ],
+      "label_agreements": [
+        13,
+        10
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        16,
+        29
+      ],
+      "label_agreements": [
+        10,
+        11
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "10-12": {
+    "answers": [
+      "<OTHER>",
+      "Takeover Statutes"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        116,
+        116
+      ],
+      "label_agreements": [
+        56,
+        48
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        30,
+        17
+      ],
+      "label_agreements": [
+        14,
+        9
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        32,
+        13
+      ],
+      "label_agreements": [
+        14,
+        7
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "10-13": {
+    "answers": [
+      "<OTHER>",
+      "Tax"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        232,
+        0
+      ],
+      "label_agreements": [
+        104,
+        0
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        44,
+        3
+      ],
+      "label_agreements": [
+        22,
+        1
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        45,
+        0
+      ],
+      "label_agreements": [
+        21,
+        0
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [
+      1
+    ],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": [
+      1
+    ]
+  },
+  "10-2": {
+    "answers": [
+      "<OTHER>",
+      "Brokers' Fee"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        51,
+        181
+      ],
+      "label_agreements": [
+        21,
+        83
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        9,
+        38
+      ],
+      "label_agreements": [
+        5,
+        18
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        9,
+        36
+      ],
+      "label_agreements": [
+        3,
+        18
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "10-3": {
+    "answers": [
+      "<OTHER>",
+      "Capitalization-Other"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        17,
+        215
+      ],
+      "label_agreements": [
+        7,
+        97
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        6,
+        41
+      ],
+      "label_agreements": [
+        2,
+        21
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        0,
+        45
+      ],
+      "label_agreements": [
+        0,
+        21
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "10-4": {
+    "answers": [
+      "<OTHER>",
+      "Enforceability"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        8,
+        224
+      ],
+      "label_agreements": [
+        4,
+        100
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        46
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        3,
+        42
+      ],
+      "label_agreements": [
+        1,
+        20
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "10-5": {
+    "answers": [
+      "<OTHER>",
+      "No MAE"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        58,
+        174
+      ],
+      "label_agreements": [
+        30,
+        74
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        13,
+        34
+      ],
+      "label_agreements": [
+        7,
+        16
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        7,
+        38
+      ],
+      "label_agreements": [
+        3,
+        18
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "10-6": {
+    "answers": [
+      "<OTHER>",
+      "No-Conflict"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        224,
+        8
+      ],
+      "label_agreements": [
+        98,
+        6
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        44,
+        3
+      ],
+      "label_agreements": [
+        22,
+        1
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        45,
+        0
+      ],
+      "label_agreements": [
+        21,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "10-7": {
+    "answers": [
+      "<OTHER>",
+      "Opinion of Financial Advisor"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        131,
+        101
+      ],
+      "label_agreements": [
+        59,
+        45
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        20,
+        27
+      ],
+      "label_agreements": [
+        10,
+        13
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        23,
+        22
+      ],
+      "label_agreements": [
+        11,
+        10
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "10-8": {
+    "answers": [
+      "<OTHER>",
+      "Organization"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        27,
+        205
+      ],
+      "label_agreements": [
+        11,
+        93
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        7,
+        40
+      ],
+      "label_agreements": [
+        3,
+        20
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        7,
+        38
+      ],
+      "label_agreements": [
+        3,
+        18
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "10-9": {
+    "answers": [
+      "<OTHER>",
+      "Other"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        170,
+        62
+      ],
+      "label_agreements": [
+        76,
+        28
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        37,
+        10
+      ],
+      "label_agreements": [
+        17,
+        6
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        32,
+        13
+      ],
+      "label_agreements": [
+        16,
+        5
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "101": {
+    "answers": [
+      "2 business days or less",
+      "3 business days",
+      "3 calendar days",
+      "4 business days",
+      "4 calendar days",
+      "5 business days",
+      "5 calendar days",
+      "Greater than 5 business days"
+    ],
+    "train": {
+      "examples": 183,
+      "agreements": 88,
+      "label_examples": [
+        1,
+        30,
+        3,
+        100,
+        7,
+        39,
+        1,
+        2
+      ],
+      "label_agreements": [
+        1,
+        14,
+        1,
+        47,
+        3,
+        19,
+        1,
+        2
+      ]
+    },
+    "validation": {
+      "examples": 33,
+      "agreements": 19,
+      "label_examples": [
+        0,
+        6,
+        3,
+        19,
+        3,
+        2,
+        0,
+        0
+      ],
+      "label_agreements": [
+        0,
+        4,
+        1,
+        11,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    "test": {
+      "examples": 46,
+      "agreements": 22,
+      "label_examples": [
+        0,
+        4,
+        0,
+        21,
+        0,
+        21,
+        0,
+        0
+      ],
+      "label_agreements": [
+        0,
+        2,
+        0,
+        9,
+        0,
+        11,
+        0,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0,
+      2,
+      4,
+      6,
+      7
+    ],
+    "inadequate_support_labels": [
+      0,
+      2,
+      6,
+      7
+    ]
+  },
+  "102": {
+    "answers": [
+      "2 business days or less",
+      "3 business days",
+      "3 days",
+      "4 business days",
+      "5 business days",
+      ">5 business days"
+    ],
+    "train": {
+      "examples": 82,
+      "agreements": 82,
+      "label_examples": [
+        45,
+        33,
+        1,
+        1,
+        1,
+        1
+      ],
+      "label_agreements": [
+        45,
+        33,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "validation": {
+      "examples": 19,
+      "agreements": 19,
+      "label_examples": [
+        9,
+        8,
+        1,
+        1,
+        0,
+        0
+      ],
+      "label_agreements": [
+        9,
+        8,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "test": {
+      "examples": 21,
+      "agreements": 21,
+      "label_examples": [
+        13,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      "label_agreements": [
+        13,
+        8,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "inadequate_support_labels": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "103": {
+    "answers": [
+      "Continuous matching right",
+      "None"
+    ],
+    "train": {
+      "examples": 183,
+      "agreements": 88,
+      "label_examples": [
+        177,
+        6
+      ],
+      "label_agreements": [
+        82,
+        6
+      ]
+    },
+    "validation": {
+      "examples": 33,
+      "agreements": 19,
+      "label_examples": [
+        33,
+        0
+      ],
+      "label_agreements": [
+        19,
+        0
+      ]
+    },
+    "test": {
+      "examples": 46,
+      "agreements": 22,
+      "label_examples": [
+        45,
+        1
+      ],
+      "label_agreements": [
+        21,
+        1
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "105-0": {
+    "answers": [
+      "<OTHER>",
+      "Different Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period (no closing requirement)"
+    ],
+    "train": {
+      "examples": 238,
+      "agreements": 106,
+      "label_examples": [
+        231,
+        7
+      ],
+      "label_agreements": [
+        103,
+        3
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 23,
+      "label_examples": [
+        46,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "test": {
+      "examples": 48,
+      "agreements": 23,
+      "label_examples": [
+        48,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "105-1": {
+    "answers": [
+      "<OTHER>",
+      "Different Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period and transaction must close after Tail Period"
+    ],
+    "train": {
+      "examples": 238,
+      "agreements": 106,
+      "label_examples": [
+        238,
+        0
+      ],
+      "label_agreements": [
+        106,
+        0
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 23,
+      "label_examples": [
+        41,
+        5
+      ],
+      "label_agreements": [
+        21,
+        2
+      ]
+    },
+    "test": {
+      "examples": 48,
+      "agreements": 23,
+      "label_examples": [
+        45,
+        3
+      ],
+      "label_agreements": [
+        21,
+        2
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [
+      1
+    ],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": [
+      1
+    ]
+  },
+  "105-2": {
+    "answers": [
+      "<OTHER>",
+      "Different Acquisition Proposal - Must sign during Tail Period (no closing requirement)"
+    ],
+    "train": {
+      "examples": 238,
+      "agreements": 106,
+      "label_examples": [
+        95,
+        143
+      ],
+      "label_agreements": [
+        45,
+        61
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 23,
+      "label_examples": [
+        13,
+        33
+      ],
+      "label_agreements": [
+        8,
+        15
+      ]
+    },
+    "test": {
+      "examples": 48,
+      "agreements": 23,
+      "label_examples": [
+        18,
+        30
+      ],
+      "label_agreements": [
+        9,
+        14
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "105-3": {
+    "answers": [
+      "<OTHER>",
+      "Different Acquisition Proposal - Must sign during Tail Period and close after Tail Period"
+    ],
+    "train": {
+      "examples": 238,
+      "agreements": 106,
+      "label_examples": [
+        172,
+        66
+      ],
+      "label_agreements": [
+        74,
+        32
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 23,
+      "label_examples": [
+        39,
+        7
+      ],
+      "label_agreements": [
+        18,
+        5
+      ]
+    },
+    "test": {
+      "examples": 48,
+      "agreements": 23,
+      "label_examples": [
+        39,
+        9
+      ],
+      "label_agreements": [
+        20,
+        3
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "105-4": {
+    "answers": [
+      "<OTHER>",
+      "Different Acquisition Proposal must close during Tail Period"
+    ],
+    "train": {
+      "examples": 238,
+      "agreements": 106,
+      "label_examples": [
+        234,
+        4
+      ],
+      "label_agreements": [
+        104,
+        2
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 23,
+      "label_examples": [
+        45,
+        1
+      ],
+      "label_agreements": [
+        22,
+        1
+      ]
+    },
+    "test": {
+      "examples": 48,
+      "agreements": 23,
+      "label_examples": [
+        47,
+        1
+      ],
+      "label_agreements": [
+        22,
+        1
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": [
+      1
+    ]
+  },
+  "105-5": {
+    "answers": [
+      "<OTHER>",
+      "Same Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period and transaction must close after Tail Period"
+    ],
+    "train": {
+      "examples": 238,
+      "agreements": 106,
+      "label_examples": [
+        238,
+        0
+      ],
+      "label_agreements": [
+        106,
+        0
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 23,
+      "label_examples": [
+        41,
+        5
+      ],
+      "label_agreements": [
+        21,
+        2
+      ]
+    },
+    "test": {
+      "examples": 48,
+      "agreements": 23,
+      "label_examples": [
+        45,
+        3
+      ],
+      "label_agreements": [
+        21,
+        2
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [
+      1
+    ],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": [
+      1
+    ]
+  },
+  "105-6": {
+    "answers": [
+      "<OTHER>",
+      "Same Acquisition Proposal - Must be approved or not opposed to (or another similar action) during Tail Period (no closing requirement)"
+    ],
+    "train": {
+      "examples": 238,
+      "agreements": 106,
+      "label_examples": [
+        231,
+        7
+      ],
+      "label_agreements": [
+        103,
+        3
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 23,
+      "label_examples": [
+        46,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "test": {
+      "examples": 48,
+      "agreements": 23,
+      "label_examples": [
+        48,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "105-7": {
+    "answers": [
+      "<OTHER>",
+      "Same Acquisition Proposal - Must close during Tail Period"
+    ],
+    "train": {
+      "examples": 238,
+      "agreements": 106,
+      "label_examples": [
+        234,
+        4
+      ],
+      "label_agreements": [
+        104,
+        2
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 23,
+      "label_examples": [
+        45,
+        1
+      ],
+      "label_agreements": [
+        22,
+        1
+      ]
+    },
+    "test": {
+      "examples": 48,
+      "agreements": 23,
+      "label_examples": [
+        47,
+        1
+      ],
+      "label_agreements": [
+        22,
+        1
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": [
+      1
+    ]
+  },
+  "105-8": {
+    "answers": [
+      "<OTHER>",
+      "Same Acquisition Proposal - Must sign during Tail Period (no closing requirement)"
+    ],
+    "train": {
+      "examples": 238,
+      "agreements": 106,
+      "label_examples": [
+        88,
+        150
+      ],
+      "label_agreements": [
+        42,
+        64
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 23,
+      "label_examples": [
+        13,
+        33
+      ],
+      "label_agreements": [
+        8,
+        15
+      ]
+    },
+    "test": {
+      "examples": 48,
+      "agreements": 23,
+      "label_examples": [
+        11,
+        37
+      ],
+      "label_agreements": [
+        6,
+        17
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "105-9": {
+    "answers": [
+      "<OTHER>",
+      "Same Acquisition Proposal - Must sign during Tail Period and close after Tail Period"
+    ],
+    "train": {
+      "examples": 238,
+      "agreements": 106,
+      "label_examples": [
+        161,
+        77
+      ],
+      "label_agreements": [
+        69,
+        37
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 23,
+      "label_examples": [
+        39,
+        7
+      ],
+      "label_agreements": [
+        18,
+        5
+      ]
+    },
+    "test": {
+      "examples": 48,
+      "agreements": 23,
+      "label_examples": [
+        41,
+        7
+      ],
+      "label_agreements": [
+        20,
+        3
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "106": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        48,
+        58
+      ],
+      "label_agreements": [
+        48,
+        58
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        5,
+        18
+      ],
+      "label_agreements": [
+        5,
+        18
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        9,
+        14
+      ],
+      "label_agreements": [
+        9,
+        14
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "107-0": {
+    "answers": [
+      "<OTHER>",
+      "No"
+    ],
+    "train": {
+      "examples": 172,
+      "agreements": 106,
+      "label_examples": [
+        123,
+        49
+      ],
+      "label_agreements": [
+        57,
+        49
+      ]
+    },
+    "validation": {
+      "examples": 40,
+      "agreements": 23,
+      "label_examples": [
+        36,
+        4
+      ],
+      "label_agreements": [
+        19,
+        4
+      ]
+    },
+    "test": {
+      "examples": 32,
+      "agreements": 23,
+      "label_examples": [
+        23,
+        9
+      ],
+      "label_agreements": [
+        14,
+        9
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "107-1": {
+    "answers": [
+      "<OTHER>",
+      "“Publicly disclosed” requirement applies to Acquisition Proposal + Breach Trigger"
+    ],
+    "train": {
+      "examples": 172,
+      "agreements": 106,
+      "label_examples": [
+        101,
+        71
+      ],
+      "label_agreements": [
+        71,
+        35
+      ]
+    },
+    "validation": {
+      "examples": 40,
+      "agreements": 23,
+      "label_examples": [
+        15,
+        25
+      ],
+      "label_agreements": [
+        9,
+        14
+      ]
+    },
+    "test": {
+      "examples": 32,
+      "agreements": 23,
+      "label_examples": [
+        22,
+        10
+      ],
+      "label_agreements": [
+        16,
+        7
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "107-2": {
+    "answers": [
+      "<OTHER>",
+      "“Publicly disclosed” requirement applies to Acquisition Proposal + No-Vote / MTC Failure Trigger"
+    ],
+    "train": {
+      "examples": 172,
+      "agreements": 106,
+      "label_examples": [
+        64,
+        108
+      ],
+      "label_agreements": [
+        56,
+        50
+      ]
+    },
+    "validation": {
+      "examples": 40,
+      "agreements": 23,
+      "label_examples": [
+        8,
+        32
+      ],
+      "label_agreements": [
+        8,
+        15
+      ]
+    },
+    "test": {
+      "examples": 32,
+      "agreements": 23,
+      "label_examples": [
+        13,
+        19
+      ],
+      "label_agreements": [
+        12,
+        11
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "107-3": {
+    "answers": [
+      "<OTHER>",
+      "“Publicly disclosed” requirement applies to Acquisition Proposal + Outside Date Trigger"
+    ],
+    "train": {
+      "examples": 172,
+      "agreements": 106,
+      "label_examples": [
+        110,
+        62
+      ],
+      "label_agreements": [
+        76,
+        30
+      ]
+    },
+    "validation": {
+      "examples": 40,
+      "agreements": 23,
+      "label_examples": [
+        20,
+        20
+      ],
+      "label_agreements": [
+        10,
+        13
+      ]
+    },
+    "test": {
+      "examples": 32,
+      "agreements": 23,
+      "label_examples": [
+        18,
+        14
+      ],
+      "label_agreements": [
+        13,
+        10
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "108": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        24,
+        82
+      ],
+      "label_agreements": [
+        24,
+        82
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        8,
+        15
+      ],
+      "label_agreements": [
+        8,
+        15
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        4,
+        19
+      ],
+      "label_agreements": [
+        4,
+        19
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "109": {
+    "answers": [
+      "12 months or longer",
+      "Other",
+      "within 12 months",
+      "within 6 months",
+      "within 9 months"
+    ],
+    "train": {
+      "examples": 237,
+      "agreements": 105,
+      "label_examples": [
+        4,
+        0,
+        213,
+        3,
+        17
+      ],
+      "label_agreements": [
+        2,
+        0,
+        95,
+        1,
+        7
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        0,
+        42,
+        0,
+        4
+      ],
+      "label_agreements": [
+        0,
+        0,
+        21,
+        0,
+        2
+      ]
+    },
+    "test": {
+      "examples": 48,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        1,
+        47,
+        0,
+        0
+      ],
+      "label_agreements": [
+        0,
+        1,
+        22,
+        0,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [
+      1
+    ],
+    "rare_labels": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "inadequate_support_labels": [
+      0,
+      1,
+      3
+    ]
+  },
+  "11-0": {
+    "answers": [
+      "<OTHER>",
+      "Capitalization R&Ws"
+    ],
+    "train": {
+      "examples": 218,
+      "agreements": 98,
+      "label_examples": [
+        202,
+        16
+      ],
+      "label_agreements": [
+        92,
+        6
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 22,
+      "label_examples": [
+        44,
+        2
+      ],
+      "label_agreements": [
+        20,
+        2
+      ]
+    },
+    "test": {
+      "examples": 44,
+      "agreements": 20,
+      "label_examples": [
+        40,
+        4
+      ],
+      "label_agreements": [
+        18,
+        2
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "11-1": {
+    "answers": [
+      "<OTHER>",
+      "General R&Ws"
+    ],
+    "train": {
+      "examples": 218,
+      "agreements": 98,
+      "label_examples": [
+        0,
+        218
+      ],
+      "label_agreements": [
+        0,
+        98
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 22,
+      "label_examples": [
+        0,
+        46
+      ],
+      "label_agreements": [
+        0,
+        22
+      ]
+    },
+    "test": {
+      "examples": 44,
+      "agreements": 20,
+      "label_examples": [
+        1,
+        43
+      ],
+      "label_agreements": [
+        1,
+        19
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [
+      0
+    ],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": [
+      0
+    ]
+  },
+  "11-2": {
+    "answers": [
+      "<OTHER>",
+      "Specified R&Ws only"
+    ],
+    "train": {
+      "examples": 218,
+      "agreements": 98,
+      "label_examples": [
+        207,
+        11
+      ],
+      "label_agreements": [
+        93,
+        5
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 22,
+      "label_examples": [
+        43,
+        3
+      ],
+      "label_agreements": [
+        19,
+        3
+      ]
+    },
+    "test": {
+      "examples": 44,
+      "agreements": 20,
+      "label_examples": [
+        44,
+        0
+      ],
+      "label_agreements": [
+        20,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "11-3": {
+    "answers": [
+      "<OTHER>",
+      "fundamental/Special R&Ws"
+    ],
+    "train": {
+      "examples": 218,
+      "agreements": 98,
+      "label_examples": [
+        194,
+        24
+      ],
+      "label_agreements": [
+        88,
+        24
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 22,
+      "label_examples": [
+        43,
+        3
+      ],
+      "label_agreements": [
+        20,
+        3
+      ]
+    },
+    "test": {
+      "examples": 44,
+      "agreements": 20,
+      "label_examples": [
+        38,
+        6
+      ],
+      "label_agreements": [
+        18,
+        6
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "113": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 98,
+      "agreements": 43,
+      "label_examples": [
+        3,
+        95
+      ],
+      "label_agreements": [
+        1,
+        42
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 11,
+      "label_examples": [
+        0,
+        23
+      ],
+      "label_agreements": [
+        0,
+        11
+      ]
+    },
+    "test": {
+      "examples": 13,
+      "agreements": 5,
+      "label_examples": [
+        0,
+        13
+      ],
+      "label_agreements": [
+        0,
+        5
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": [
+      0
+    ]
+  },
+  "115": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 35,
+      "agreements": 15,
+      "label_examples": [
+        0,
+        35
+      ],
+      "label_agreements": [
+        0,
+        15
+      ]
+    },
+    "validation": {
+      "examples": 7,
+      "agreements": 3,
+      "label_examples": [
+        3,
+        4
+      ],
+      "label_agreements": [
+        1,
+        2
+      ]
+    },
+    "test": {
+      "examples": 6,
+      "agreements": 2,
+      "label_examples": [
+        0,
+        6
+      ],
+      "label_agreements": [
+        0,
+        2
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [
+      0
+    ],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": [
+      0
+    ]
+  },
+  "117": {
+    "answers": [
+      "Consent may not be unreasonably withheld, conditioned or delayed",
+      "Flat consent"
+    ],
+    "train": {
+      "examples": 238,
+      "agreements": 106,
+      "label_examples": [
+        215,
+        23
+      ],
+      "label_agreements": [
+        95,
+        11
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        40,
+        7
+      ],
+      "label_agreements": [
+        20,
+        3
+      ]
+    },
+    "test": {
+      "examples": 49,
+      "agreements": 23,
+      "label_examples": [
+        45,
+        4
+      ],
+      "label_agreements": [
+        21,
+        2
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "118": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 238,
+      "agreements": 106,
+      "label_examples": [
+        84,
+        154
+      ],
+      "label_agreements": [
+        36,
+        70
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        11,
+        36
+      ],
+      "label_agreements": [
+        5,
+        18
+      ]
+    },
+    "test": {
+      "examples": 49,
+      "agreements": 23,
+      "label_examples": [
+        17,
+        32
+      ],
+      "label_agreements": [
+        9,
+        14
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "119": {
+    "answers": [
+      "Commercially reasonable efforts",
+      "Flat covenant (no efforts standard)",
+      "Reasonable best efforts"
+    ],
+    "train": {
+      "examples": 238,
+      "agreements": 106,
+      "label_examples": [
+        77,
+        124,
+        37
+      ],
+      "label_agreements": [
+        35,
+        56,
+        15
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        16,
+        26,
+        5
+      ],
+      "label_agreements": [
+        6,
+        14,
+        3
+      ]
+    },
+    "test": {
+      "examples": 49,
+      "agreements": 23,
+      "label_examples": [
+        20,
+        22,
+        7
+      ],
+      "label_agreements": [
+        10,
+        10,
+        3
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "120": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        27,
+        79
+      ],
+      "label_agreements": [
+        27,
+        79
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        4,
+        19
+      ],
+      "label_agreements": [
+        4,
+        19
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        6,
+        17
+      ],
+      "label_agreements": [
+        6,
+        17
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "122": {
+    "answers": [
+      "Consent may not be unreasonably withheld, conditioned or delayed",
+      "Flat consent"
+    ],
+    "train": {
+      "examples": 239,
+      "agreements": 106,
+      "label_examples": [
+        232,
+        7
+      ],
+      "label_agreements": [
+        103,
+        3
+      ]
+    },
+    "validation": {
+      "examples": 45,
+      "agreements": 23,
+      "label_examples": [
+        45,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "test": {
+      "examples": 49,
+      "agreements": 23,
+      "label_examples": [
+        48,
+        1
+      ],
+      "label_agreements": [
+        22,
+        1
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "123": {
+    "answers": [
+      "Applies only to specified negative covenants",
+      "Applies to all negative covenants"
+    ],
+    "train": {
+      "examples": 239,
+      "agreements": 106,
+      "label_examples": [
+        24,
+        215
+      ],
+      "label_agreements": [
+        12,
+        94
+      ]
+    },
+    "validation": {
+      "examples": 45,
+      "agreements": 23,
+      "label_examples": [
+        9,
+        36
+      ],
+      "label_agreements": [
+        3,
+        20
+      ]
+    },
+    "test": {
+      "examples": 49,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        46
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "124": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        57,
+        49
+      ],
+      "label_agreements": [
+        57,
+        49
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        13,
+        10
+      ],
+      "label_agreements": [
+        13,
+        10
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        15,
+        8
+      ],
+      "label_agreements": [
+        15,
+        8
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "126": {
+    "answers": [
+      "Commercially reasonable efforts",
+      "Flat standard",
+      "Reasonable best efforts"
+    ],
+    "train": {
+      "examples": 212,
+      "agreements": 106,
+      "label_examples": [
+        12,
+        18,
+        182
+      ],
+      "label_agreements": [
+        6,
+        11,
+        89
+      ]
+    },
+    "validation": {
+      "examples": 41,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        2,
+        39
+      ],
+      "label_agreements": [
+        0,
+        2,
+        21
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        3,
+        39
+      ],
+      "label_agreements": [
+        1,
+        3,
+        19
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0,
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "13": {
+    "answers": [
+      "All Covenants",
+      "Each Covenant",
+      "Hybrid/Other Standard"
+    ],
+    "train": {
+      "examples": 228,
+      "agreements": 106,
+      "label_examples": [
+        209,
+        18,
+        1
+      ],
+      "label_agreements": [
+        95,
+        10,
+        1
+      ]
+    },
+    "validation": {
+      "examples": 45,
+      "agreements": 23,
+      "label_examples": [
+        40,
+        5,
+        0
+      ],
+      "label_agreements": [
+        20,
+        3,
+        0
+      ]
+    },
+    "test": {
+      "examples": 49,
+      "agreements": 23,
+      "label_examples": [
+        49,
+        0,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1,
+      2
+    ],
+    "inadequate_support_labels": [
+      2
+    ]
+  },
+  "130": {
+    "answers": [
+      "\"entitled to seek\" specific performance",
+      "\"entitled to\" specific performance"
+    ],
+    "train": {
+      "examples": 235,
+      "agreements": 104,
+      "label_examples": [
+        18,
+        217
+      ],
+      "label_agreements": [
+        9,
+        95
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        8,
+        39
+      ],
+      "label_agreements": [
+        4,
+        19
+      ]
+    },
+    "test": {
+      "examples": 48,
+      "agreements": 22,
+      "label_examples": [
+        1,
+        47
+      ],
+      "label_agreements": [
+        1,
+        21
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "15": {
+    "answers": [
+      "Governmental litigation only",
+      "Non-Governmental & governmental litigation"
+    ],
+    "train": {
+      "examples": 21,
+      "agreements": 11,
+      "label_examples": [
+        17,
+        4
+      ],
+      "label_agreements": [
+        9,
+        2
+      ]
+    },
+    "validation": {
+      "examples": 1,
+      "agreements": 1,
+      "label_examples": [
+        1,
+        0
+      ],
+      "label_agreements": [
+        1,
+        0
+      ]
+    },
+    "test": {
+      "examples": 3,
+      "agreements": 1,
+      "label_examples": [
+        3,
+        0
+      ],
+      "label_agreements": [
+        1,
+        0
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": [
+      1
+    ]
+  },
+  "16": {
+    "answers": [
+      "Pending",
+      "Pending or threatened (without \"writing\" requirement)",
+      "Pending or threatened in writing"
+    ],
+    "train": {
+      "examples": 21,
+      "agreements": 11,
+      "label_examples": [
+        9,
+        9,
+        3
+      ],
+      "label_agreements": [
+        7,
+        3,
+        1
+      ]
+    },
+    "validation": {
+      "examples": 1,
+      "agreements": 1,
+      "label_examples": [
+        1,
+        0,
+        0
+      ],
+      "label_agreements": [
+        1,
+        0,
+        0
+      ]
+    },
+    "test": {
+      "examples": 3,
+      "agreements": 1,
+      "label_examples": [
+        3,
+        0,
+        0
+      ],
+      "label_agreements": [
+        1,
+        0,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": [
+      2
+    ]
+  },
+  "21": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 111,
+      "agreements": 106,
+      "label_examples": [
+        35,
+        76
+      ],
+      "label_agreements": [
+        34,
+        72
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        4,
+        19
+      ],
+      "label_agreements": [
+        4,
+        19
+      ]
+    },
+    "test": {
+      "examples": 24,
+      "agreements": 23,
+      "label_examples": [
+        9,
+        15
+      ],
+      "label_agreements": [
+        9,
+        14
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "22": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 155,
+      "agreements": 106,
+      "label_examples": [
+        127,
+        28
+      ],
+      "label_agreements": [
+        88,
+        18
+      ]
+    },
+    "validation": {
+      "examples": 33,
+      "agreements": 23,
+      "label_examples": [
+        29,
+        4
+      ],
+      "label_agreements": [
+        21,
+        2
+      ]
+    },
+    "test": {
+      "examples": 34,
+      "agreements": 23,
+      "label_examples": [
+        29,
+        5
+      ],
+      "label_agreements": [
+        20,
+        3
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "23": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        104,
+        2
+      ],
+      "label_agreements": [
+        104,
+        2
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        23,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        23,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": [
+      1
+    ]
+  },
+  "24": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        24,
+        82
+      ],
+      "label_agreements": [
+        24,
+        82
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        20
+      ],
+      "label_agreements": [
+        3,
+        20
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        4,
+        19
+      ],
+      "label_agreements": [
+        4,
+        19
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "25-0": {
+    "answers": [
+      "<OTHER>",
+      "No"
+    ],
+    "train": {
+      "examples": 161,
+      "agreements": 106,
+      "label_examples": [
+        138,
+        23
+      ],
+      "label_agreements": [
+        83,
+        23
+      ]
+    },
+    "validation": {
+      "examples": 32,
+      "agreements": 23,
+      "label_examples": [
+        29,
+        3
+      ],
+      "label_agreements": [
+        20,
+        3
+      ]
+    },
+    "test": {
+      "examples": 37,
+      "agreements": 23,
+      "label_examples": [
+        33,
+        4
+      ],
+      "label_agreements": [
+        19,
+        4
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "25-1": {
+    "answers": [
+      "<OTHER>",
+      "ability to consummate transaction"
+    ],
+    "train": {
+      "examples": 161,
+      "agreements": 106,
+      "label_examples": [
+        76,
+        85
+      ],
+      "label_agreements": [
+        51,
+        55
+      ]
+    },
+    "validation": {
+      "examples": 32,
+      "agreements": 23,
+      "label_examples": [
+        10,
+        22
+      ],
+      "label_agreements": [
+        7,
+        16
+      ]
+    },
+    "test": {
+      "examples": 37,
+      "agreements": 23,
+      "label_examples": [
+        12,
+        25
+      ],
+      "label_agreements": [
+        9,
+        14
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "25-2": {
+    "answers": [
+      "<OTHER>",
+      "business and operation of Target"
+    ],
+    "train": {
+      "examples": 161,
+      "agreements": 106,
+      "label_examples": [
+        37,
+        124
+      ],
+      "label_agreements": [
+        33,
+        73
+      ]
+    },
+    "validation": {
+      "examples": 32,
+      "agreements": 23,
+      "label_examples": [
+        4,
+        28
+      ],
+      "label_agreements": [
+        4,
+        19
+      ]
+    },
+    "test": {
+      "examples": 37,
+      "agreements": 23,
+      "label_examples": [
+        10,
+        27
+      ],
+      "label_agreements": [
+        8,
+        15
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "26": {
+    "answers": [
+      "\"Could\" (reasonably) be expected to",
+      "\"Would\"",
+      "\"Would\" (reasonably) be expected to",
+      "No",
+      "Other forward-looking standard"
+    ],
+    "train": {
+      "examples": 161,
+      "agreements": 106,
+      "label_examples": [
+        3,
+        23,
+        105,
+        23,
+        7
+      ],
+      "label_agreements": [
+        2,
+        13,
+        63,
+        23,
+        5
+      ]
+    },
+    "validation": {
+      "examples": 32,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        2,
+        27,
+        3,
+        0
+      ],
+      "label_agreements": [
+        0,
+        2,
+        18,
+        3,
+        0
+      ]
+    },
+    "test": {
+      "examples": 37,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        9,
+        24,
+        4,
+        0
+      ],
+      "label_agreements": [
+        0,
+        5,
+        14,
+        4,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0,
+      4
+    ],
+    "inadequate_support_labels": [
+      0
+    ]
+  },
+  "27": {
+    "answers": [
+      "Applies to Target and subsidiaries \"taken as a whole\"",
+      "No"
+    ],
+    "train": {
+      "examples": 173,
+      "agreements": 106,
+      "label_examples": [
+        167,
+        6
+      ],
+      "label_agreements": [
+        100,
+        6
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        35,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "test": {
+      "examples": 37,
+      "agreements": 23,
+      "label_examples": [
+        34,
+        3
+      ],
+      "label_agreements": [
+        20,
+        3
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "28": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        9,
+        97
+      ],
+      "label_agreements": [
+        9,
+        97
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        20
+      ],
+      "label_agreements": [
+        3,
+        20
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        22
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "29": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 175,
+      "agreements": 106,
+      "label_examples": [
+        17,
+        158
+      ],
+      "label_agreements": [
+        11,
+        95
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        32
+      ],
+      "label_agreements": [
+        3,
+        20
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        38
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "3": {
+    "answers": [
+      "All Cash",
+      "All Stock",
+      "Mixed Cash/Stock",
+      "Mixed Cash/Stock: Election"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 106,
+      "label_examples": [
+        130,
+        60,
+        35,
+        7
+      ],
+      "label_agreements": [
+        60,
+        28,
+        15,
+        3
+      ]
+    },
+    "validation": {
+      "examples": 46,
+      "agreements": 23,
+      "label_examples": [
+        26,
+        10,
+        10,
+        0
+      ],
+      "label_agreements": [
+        14,
+        5,
+        4,
+        0
+      ]
+    },
+    "test": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        29,
+        14,
+        4,
+        0
+      ],
+      "label_agreements": [
+        15,
+        6,
+        2,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      3
+    ],
+    "inadequate_support_labels": []
+  },
+  "30": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        15,
+        91
+      ],
+      "label_agreements": [
+        15,
+        91
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        22
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        4,
+        19
+      ],
+      "label_agreements": [
+        4,
+        19
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "31": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 178,
+      "agreements": 106,
+      "label_examples": [
+        25,
+        153
+      ],
+      "label_agreements": [
+        14,
+        92
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        34
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "test": {
+      "examples": 38,
+      "agreements": 23,
+      "label_examples": [
+        7,
+        31
+      ],
+      "label_agreements": [
+        4,
+        19
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "32": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        2,
+        104
+      ],
+      "label_agreements": [
+        2,
+        104
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        22
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        2,
+        21
+      ],
+      "label_agreements": [
+        2,
+        21
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": [
+      0
+    ]
+  },
+  "33": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        2,
+        104
+      ],
+      "label_agreements": [
+        2,
+        104
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        22
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        20
+      ],
+      "label_agreements": [
+        3,
+        20
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": [
+      0
+    ]
+  },
+  "34": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        1,
+        105
+      ],
+      "label_agreements": [
+        1,
+        105
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        23
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        23
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": [
+      0
+    ]
+  },
+  "35": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 178,
+      "agreements": 106,
+      "label_examples": [
+        22,
+        156
+      ],
+      "label_agreements": [
+        12,
+        94
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        32
+      ],
+      "label_agreements": [
+        2,
+        21
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        36
+      ],
+      "label_agreements": [
+        2,
+        21
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "36": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        3,
+        103
+      ],
+      "label_agreements": [
+        3,
+        103
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        23
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        23
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "37": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 177,
+      "agreements": 106,
+      "label_examples": [
+        24,
+        153
+      ],
+      "label_agreements": [
+        13,
+        93
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        32
+      ],
+      "label_agreements": [
+        2,
+        21
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        2,
+        37
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "38": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        4,
+        102
+      ],
+      "label_agreements": [
+        4,
+        102
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        23
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        23
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "39-0": {
+    "answers": [
+      "<OTHER>",
+      "No"
+    ],
+    "train": {
+      "examples": 177,
+      "agreements": 106,
+      "label_examples": [
+        175,
+        2
+      ],
+      "label_agreements": [
+        104,
+        2
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        35,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        39,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": [
+      1
+    ]
+  },
+  "39-1": {
+    "answers": [
+      "<OTHER>",
+      "announcement"
+    ],
+    "train": {
+      "examples": 177,
+      "agreements": 106,
+      "label_examples": [
+        2,
+        175
+      ],
+      "label_agreements": [
+        2,
+        104
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        35
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        39
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": [
+      0
+    ]
+  },
+  "39-2": {
+    "answers": [
+      "<OTHER>",
+      "consummation"
+    ],
+    "train": {
+      "examples": 177,
+      "agreements": 106,
+      "label_examples": [
+        85,
+        92
+      ],
+      "label_agreements": [
+        54,
+        52
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        19,
+        16
+      ],
+      "label_agreements": [
+        12,
+        11
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        20,
+        19
+      ],
+      "label_agreements": [
+        12,
+        11
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "39-3": {
+    "answers": [
+      "<OTHER>",
+      "pendency"
+    ],
+    "train": {
+      "examples": 177,
+      "agreements": 106,
+      "label_examples": [
+        61,
+        116
+      ],
+      "label_agreements": [
+        36,
+        70
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        6,
+        29
+      ],
+      "label_agreements": [
+        4,
+        19
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        25,
+        14
+      ],
+      "label_agreements": [
+        15,
+        8
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "42": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        3,
+        103
+      ],
+      "label_agreements": [
+        3,
+        103
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        23
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        23
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "43": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        104,
+        2
+      ],
+      "label_agreements": [
+        104,
+        2
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        23,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        22,
+        1
+      ],
+      "label_agreements": [
+        22,
+        1
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": [
+      1
+    ]
+  },
+  "44": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        7,
+        99
+      ],
+      "label_agreements": [
+        7,
+        99
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        20
+      ],
+      "label_agreements": [
+        3,
+        20
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        20
+      ],
+      "label_agreements": [
+        3,
+        20
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "45": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 174,
+      "agreements": 106,
+      "label_examples": [
+        171,
+        3
+      ],
+      "label_agreements": [
+        104,
+        2
+      ]
+    },
+    "validation": {
+      "examples": 34,
+      "agreements": 23,
+      "label_examples": [
+        32,
+        2
+      ],
+      "label_agreements": [
+        22,
+        1
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        37,
+        2
+      ],
+      "label_agreements": [
+        22,
+        1
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": [
+      1
+    ]
+  },
+  "46": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        1,
+        105
+      ],
+      "label_agreements": [
+        1,
+        105
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        23
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        23
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": [
+      0
+    ]
+  },
+  "47-0": {
+    "answers": [
+      "<OTHER>",
+      "\"act of God\""
+    ],
+    "train": {
+      "examples": 178,
+      "agreements": 106,
+      "label_examples": [
+        113,
+        65
+      ],
+      "label_agreements": [
+        67,
+        39
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        24,
+        11
+      ],
+      "label_agreements": [
+        16,
+        7
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        25,
+        14
+      ],
+      "label_agreements": [
+        15,
+        8
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "47-1": {
+    "answers": [
+      "<OTHER>",
+      "Natural disaster"
+    ],
+    "train": {
+      "examples": 178,
+      "agreements": 106,
+      "label_examples": [
+        13,
+        165
+      ],
+      "label_agreements": [
+        8,
+        98
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        34
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        4,
+        35
+      ],
+      "label_agreements": [
+        2,
+        21
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "47-2": {
+    "answers": [
+      "<OTHER>",
+      "No"
+    ],
+    "train": {
+      "examples": 178,
+      "agreements": 106,
+      "label_examples": [
+        177,
+        1
+      ],
+      "label_agreements": [
+        105,
+        1
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        35,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        39,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": [
+      1
+    ]
+  },
+  "47-3": {
+    "answers": [
+      "<OTHER>",
+      "War or terrorism"
+    ],
+    "train": {
+      "examples": 178,
+      "agreements": 106,
+      "label_examples": [
+        1,
+        177
+      ],
+      "label_agreements": [
+        1,
+        105
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        35
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        39
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": [
+      0
+    ]
+  },
+  "47-4": {
+    "answers": [
+      "<OTHER>",
+      "force majeure"
+    ],
+    "train": {
+      "examples": 178,
+      "agreements": 106,
+      "label_examples": [
+        111,
+        67
+      ],
+      "label_agreements": [
+        67,
+        39
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        28,
+        7
+      ],
+      "label_agreements": [
+        18,
+        5
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        27,
+        12
+      ],
+      "label_agreements": [
+        16,
+        7
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "48-0": {
+    "answers": [
+      "<OTHER>",
+      "\"act of God\""
+    ],
+    "train": {
+      "examples": 174,
+      "agreements": 106,
+      "label_examples": [
+        118,
+        56
+      ],
+      "label_agreements": [
+        72,
+        34
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        25,
+        10
+      ],
+      "label_agreements": [
+        17,
+        6
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        26,
+        13
+      ],
+      "label_agreements": [
+        16,
+        7
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "48-1": {
+    "answers": [
+      "<OTHER>",
+      "Natural disaster"
+    ],
+    "train": {
+      "examples": 174,
+      "agreements": 106,
+      "label_examples": [
+        22,
+        152
+      ],
+      "label_agreements": [
+        16,
+        90
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        2,
+        33
+      ],
+      "label_agreements": [
+        2,
+        21
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        8,
+        31
+      ],
+      "label_agreements": [
+        5,
+        18
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "48-2": {
+    "answers": [
+      "<OTHER>",
+      "No"
+    ],
+    "train": {
+      "examples": 174,
+      "agreements": 106,
+      "label_examples": [
+        168,
+        6
+      ],
+      "label_agreements": [
+        100,
+        6
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        34,
+        1
+      ],
+      "label_agreements": [
+        22,
+        1
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        38,
+        1
+      ],
+      "label_agreements": [
+        22,
+        1
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "48-3": {
+    "answers": [
+      "<OTHER>",
+      "War or terrorism"
+    ],
+    "train": {
+      "examples": 174,
+      "agreements": 106,
+      "label_examples": [
+        13,
+        161
+      ],
+      "label_agreements": [
+        10,
+        96
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        34
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        38
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "48-4": {
+    "answers": [
+      "<OTHER>",
+      "force majeure"
+    ],
+    "train": {
+      "examples": 174,
+      "agreements": 106,
+      "label_examples": [
+        112,
+        62
+      ],
+      "label_agreements": [
+        71,
+        35
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        29,
+        6
+      ],
+      "label_agreements": [
+        19,
+        4
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        30,
+        9
+      ],
+      "label_agreements": [
+        18,
+        5
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "49": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        4,
+        102
+      ],
+      "label_agreements": [
+        4,
+        102
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        23
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        22
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "50": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        5,
+        101
+      ],
+      "label_agreements": [
+        5,
+        101
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        22
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        2,
+        21
+      ],
+      "label_agreements": [
+        2,
+        21
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "51": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 177,
+      "agreements": 106,
+      "label_examples": [
+        53,
+        124
+      ],
+      "label_agreements": [
+        34,
+        72
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        10,
+        25
+      ],
+      "label_agreements": [
+        7,
+        16
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        13,
+        26
+      ],
+      "label_agreements": [
+        8,
+        15
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "52": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 177,
+      "agreements": 106,
+      "label_examples": [
+        40,
+        137
+      ],
+      "label_agreements": [
+        23,
+        83
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        34
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 23,
+      "label_examples": [
+        7,
+        32
+      ],
+      "label_agreements": [
+        5,
+        18
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "53": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        10,
+        96
+      ],
+      "label_agreements": [
+        10,
+        96
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        23
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        2,
+        21
+      ],
+      "label_agreements": [
+        2,
+        21
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "54": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        21,
+        85
+      ],
+      "label_agreements": [
+        21,
+        85
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        6,
+        17
+      ],
+      "label_agreements": [
+        6,
+        17
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        20
+      ],
+      "label_agreements": [
+        3,
+        20
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "55": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        48,
+        58
+      ],
+      "label_agreements": [
+        48,
+        58
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        8,
+        15
+      ],
+      "label_agreements": [
+        8,
+        15
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        6,
+        17
+      ],
+      "label_agreements": [
+        6,
+        17
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "57": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        91,
+        15
+      ],
+      "label_agreements": [
+        91,
+        15
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        20,
+        3
+      ],
+      "label_agreements": [
+        20,
+        3
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        21,
+        2
+      ],
+      "label_agreements": [
+        21,
+        2
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "58": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        93,
+        13
+      ],
+      "label_agreements": [
+        93,
+        13
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        18,
+        5
+      ],
+      "label_agreements": [
+        18,
+        5
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        20,
+        3
+      ],
+      "label_agreements": [
+        20,
+        3
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "59": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        62,
+        44
+      ],
+      "label_agreements": [
+        62,
+        44
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        10,
+        13
+      ],
+      "label_agreements": [
+        10,
+        13
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        11,
+        12
+      ],
+      "label_agreements": [
+        11,
+        12
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "6": {
+    "answers": [
+      "At Closing Only",
+      "At Signing & At Closing"
+    ],
+    "train": {
+      "examples": 237,
+      "agreements": 105,
+      "label_examples": [
+        79,
+        158
+      ],
+      "label_agreements": [
+        33,
+        72
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        6,
+        41
+      ],
+      "label_agreements": [
+        4,
+        19
+      ]
+    },
+    "test": {
+      "examples": 49,
+      "agreements": 23,
+      "label_examples": [
+        9,
+        40
+      ],
+      "label_agreements": [
+        5,
+        18
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "60": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        10,
+        96
+      ],
+      "label_agreements": [
+        10,
+        96
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        2,
+        21
+      ],
+      "label_agreements": [
+        2,
+        21
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        20
+      ],
+      "label_agreements": [
+        3,
+        20
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "61-0": {
+    "answers": [
+      "<OTHER>",
+      "\"Arising from/out of\""
+    ],
+    "train": {
+      "examples": 174,
+      "agreements": 106,
+      "label_examples": [
+        59,
+        115
+      ],
+      "label_agreements": [
+        39,
+        67
+      ]
+    },
+    "validation": {
+      "examples": 33,
+      "agreements": 23,
+      "label_examples": [
+        14,
+        19
+      ],
+      "label_agreements": [
+        9,
+        14
+      ]
+    },
+    "test": {
+      "examples": 36,
+      "agreements": 23,
+      "label_examples": [
+        10,
+        26
+      ],
+      "label_agreements": [
+        7,
+        16
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "61-1": {
+    "answers": [
+      "<OTHER>",
+      "\"Attributable to\""
+    ],
+    "train": {
+      "examples": 174,
+      "agreements": 106,
+      "label_examples": [
+        144,
+        30
+      ],
+      "label_agreements": [
+        90,
+        16
+      ]
+    },
+    "validation": {
+      "examples": 33,
+      "agreements": 23,
+      "label_examples": [
+        27,
+        6
+      ],
+      "label_agreements": [
+        19,
+        4
+      ]
+    },
+    "test": {
+      "examples": 36,
+      "agreements": 23,
+      "label_examples": [
+        29,
+        7
+      ],
+      "label_agreements": [
+        20,
+        3
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "61-2": {
+    "answers": [
+      "<OTHER>",
+      "\"Relating to\""
+    ],
+    "train": {
+      "examples": 174,
+      "agreements": 106,
+      "label_examples": [
+        109,
+        65
+      ],
+      "label_agreements": [
+        70,
+        36
+      ]
+    },
+    "validation": {
+      "examples": 33,
+      "agreements": 23,
+      "label_examples": [
+        23,
+        10
+      ],
+      "label_agreements": [
+        15,
+        8
+      ]
+    },
+    "test": {
+      "examples": 36,
+      "agreements": 23,
+      "label_examples": [
+        27,
+        9
+      ],
+      "label_agreements": [
+        17,
+        6
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "61-3": {
+    "answers": [
+      "<OTHER>",
+      "\"Resulting from\""
+    ],
+    "train": {
+      "examples": 174,
+      "agreements": 106,
+      "label_examples": [
+        24,
+        150
+      ],
+      "label_agreements": [
+        19,
+        87
+      ]
+    },
+    "validation": {
+      "examples": 33,
+      "agreements": 23,
+      "label_examples": [
+        5,
+        28
+      ],
+      "label_agreements": [
+        4,
+        19
+      ]
+    },
+    "test": {
+      "examples": 36,
+      "agreements": 23,
+      "label_examples": [
+        8,
+        28
+      ],
+      "label_agreements": [
+        7,
+        16
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "61-4": {
+    "answers": [
+      "<OTHER>",
+      "No"
+    ],
+    "train": {
+      "examples": 174,
+      "agreements": 106,
+      "label_examples": [
+        164,
+        10
+      ],
+      "label_agreements": [
+        96,
+        10
+      ]
+    },
+    "validation": {
+      "examples": 33,
+      "agreements": 23,
+      "label_examples": [
+        31,
+        2
+      ],
+      "label_agreements": [
+        21,
+        2
+      ]
+    },
+    "test": {
+      "examples": 36,
+      "agreements": 23,
+      "label_examples": [
+        33,
+        3
+      ],
+      "label_agreements": [
+        20,
+        3
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "61-5": {
+    "answers": [
+      "<OTHER>",
+      "Other"
+    ],
+    "train": {
+      "examples": 174,
+      "agreements": 106,
+      "label_examples": [
+        166,
+        8
+      ],
+      "label_agreements": [
+        102,
+        4
+      ]
+    },
+    "validation": {
+      "examples": 33,
+      "agreements": 23,
+      "label_examples": [
+        31,
+        2
+      ],
+      "label_agreements": [
+        22,
+        1
+      ]
+    },
+    "test": {
+      "examples": 36,
+      "agreements": 23,
+      "label_examples": [
+        34,
+        2
+      ],
+      "label_agreements": [
+        21,
+        2
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "61-6": {
+    "answers": [
+      "<OTHER>",
+      "Relational language varies among carveouts"
+    ],
+    "train": {
+      "examples": 174,
+      "agreements": 106,
+      "label_examples": [
+        151,
+        23
+      ],
+      "label_agreements": [
+        94,
+        12
+      ]
+    },
+    "validation": {
+      "examples": 33,
+      "agreements": 23,
+      "label_examples": [
+        31,
+        2
+      ],
+      "label_agreements": [
+        21,
+        2
+      ]
+    },
+    "test": {
+      "examples": 36,
+      "agreements": 23,
+      "label_examples": [
+        33,
+        3
+      ],
+      "label_agreements": [
+        21,
+        2
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "62": {
+    "answers": [
+      "All MAE carveouts",
+      "No",
+      "Some MAE carveouts"
+    ],
+    "train": {
+      "examples": 174,
+      "agreements": 106,
+      "label_examples": [
+        125,
+        10,
+        39
+      ],
+      "label_agreements": [
+        73,
+        10,
+        23
+      ]
+    },
+    "validation": {
+      "examples": 33,
+      "agreements": 23,
+      "label_examples": [
+        27,
+        2,
+        4
+      ],
+      "label_agreements": [
+        18,
+        2,
+        3
+      ]
+    },
+    "test": {
+      "examples": 36,
+      "agreements": 23,
+      "label_examples": [
+        21,
+        3,
+        12
+      ],
+      "label_agreements": [
+        12,
+        3,
+        8
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "66": {
+    "answers": [
+      "Actual knowledge",
+      "Constructive knowledge"
+    ],
+    "train": {
+      "examples": 234,
+      "agreements": 106,
+      "label_examples": [
+        113,
+        121
+      ],
+      "label_agreements": [
+        49,
+        57
+      ]
+    },
+    "validation": {
+      "examples": 43,
+      "agreements": 23,
+      "label_examples": [
+        16,
+        27
+      ],
+      "label_agreements": [
+        10,
+        13
+      ]
+    },
+    "test": {
+      "examples": 43,
+      "agreements": 23,
+      "label_examples": [
+        17,
+        26
+      ],
+      "label_agreements": [
+        9,
+        14
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "67": {
+    "answers": [
+      "Based on investigation or inquiry",
+      "Based on role"
+    ],
+    "train": {
+      "examples": 121,
+      "agreements": 57,
+      "label_examples": [
+        120,
+        1
+      ],
+      "label_agreements": [
+        56,
+        1
+      ]
+    },
+    "validation": {
+      "examples": 27,
+      "agreements": 13,
+      "label_examples": [
+        27,
+        0
+      ],
+      "label_agreements": [
+        13,
+        0
+      ]
+    },
+    "test": {
+      "examples": 26,
+      "agreements": 14,
+      "label_examples": [
+        25,
+        1
+      ],
+      "label_agreements": [
+        13,
+        1
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": [
+      1
+    ]
+  },
+  "68": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        6,
+        100
+      ],
+      "label_agreements": [
+        6,
+        100
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        2,
+        21
+      ],
+      "label_agreements": [
+        2,
+        21
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        22
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "7": {
+    "answers": [
+      "All/The R&Ws accurate at MAE standard",
+      "All/The R&Ws accurate in all respects (repeating R&Ws)",
+      "Each R&W accurate at MAE standard",
+      "R&Ws accurate at another materiality standard (e.g., hybrid standard)"
+    ],
+    "train": {
+      "examples": 236,
+      "agreements": 104,
+      "label_examples": [
+        225,
+        4,
+        3,
+        4
+      ],
+      "label_agreements": [
+        99,
+        2,
+        1,
+        2
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        44,
+        0,
+        3,
+        0
+      ],
+      "label_agreements": [
+        22,
+        0,
+        1,
+        0
+      ]
+    },
+    "test": {
+      "examples": 49,
+      "agreements": 23,
+      "label_examples": [
+        46,
+        0,
+        0,
+        3
+      ],
+      "label_agreements": [
+        22,
+        0,
+        0,
+        1
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1,
+      2,
+      3
+    ],
+    "inadequate_support_labels": [
+      1,
+      2,
+      3
+    ]
+  },
+  "70": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 106,
+      "agreements": 106,
+      "label_examples": [
+        8,
+        98
+      ],
+      "label_agreements": [
+        8,
+        98
+      ]
+    },
+    "validation": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        22
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "test": {
+      "examples": 23,
+      "agreements": 23,
+      "label_examples": [
+        4,
+        19
+      ],
+      "label_agreements": [
+        4,
+        19
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "72": {
+    "answers": [
+      "Reasonable standard",
+      "Strict liability"
+    ],
+    "train": {
+      "examples": 212,
+      "agreements": 97,
+      "label_examples": [
+        101,
+        111
+      ],
+      "label_agreements": [
+        42,
+        55
+      ]
+    },
+    "validation": {
+      "examples": 44,
+      "agreements": 23,
+      "label_examples": [
+        21,
+        23
+      ],
+      "label_agreements": [
+        9,
+        14
+      ]
+    },
+    "test": {
+      "examples": 39,
+      "agreements": 18,
+      "label_examples": [
+        14,
+        25
+      ],
+      "label_agreements": [
+        7,
+        11
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "74": {
+    "answers": [
+      "\"Breach\" of fiduciary duties",
+      "\"Inconsistent\" with fiduciary duties",
+      "\"Reasonably likely/expected breach\" of fiduciary duties",
+      "\"Reasonably likely/expected to be inconsistent\" with fiduciary duties",
+      "\"Reasonably likely/expected violation\" of fiduciary duties",
+      "\"Required to comply\" with fiduciary duties",
+      "\"Violation\" of fiduciary duties",
+      "None",
+      "Other specified standard"
+    ],
+    "train": {
+      "examples": 240,
+      "agreements": 106,
+      "label_examples": [
+        0,
+        58,
+        6,
+        57,
+        12,
+        4,
+        3,
+        84,
+        16
+      ],
+      "label_agreements": [
+        0,
+        30,
+        2,
+        25,
+        6,
+        2,
+        1,
+        34,
+        6
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        17,
+        0,
+        9,
+        3,
+        0,
+        0,
+        16,
+        1
+      ],
+      "label_agreements": [
+        1,
+        9,
+        0,
+        5,
+        1,
+        0,
+        0,
+        6,
+        1
+      ]
+    },
+    "test": {
+      "examples": 44,
+      "agreements": 22,
+      "label_examples": [
+        0,
+        15,
+        3,
+        7,
+        0,
+        0,
+        0,
+        13,
+        6
+      ],
+      "label_agreements": [
+        0,
+        5,
+        3,
+        5,
+        0,
+        0,
+        0,
+        7,
+        2
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [
+      0
+    ],
+    "rare_labels": [
+      0,
+      2,
+      4,
+      5,
+      6,
+      8
+    ],
+    "inadequate_support_labels": [
+      0,
+      2,
+      5,
+      6
+    ]
+  },
+  "75": {
+    "answers": [
+      "Acquisition Proposal only",
+      "Superior Offer, or Acquisition Proposal reasonably likely/expected to result in a Superior Offer"
+    ],
+    "train": {
+      "examples": 240,
+      "agreements": 106,
+      "label_examples": [
+        18,
+        222
+      ],
+      "label_agreements": [
+        6,
+        100
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        46
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "test": {
+      "examples": 44,
+      "agreements": 22,
+      "label_examples": [
+        3,
+        41
+      ],
+      "label_agreements": [
+        1,
+        21
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": []
+  },
+  "77": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 189,
+      "agreements": 106,
+      "label_examples": [
+        170,
+        19
+      ],
+      "label_agreements": [
+        99,
+        7
+      ]
+    },
+    "validation": {
+      "examples": 29,
+      "agreements": 23,
+      "label_examples": [
+        28,
+        1
+      ],
+      "label_agreements": [
+        22,
+        1
+      ]
+    },
+    "test": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        31,
+        4
+      ],
+      "label_agreements": [
+        21,
+        2
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "78": {
+    "answers": [
+      "\"Reasonably likely/expected breach\" of fiduciary duties",
+      "\"Reasonably likely/expected to be inconsistent\" with fiduciary duties",
+      "More likely than not violate fiduciary duties",
+      "Other specified standard"
+    ],
+    "train": {
+      "examples": 19,
+      "agreements": 7,
+      "label_examples": [
+        0,
+        4,
+        9,
+        6
+      ],
+      "label_agreements": [
+        0,
+        2,
+        3,
+        2
+      ]
+    },
+    "validation": {
+      "examples": 1,
+      "agreements": 1,
+      "label_examples": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "label_agreements": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "test": {
+      "examples": 4,
+      "agreements": 2,
+      "label_examples": [
+        1,
+        0,
+        3,
+        0
+      ],
+      "label_agreements": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [
+      0
+    ],
+    "rare_labels": [
+      0
+    ],
+    "inadequate_support_labels": [
+      0,
+      1,
+      3
+    ]
+  },
+  "8": {
+    "answers": [
+      "Accurate in all material respects",
+      "Accurate in all respects",
+      "Accurate in all respects with below-threshold carveout",
+      "Accurate in all respects with de minimis exception"
+    ],
+    "train": {
+      "examples": 238,
+      "agreements": 106,
+      "label_examples": [
+        15,
+        7,
+        16,
+        200
+      ],
+      "label_agreements": [
+        7,
+        3,
+        8,
+        88
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        0,
+        2,
+        42
+      ],
+      "label_agreements": [
+        1,
+        0,
+        2,
+        20
+      ]
+    },
+    "test": {
+      "examples": 49,
+      "agreements": 23,
+      "label_examples": [
+        7,
+        1,
+        4,
+        37
+      ],
+      "label_agreements": [
+        3,
+        1,
+        2,
+        17
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0,
+      1,
+      2
+    ],
+    "inadequate_support_labels": []
+  },
+  "80": {
+    "answers": [
+      "\"Breach\" of fiduciary duties",
+      "\"Inconsistent\" with fiduciary duties",
+      "\"Reasonably likely/expected breach\" of fiduciary duties",
+      "\"Reasonably likely/expected to be inconsistent\" with fiduciary duties",
+      "\"Reasonably likely/expected violation\" of fiduciary duties",
+      "\"Required to comply\" with fiduciary duties",
+      "\"Violation\" of fiduciary duties",
+      "More likely than not violate fiduciary duties",
+      "None",
+      "Other specified standard"
+    ],
+    "train": {
+      "examples": 189,
+      "agreements": 106,
+      "label_examples": [
+        1,
+        69,
+        7,
+        61,
+        8,
+        1,
+        7,
+        9,
+        20,
+        6
+      ],
+      "label_agreements": [
+        1,
+        41,
+        3,
+        35,
+        4,
+        1,
+        3,
+        3,
+        13,
+        2
+      ]
+    },
+    "validation": {
+      "examples": 29,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        18,
+        0,
+        6,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "label_agreements": [
+        1,
+        12,
+        0,
+        6,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "test": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        12,
+        5,
+        7,
+        0,
+        0,
+        0,
+        3,
+        5,
+        3
+      ],
+      "label_agreements": [
+        0,
+        8,
+        3,
+        5,
+        0,
+        0,
+        0,
+        1,
+        5,
+        1
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0,
+      2,
+      4,
+      5,
+      6,
+      7,
+      9
+    ],
+    "inadequate_support_labels": [
+      0,
+      5,
+      9
+    ]
+  },
+  "81": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 189,
+      "agreements": 106,
+      "label_examples": [
+        26,
+        163
+      ],
+      "label_agreements": [
+        12,
+        94
+      ]
+    },
+    "validation": {
+      "examples": 29,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        29
+      ],
+      "label_agreements": [
+        0,
+        23
+      ]
+    },
+    "test": {
+      "examples": 35,
+      "agreements": 23,
+      "label_examples": [
+        3,
+        32
+      ],
+      "label_agreements": [
+        1,
+        22
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "82": {
+    "answers": [
+      "\"Breach\" of fiduciary duties",
+      "\"Inconsistent\" with fiduciary duties",
+      "\"Reasonably likely/expected breach\" of fiduciary duties",
+      "\"Reasonably likely/expected to be inconsistent\" with fiduciary duties",
+      "\"Reasonably likely/expected violation\" of fiduciary duties",
+      "\"Required to comply\" with fiduciary duties",
+      "\"Violation\" of fiduciary duties",
+      "More likely than not violate fiduciary duties",
+      "Other specified standard"
+    ],
+    "train": {
+      "examples": 163,
+      "agreements": 94,
+      "label_examples": [
+        0,
+        67,
+        7,
+        69,
+        4,
+        1,
+        0,
+        9,
+        6
+      ],
+      "label_agreements": [
+        0,
+        43,
+        3,
+        40,
+        2,
+        1,
+        0,
+        3,
+        2
+      ]
+    },
+    "validation": {
+      "examples": 29,
+      "agreements": 23,
+      "label_examples": [
+        1,
+        18,
+        0,
+        7,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "label_agreements": [
+        1,
+        12,
+        0,
+        7,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    "test": {
+      "examples": 32,
+      "agreements": 22,
+      "label_examples": [
+        0,
+        13,
+        3,
+        10,
+        0,
+        0,
+        0,
+        3,
+        3
+      ],
+      "label_agreements": [
+        0,
+        9,
+        3,
+        8,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [
+      0,
+      6
+    ],
+    "rare_labels": [
+      0,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "inadequate_support_labels": [
+      0,
+      4,
+      5,
+      6,
+      8
+    ]
+  },
+  "84": {
+    "answers": [
+      "2 business days or less",
+      "3 business days",
+      "3 calendar days",
+      "4 business days",
+      "4 calendar days",
+      "5 business days",
+      "Greater than 5 business days"
+    ],
+    "train": {
+      "examples": 217,
+      "agreements": 102,
+      "label_examples": [
+        1,
+        45,
+        3,
+        119,
+        7,
+        41,
+        1
+      ],
+      "label_agreements": [
+        1,
+        21,
+        1,
+        54,
+        3,
+        21,
+        1
+      ]
+    },
+    "validation": {
+      "examples": 43,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        10,
+        3,
+        22,
+        3,
+        5,
+        0
+      ],
+      "label_agreements": [
+        0,
+        6,
+        1,
+        12,
+        1,
+        3,
+        0
+      ]
+    },
+    "test": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        0,
+        7,
+        0,
+        21,
+        0,
+        19,
+        0
+      ],
+      "label_agreements": [
+        0,
+        3,
+        0,
+        9,
+        0,
+        11,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "inadequate_support_labels": [
+      0,
+      2,
+      6
+    ]
+  },
+  "85": {
+    "answers": [
+      "2 business days or less",
+      "3 business days",
+      "3 days",
+      "4 business days",
+      "5 business days",
+      "> 5 business days",
+      "None"
+    ],
+    "train": {
+      "examples": 217,
+      "agreements": 102,
+      "label_examples": [
+        116,
+        80,
+        3,
+        7,
+        6,
+        1,
+        4
+      ],
+      "label_agreements": [
+        53,
+        38,
+        1,
+        3,
+        2,
+        1,
+        4
+      ]
+    },
+    "validation": {
+      "examples": 43,
+      "agreements": 23,
+      "label_examples": [
+        18,
+        18,
+        3,
+        1,
+        3,
+        0,
+        0
+      ],
+      "label_agreements": [
+        10,
+        10,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "test": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        29,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "label_agreements": [
+        13,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "inadequate_support_labels": [
+      2,
+      4,
+      5
+    ]
+  },
+  "86": {
+    "answers": [
+      "Continuous matching right",
+      "None"
+    ],
+    "train": {
+      "examples": 217,
+      "agreements": 102,
+      "label_examples": [
+        213,
+        4
+      ],
+      "label_agreements": [
+        98,
+        4
+      ]
+    },
+    "validation": {
+      "examples": 43,
+      "agreements": 23,
+      "label_examples": [
+        43,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "test": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        47,
+        0
+      ],
+      "label_agreements": [
+        23,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "88": {
+    "answers": [
+      "\"All or substantially all\"",
+      "50%",
+      "Greater than 50% but not \"all or substantially all\"",
+      "Less than 50%"
+    ],
+    "train": {
+      "examples": 209,
+      "agreements": 102,
+      "label_examples": [
+        10,
+        84,
+        112,
+        3
+      ],
+      "label_agreements": [
+        4,
+        42,
+        53,
+        3
+      ]
+    },
+    "validation": {
+      "examples": 42,
+      "agreements": 22,
+      "label_examples": [
+        3,
+        19,
+        20,
+        0
+      ],
+      "label_agreements": [
+        1,
+        11,
+        10,
+        0
+      ]
+    },
+    "test": {
+      "examples": 44,
+      "agreements": 22,
+      "label_examples": [
+        0,
+        20,
+        23,
+        1
+      ],
+      "label_agreements": [
+        0,
+        8,
+        13,
+        1
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0,
+      3
+    ],
+    "inadequate_support_labels": []
+  },
+  "89": {
+    "answers": [
+      "\"All or substantially all\"",
+      "50%",
+      "Greater than 50% but not \"all or substantially all\"",
+      "Less than 50%"
+    ],
+    "train": {
+      "examples": 206,
+      "agreements": 101,
+      "label_examples": [
+        10,
+        87,
+        105,
+        4
+      ],
+      "label_agreements": [
+        6,
+        43,
+        48,
+        4
+      ]
+    },
+    "validation": {
+      "examples": 42,
+      "agreements": 22,
+      "label_examples": [
+        9,
+        19,
+        14,
+        0
+      ],
+      "label_agreements": [
+        3,
+        11,
+        8,
+        0
+      ]
+    },
+    "test": {
+      "examples": 44,
+      "agreements": 22,
+      "label_examples": [
+        4,
+        16,
+        23,
+        1
+      ],
+      "label_agreements": [
+        2,
+        6,
+        13,
+        1
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      0,
+      3
+    ],
+    "inadequate_support_labels": []
+  },
+  "9": {
+    "answers": [
+      "Accurate at another materiality standard (e.g., hybrid standard)",
+      "Accurate in all material respects",
+      "Accurate in all respects"
+    ],
+    "train": {
+      "examples": 232,
+      "agreements": 104,
+      "label_examples": [
+        46,
+        140,
+        46
+      ],
+      "label_agreements": [
+        22,
+        62,
+        20
+      ]
+    },
+    "validation": {
+      "examples": 47,
+      "agreements": 23,
+      "label_examples": [
+        9,
+        31,
+        7
+      ],
+      "label_agreements": [
+        5,
+        15,
+        3
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        8,
+        33,
+        4
+      ],
+      "label_agreements": [
+        4,
+        15,
+        2
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "90": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 165,
+      "agreements": 84,
+      "label_examples": [
+        154,
+        11
+      ],
+      "label_agreements": [
+        79,
+        5
+      ]
+    },
+    "validation": {
+      "examples": 32,
+      "agreements": 18,
+      "label_examples": [
+        29,
+        3
+      ],
+      "label_agreements": [
+        17,
+        1
+      ]
+    },
+    "test": {
+      "examples": 36,
+      "agreements": 18,
+      "label_examples": [
+        28,
+        8
+      ],
+      "label_agreements": [
+        16,
+        3
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "92": {
+    "answers": [
+      "Known, but consequences unknown or not reasonably foreseeable, at signing",
+      "Known, but consequences unknown, at signing",
+      "Not known and not reasonably foreseeable at signing",
+      "Not known at signing"
+    ],
+    "train": {
+      "examples": 191,
+      "agreements": 87,
+      "label_examples": [
+        102,
+        10,
+        67,
+        12
+      ],
+      "label_agreements": [
+        48,
+        4,
+        31,
+        4
+      ]
+    },
+    "validation": {
+      "examples": 43,
+      "agreements": 21,
+      "label_examples": [
+        27,
+        2,
+        14,
+        0
+      ],
+      "label_agreements": [
+        11,
+        2,
+        8,
+        0
+      ]
+    },
+    "test": {
+      "examples": 42,
+      "agreements": 20,
+      "label_examples": [
+        15,
+        3,
+        20,
+        4
+      ],
+      "label_agreements": [
+        7,
+        1,
+        10,
+        2
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1,
+      3
+    ],
+    "inadequate_support_labels": []
+  },
+  "93": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 191,
+      "agreements": 87,
+      "label_examples": [
+        179,
+        12
+      ],
+      "label_agreements": [
+        81,
+        6
+      ]
+    },
+    "validation": {
+      "examples": 43,
+      "agreements": 21,
+      "label_examples": [
+        43,
+        0
+      ],
+      "label_agreements": [
+        21,
+        0
+      ]
+    },
+    "test": {
+      "examples": 42,
+      "agreements": 20,
+      "label_examples": [
+        38,
+        4
+      ],
+      "label_agreements": [
+        18,
+        2
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": []
+  },
+  "94": {
+    "answers": [
+      "May occur or arise prior to signing",
+      "Must occur or arise after signing"
+    ],
+    "train": {
+      "examples": 191,
+      "agreements": 87,
+      "label_examples": [
+        127,
+        64
+      ],
+      "label_agreements": [
+        57,
+        30
+      ]
+    },
+    "validation": {
+      "examples": 43,
+      "agreements": 21,
+      "label_examples": [
+        35,
+        8
+      ],
+      "label_agreements": [
+        17,
+        4
+      ]
+    },
+    "test": {
+      "examples": 42,
+      "agreements": 20,
+      "label_examples": [
+        37,
+        5
+      ],
+      "label_agreements": [
+        17,
+        3
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "95": {
+    "answers": [
+      "No",
+      "Yes"
+    ],
+    "train": {
+      "examples": 87,
+      "agreements": 87,
+      "label_examples": [
+        15,
+        72
+      ],
+      "label_agreements": [
+        15,
+        72
+      ]
+    },
+    "validation": {
+      "examples": 21,
+      "agreements": 21,
+      "label_examples": [
+        6,
+        15
+      ],
+      "label_agreements": [
+        6,
+        15
+      ]
+    },
+    "test": {
+      "examples": 20,
+      "agreements": 20,
+      "label_examples": [
+        4,
+        16
+      ],
+      "label_agreements": [
+        4,
+        16
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "97": {
+    "answers": [
+      "Superior Offer",
+      "Superior Offer, Intervening Event"
+    ],
+    "train": {
+      "examples": 191,
+      "agreements": 88,
+      "label_examples": [
+        191,
+        0
+      ],
+      "label_agreements": [
+        88,
+        0
+      ]
+    },
+    "validation": {
+      "examples": 35,
+      "agreements": 19,
+      "label_examples": [
+        34,
+        1
+      ],
+      "label_agreements": [
+        18,
+        1
+      ]
+    },
+    "test": {
+      "examples": 46,
+      "agreements": 22,
+      "label_examples": [
+        46,
+        0
+      ],
+      "label_agreements": [
+        22,
+        0
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [
+      1
+    ],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": [
+      1
+    ]
+  },
+  "99-0": {
+    "answers": [
+      "<OTHER>",
+      "(Material) breach of other provisions of agreement"
+    ],
+    "train": {
+      "examples": 185,
+      "agreements": 86,
+      "label_examples": [
+        161,
+        24
+      ],
+      "label_agreements": [
+        74,
+        12
+      ]
+    },
+    "validation": {
+      "examples": 34,
+      "agreements": 19,
+      "label_examples": [
+        30,
+        4
+      ],
+      "label_agreements": [
+        17,
+        2
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        45,
+        0
+      ],
+      "label_agreements": [
+        21,
+        0
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "99-1": {
+    "answers": [
+      "<OTHER>",
+      "Any breach of no-shop"
+    ],
+    "train": {
+      "examples": 185,
+      "agreements": 86,
+      "label_examples": [
+        156,
+        29
+      ],
+      "label_agreements": [
+        73,
+        13
+      ]
+    },
+    "validation": {
+      "examples": 34,
+      "agreements": 19,
+      "label_examples": [
+        28,
+        6
+      ],
+      "label_agreements": [
+        17,
+        2
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        34,
+        11
+      ],
+      "label_agreements": [
+        16,
+        5
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "99-2": {
+    "answers": [
+      "<OTHER>",
+      "Breach of no-shop resulting in a Superior Offer"
+    ],
+    "train": {
+      "examples": 185,
+      "agreements": 86,
+      "label_examples": [
+        121,
+        64
+      ],
+      "label_agreements": [
+        59,
+        27
+      ]
+    },
+    "validation": {
+      "examples": 34,
+      "agreements": 19,
+      "label_examples": [
+        24,
+        10
+      ],
+      "label_agreements": [
+        12,
+        7
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        34,
+        11
+      ],
+      "label_agreements": [
+        16,
+        5
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "99-3": {
+    "answers": [
+      "<OTHER>",
+      "Material breach of no-shop"
+    ],
+    "train": {
+      "examples": 185,
+      "agreements": 86,
+      "label_examples": [
+        155,
+        30
+      ],
+      "label_agreements": [
+        72,
+        14
+      ]
+    },
+    "validation": {
+      "examples": 34,
+      "agreements": 19,
+      "label_examples": [
+        26,
+        8
+      ],
+      "label_agreements": [
+        15,
+        4
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        32,
+        13
+      ],
+      "label_agreements": [
+        16,
+        5
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "99-4": {
+    "answers": [
+      "<OTHER>",
+      "Material breach of no-shop resulting in a Superior Offer"
+    ],
+    "train": {
+      "examples": 185,
+      "agreements": 86,
+      "label_examples": [
+        131,
+        54
+      ],
+      "label_agreements": [
+        58,
+        28
+      ]
+    },
+    "validation": {
+      "examples": 34,
+      "agreements": 19,
+      "label_examples": [
+        28,
+        6
+      ],
+      "label_agreements": [
+        15,
+        4
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        35,
+        10
+      ],
+      "label_agreements": [
+        15,
+        6
+      ]
+    },
+    "eligible": true,
+    "unsupported_train_labels": [],
+    "rare_labels": [],
+    "inadequate_support_labels": []
+  },
+  "99-5": {
+    "answers": [
+      "<OTHER>",
+      "Other"
+    ],
+    "train": {
+      "examples": 185,
+      "agreements": 86,
+      "label_examples": [
+        185,
+        0
+      ],
+      "label_agreements": [
+        86,
+        0
+      ]
+    },
+    "validation": {
+      "examples": 34,
+      "agreements": 19,
+      "label_examples": [
+        30,
+        4
+      ],
+      "label_agreements": [
+        17,
+        2
+      ]
+    },
+    "test": {
+      "examples": 45,
+      "agreements": 21,
+      "label_examples": [
+        45,
+        0
+      ],
+      "label_agreements": [
+        21,
+        0
+      ]
+    },
+    "eligible": false,
+    "unsupported_train_labels": [
+      1
+    ],
+    "rare_labels": [
+      1
+    ],
+    "inadequate_support_labels": [
+      1
+    ]
+  }
+}
