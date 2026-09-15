@@ -1,0 +1,22 @@
+{
+  "experiment_id": "rare3x-epoch3-from-epoch2-v1",
+  "parent_checkpoint": "outputs/initial/epoch-2",
+  "parent_code_commit": "874c27a33e4f3982ed2241bbaf05aa612d5749b4",
+  "parent_global_step": 3154,
+  "parent_epoch": 2,
+  "target_epoch": 3,
+  "target_global_step": 4731,
+  "original_planned_steps": 9462,
+  "rare_multiplier": 3.0,
+  "ordinary_multiplier": 1.0,
+  "normalization": "sum(weight * mean_answer_and_eos_token_loss) / sum(weights) within each effective batch",
+  "rare_definition": "Frozen per-task training-label frequency <= 0.10, including absent labels; existing examples only",
+  "sampling": "natural_frequency; original epoch-three order; no oversampling",
+  "control_predictions": "outputs/initial/validation-epoch-3.jsonl",
+  "selection_metric": "question_macro_f1",
+  "promising_rule": "rare recall strictly exceeds control and primary question_macro_f1 is no lower; report precision and paired agreement CI regardless",
+  "budget": "One alternative third epoch, plus smoke/resume checks and one full validation; no further epochs auto-launched",
+  "weight_rationale": "Moderate engineering choice fixed before either third-epoch validation result; not a published Qwen optimum",
+  "execution": "Wait for normal epoch-three validation and complete checkpoint, preserve original run, then run serially on existing capped RTX 3090",
+  "test_access": "sealed; validation comparison only"
+}

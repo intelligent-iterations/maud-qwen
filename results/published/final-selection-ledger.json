@@ -1,0 +1,49 @@
+{
+  "selected_utc": "2026-09-12T01:30:27.363022+00:00",
+  "selection_sha256": "0b170b851921e905a6578b6b0a7e268e5633e419f1d47607be1807b20d6d328c",
+  "selected_epoch": 5,
+  "adapter": "outputs/initial/epoch-5",
+  "adapter_sha256": "a544b41c61871f08d86f07819531fd8dbf195a245c3b233c7adcfd56ada328b7",
+  "selection_metric": "question_macro_f1",
+  "validation_score": 0.6547289885621957,
+  "normal_candidates": [
+    {
+      "epoch": 1,
+      "score": 0.6148824650866382,
+      "checkpoint": "outputs/initial/epoch-1"
+    },
+    {
+      "epoch": 2,
+      "score": 0.6294363237675651,
+      "checkpoint": "outputs/initial/epoch-2"
+    },
+    {
+      "epoch": 3,
+      "score": 0.6396498588134188,
+      "checkpoint": "outputs/initial/epoch-3"
+    },
+    {
+      "epoch": 4,
+      "score": 0.6525067185042546,
+      "checkpoint": "outputs/initial/epoch-4"
+    },
+    {
+      "epoch": 5,
+      "score": 0.6547289885621957,
+      "checkpoint": "outputs/initial/epoch-5"
+    },
+    {
+      "epoch": 6,
+      "score": 0.6514448485614696,
+      "checkpoint": "outputs/initial/epoch-6"
+    }
+  ],
+  "weighted_epoch3_score": 0.6456207889961788,
+  "operator_commit": "749f6b772cefab4de9e16f5d85af55bc8ff5635c",
+  "model_source_commit": "874c27a33e4f3982ed2241bbaf05aa612d5749b4",
+  "freeze_sha256": "2102136c0be405200b0152951053f7678765711ed136b495eaae73d29d5ff655",
+  "test_predictions_before_selection": false,
+  "iteration_closed_before_test": true,
+  "authorization": "User approved the proposed frozen epoch-five versus base final-test comparison",
+  "selection_mlflow_run_id": "b965929ae49b4be88e0948bb822b9a10"
+}

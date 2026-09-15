@@ -1,0 +1,11 @@
+# Public maintainers; security and workflow changes require owner review.
+*                         @luciana-lara @admincoderii
+/.github/                 @luciana-lara @admincoderii
+/.github/CODEOWNERS        @luciana-lara @admincoderii
+/.gitleaks.toml            @luciana-lara @admincoderii
+/.githooks/                @luciana-lara @admincoderii
+/scripts/security_check.py @luciana-lara @admincoderii
+/scripts/install_gitleaks_ci.sh @luciana-lara @admincoderii
+/SECURITY.md               @luciana-lara @admincoderii
+/CLAUDE.md                 @luciana-lara @admincoderii
+/AGENTS.md                 @luciana-lara @admincoderii

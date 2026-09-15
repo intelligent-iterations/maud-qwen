@@ -1,0 +1,7 @@
+{
+  "deterministic_algorithms": true,
+  "cublas_workspace_config": ":4096:8",
+  "cudnn_deterministic": true,
+  "cudnn_benchmark": false,
+  "allow_tf32": false
+}

@@ -1,0 +1,8 @@
+title = "MAUD Qwen secret detection"
+
+[extend]
+useDefault = true
+
+# No directory exclusions, ignored findings, or project-specific rule allowlists.
+# scripts/security_check.py expands every artifact and normalizes only the exact
+# prompt_tokens_sha256 digest field in temporary scanner inputs (see SECURITY.md).

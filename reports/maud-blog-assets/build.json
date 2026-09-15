@@ -1,0 +1,21 @@
+{
+  "article": "reports/maud-fine-tuning.html",
+  "article_sha256": "eb13662b411705a31bb88d765f6505caa8fdb39f786d0bfc36563422ad1bfbca",
+  "figure_generator": "matplotlib 3.9.4",
+  "word_count": 2545,
+  "word_limit": 3000,
+  "word_count_scope": "All HTML body text, including closed details, tables and image alt text; excluding scripts/styles",
+  "source_sha256": {
+    "scripts/build_maud_blog.py": "d142bfaceedcec9dad0af786179ee5b46648f8dd1e76ca56f89065a7ea428ec9",
+    "writing/maud-blog/article.template.html": "1dc29798e069bd39ee676092ae3155b537f3273c0e678632165d598ba80c4733",
+    "writing/maud-blog/article.css": "48aced58f68d5aad5a9d53d769dda718ae0cd7eadc53f0613cfb5fd5c497d9e7",
+    "writing/maud-blog/article.js": "802a1ed24043ec0af9d16658b7589ade3f35b3b0abc7119bfed2bfaf964edfc4",
+    "results/published/final-test-verification.json": "edaef203d7a4b069671ba85a2b2cb09e7597d8890e24b126ddf23483e4249f96",
+    "results/published/all-checkpoints-validation-summary.json": "cccabad1f8ee0e3a36b327ae8e40dc6f7c89e65199b4707fd7718dd2a3f91782"
+  },
+  "design_reference": "Original project engineering article; visual attribution retained in the article",
+  "design_reference_sha256": "ad96f1e5bf87a50bd74b461fafc563807ade7be1ab7ec1ccdf39ad7bc92eb37c",
+  "selected_epoch": 5,
+  "selection_sha256": "0b170b851921e905a6578b6b0a7e268e5633e419f1d47607be1807b20d6d328c",
+  "external_runtime_dependencies": []
+}

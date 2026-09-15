@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(git rev-parse --show-toplevel)"
+set --
+while read -r local_ref local_oid remote_ref remote_oid; do
+  if [[ "$local_oid" != 0000000000000000000000000000000000000000 ]]; then
+    set -- "$@" --revision "$local_oid"
+  fi
+done
+exec python3 scripts/security_check.py "$@"

@@ -1,0 +1,11 @@
+{
+  "cpu_pause_c": 85,
+  "gpu_pause_c": 80,
+  "cpu_resume_c": 75,
+  "gpu_resume_c": 72,
+  "sample_seconds": 2,
+  "cool_samples_to_resume": 15,
+  "minimum_pause_seconds": 60,
+  "expected_gpu_limit_w": 200,
+  "expected_cpu_max_khz": 3000000
+}

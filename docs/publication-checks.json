@@ -1,0 +1,162 @@
+{
+  "cpu_tests": "................................                                         [100%]\n32 passed in 4.22s",
+  "data_reconstruction": "fresh pinned upstream checkout; every frozen hash verified",
+  "published_prediction_sets": 12,
+  "published_prediction_rows": 61236,
+  "full_final_metrics_match": true,
+  "validation_summary_matches": true,
+  "primary_bootstrap_intervals_match": true,
+  "core_scoring_without_torch_transformers_mlflow": true,
+  "gpu_training_of_public_package": "not run; requires smoke gates on target CUDA machine",
+  "release_files_scanned": 110,
+  "archive_members_and_files_scanned": 130,
+  "credential_and_private_path_findings": [],
+  "private_git_history_included": false,
+  "code_license": "Apache-2.0; MAUD-derived material retains CC BY 4.0",
+  "freeze_sha256": "2102136c0be405200b0152951053f7678765711ed136b495eaae73d29d5ff655",
+  "selection_sha256": "0b170b851921e905a6578b6b0a7e268e5633e419f1d47607be1807b20d6d328c",
+  "prediction_manifest_sha256": "a275fb9605ba03bffb74149b071970a5ae5161223c3c373f7ba9243fbc1d4945",
+  "blog_matches_reviewed_original_html": true,
+  "blog_browser_verification": {
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "title": "I Fine-Tuned a Local AI on Merger Law \u2014 Intelligent Iterations"
+    },
+    "overview": [
+      "0.3661 \u2192 0.6788",
+      "48.93% \u2192 89.04%",
+      "23 agreements"
+    ],
+    "weighting": [
+      [
+        "Normal epoch 3",
+        "0.6396",
+        "59/154"
+      ],
+      [
+        "Weighted epoch 3 \u00b7 3\u00d7",
+        "0.6456",
+        "56/154"
+      ]
+    ],
+    "accuracy": [
+      "81.13%",
+      "48.93%",
+      "89.04%"
+    ],
+    "rareRecall": [
+      "0.00%",
+      "42.86%",
+      "37.01%"
+    ],
+    "primary": [
+      "0.4016",
+      "0.3661",
+      "0.6788"
+    ],
+    "dialog": true,
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    "narrow": {
+      "width": 320,
+      "scrollWidth": 320
+    },
+    "anchors": [
+      {
+        "href": "#article",
+        "exists": true
+      },
+      {
+        "href": "#top",
+        "exists": true
+      },
+      {
+        "href": "#overview",
+        "exists": true
+      },
+      {
+        "href": "#setup",
+        "exists": true
+      },
+      {
+        "href": "#split",
+        "exists": true
+      },
+      {
+        "href": "#methods",
+        "exists": true
+      },
+      {
+        "href": "#selection",
+        "exists": true
+      },
+      {
+        "href": "#rare",
+        "exists": true
+      },
+      {
+        "href": "#next",
+        "exists": true
+      },
+      {
+        "href": "#rare",
+        "exists": true
+      },
+      {
+        "href": "#top",
+        "exists": true
+      }
+    ],
+    "images": [
+      {
+        "loaded": true,
+        "alt": "Validation macro-F1 rises from 0.6149 at epoch 1 to 0.6547 at epoch 5, then falls to 0.6514 at epoch 6. A weighted third-epoch branch scores 0.6456."
+      }
+    ],
+    "downloads": [
+      {
+        "name": "maud-experiment-evidence.json",
+        "embedded": true
+      },
+      {
+        "name": "maud-final-test-report.md",
+        "embedded": true
+      },
+      {
+        "name": "maud-validation-curve.svg",
+        "embedded": true
+      }
+    ],
+    "networkRequests": [],
+    "runtimeErrors": [],
+    "withoutJavascript": [
+      "0.4016",
+      "0.3661",
+      "0.6788"
+    ],
+    "artifact_sha256": "eb13662b411705a31bb88d765f6505caa8fdb39f786d0bfc36563422ad1bfbca",
+    "word_count": 2545,
+    "word_limit": 3000,
+    "word_count_scope": "All HTML body text, including closed details, tables and image alt text; excluding scripts/styles",
+    "repeat_build_identical": true,
+    "visual_review": [
+      "desktop title and subtitle",
+      "desktop and mobile results summary",
+      "desktop and mobile weighting comparison",
+      "mobile validation figure"
+    ],
+    "browser_process_cleanup_verified": true
+  },
+  "public_blog_zip_sha256": "b51a34414c29b3af9fa870634663bae88a45e84f9b877670df1bd1bc6c67fbba",
+  "public_release": {
+    "version": "0.2.0",
+    "approval_date": "2026-09-15",
+    "history": "fresh parentless public root; private history excluded",
+    "scientific_artifacts": "unchanged from the independently verified experiment",
+    "security_audit": "docs/security-audit.md",
+    "automation": "docs/publication.md"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "comparison_mlflow_run_id": "689e6215e31846d9ac1168def54357c5",
+  "evaluation_run_ids": {
+    "base": "039b37fc074a4e9ca2fa2ef5190dde57",
+    "epoch5": "3141b155aa5e47b8824534eabdf5bfab"
+  },
+  "finished_utc": "2026-09-12T03:28:36.441285+00:00",
+  "selection_sha256": "0b170b851921e905a6578b6b0a7e268e5633e419f1d47607be1807b20d6d328c",
+  "report": "reports/final-test-report.md"
+}

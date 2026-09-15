@@ -1,0 +1,31 @@
+{
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "context_length": 4096,
+  "truncated_examples": 0,
+  "policy": "Full instructions, choices and passage. Abort on overflow; no truncation.",
+  "by_split": {
+    "train": {
+      "p50": 617.0,
+      "p90": 1292.0,
+      "p95": 1705.7999999999993,
+      "p99": 2402.0,
+      "max": 3922.0
+    },
+    "validation": {
+      "p50": 674.0,
+      "p90": 1346.0,
+      "p95": 1736.0,
+      "p99": 2326.699999999999,
+      "max": 2899.0
+    },
+    "test": {
+      "p50": 676.0,
+      "p90": 1304.0,
+      "p95": 1711.699999999999,
+      "p99": 2207.0,
+      "max": 2960.0
+    }
+  },
+  "prompt_source_sha256": "992c0ef2aad6ed874516b5f3c7b6cbc9d7ac2df9bcc5e0fbac6c6f3917ed3747",
+  "freeze_sha256": "2102136c0be405200b0152951053f7678765711ed136b495eaae73d29d5ff655"
+}

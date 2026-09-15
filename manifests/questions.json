@@ -1,0 +1,1510 @@
+{
+  "10-0": {
+    "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+    "subquestion": "Approval",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "Approval"
+    ]
+  },
+  "10-1": {
+    "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+    "subquestion": "Authority",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "Authority"
+    ]
+  },
+  "10-10": {
+    "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+    "subquestion": "Rights Agreement",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "Rights Agreement"
+    ]
+  },
+  "10-11": {
+    "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+    "subquestion": "Subsidiaries",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "Subsidiaries"
+    ]
+  },
+  "10-12": {
+    "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+    "subquestion": "Takeover Statutes",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "Takeover Statutes"
+    ]
+  },
+  "10-13": {
+    "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+    "subquestion": "Tax",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "Tax"
+    ]
+  },
+  "10-2": {
+    "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+    "subquestion": "Brokers' Fee",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "Brokers' Fee"
+    ]
+  },
+  "10-3": {
+    "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+    "subquestion": "Capitalization-Other",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "Capitalization-Other"
+    ]
+  },
+  "10-4": {
+    "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+    "subquestion": "Enforceability",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "Enforceability"
+    ]
+  },
+  "10-5": {
+    "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+    "subquestion": "No MAE",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "No MAE"
+    ]
+  },
+  "10-6": {
+    "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+    "subquestion": "No-Conflict",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "No-Conflict"
+    ]
+  },
+  "10-7": {
+    "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+    "subquestion": "Opinion of Financial Advisor",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "Opinion of Financial Advisor"
+    ]
+  },
+  "10-8": {
+    "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+    "subquestion": "Organization",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "Organization"
+    ]
+  },
+  "10-9": {
+    "question": "Accuracy of Fundamental Target R&Ws-Types of R&Ws",
+    "subquestion": "Other",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "Other"
+    ]
+  },
+  "101": {
+    "question": "Initial matching rights period (FTR)-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Agreement provides for matching rights in connection with FTR",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "2 business days or less",
+      "3 business days",
+      "3 calendar days",
+      "4 business days",
+      "4 calendar days",
+      "5 business days",
+      "5 calendar days",
+      "Greater than 5 business days"
+    ]
+  },
+  "102": {
+    "question": "Additional matching rights period for modifications (FTR)-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Agreement provides for matching rights in connection with FTR",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "2 business days or less",
+      "3 business days",
+      "3 days",
+      "4 business days",
+      "5 business days",
+      ">5 business days"
+    ]
+  },
+  "103": {
+    "question": "Number of additional matching rights periods for modifications (FTR)",
+    "subquestion": "<NONE>",
+    "text_type": "Agreement provides for matching rights in connection with FTR",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "Continuous matching right",
+      "None"
+    ]
+  },
+  "105-0": {
+    "question": "Acquisition Proposal Timing-Answer",
+    "subquestion": "Different Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period (no closing requirement)",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Different Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period (no closing requirement)"
+    ]
+  },
+  "105-1": {
+    "question": "Acquisition Proposal Timing-Answer",
+    "subquestion": "Different Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period and transaction must close after Tail Period",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Different Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period and transaction must close after Tail Period"
+    ]
+  },
+  "105-2": {
+    "question": "Acquisition Proposal Timing-Answer",
+    "subquestion": "Different Acquisition Proposal - Must sign during Tail Period (no closing requirement)",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Different Acquisition Proposal - Must sign during Tail Period (no closing requirement)"
+    ]
+  },
+  "105-3": {
+    "question": "Acquisition Proposal Timing-Answer",
+    "subquestion": "Different Acquisition Proposal - Must sign during Tail Period and close after Tail Period",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Different Acquisition Proposal - Must sign during Tail Period and close after Tail Period"
+    ]
+  },
+  "105-4": {
+    "question": "Acquisition Proposal Timing-Answer",
+    "subquestion": "Different Acquisition Proposal must close during Tail Period",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Different Acquisition Proposal must close during Tail Period"
+    ]
+  },
+  "105-5": {
+    "question": "Acquisition Proposal Timing-Answer",
+    "subquestion": "Same Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period and transaction must close after Tail Period",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Same Acquisition Proposal - Must be approved or not opposed (or another similar action) during Tail Period and transaction must close after Tail Period"
+    ]
+  },
+  "105-6": {
+    "question": "Acquisition Proposal Timing-Answer",
+    "subquestion": "Same Acquisition Proposal - Must be approved or not opposed to (or another similar action) during Tail Period (no closing requirement)",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Same Acquisition Proposal - Must be approved or not opposed to (or another similar action) during Tail Period (no closing requirement)"
+    ]
+  },
+  "105-7": {
+    "question": "Acquisition Proposal Timing-Answer",
+    "subquestion": "Same Acquisition Proposal - Must close during Tail Period",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Same Acquisition Proposal - Must close during Tail Period"
+    ]
+  },
+  "105-8": {
+    "question": "Acquisition Proposal Timing-Answer",
+    "subquestion": "Same Acquisition Proposal - Must sign during Tail Period (no closing requirement)",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Same Acquisition Proposal - Must sign during Tail Period (no closing requirement)"
+    ]
+  },
+  "105-9": {
+    "question": "Acquisition Proposal Timing-Answer",
+    "subquestion": "Same Acquisition Proposal - Must sign during Tail Period and close after Tail Period",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Same Acquisition Proposal - Must sign during Tail Period and close after Tail Period"
+    ]
+  },
+  "106": {
+    "question": "Acquisition Proposal required to be publicly disclosed-Answer (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "107-0": {
+    "question": "Acquisition Proposal required to be publicly disclosed-Answer",
+    "subquestion": "No",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "No"
+    ]
+  },
+  "107-1": {
+    "question": "Acquisition Proposal required to be publicly disclosed-Answer",
+    "subquestion": "“Publicly disclosed” requirement applies to Acquisition Proposal + Breach Trigger",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "“Publicly disclosed” requirement applies to Acquisition Proposal + Breach Trigger"
+    ]
+  },
+  "107-2": {
+    "question": "Acquisition Proposal required to be publicly disclosed-Answer",
+    "subquestion": "“Publicly disclosed” requirement applies to Acquisition Proposal + No-Vote / MTC Failure Trigger",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "“Publicly disclosed” requirement applies to Acquisition Proposal + No-Vote / MTC Failure Trigger"
+    ]
+  },
+  "107-3": {
+    "question": "Acquisition Proposal required to be publicly disclosed-Answer",
+    "subquestion": "“Publicly disclosed” requirement applies to Acquisition Proposal + Outside Date Trigger",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "“Publicly disclosed” requirement applies to Acquisition Proposal + Outside Date Trigger"
+    ]
+  },
+  "108": {
+    "question": "Acquisition Proposal required to be still pending-Answer (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "109": {
+    "question": "Tail Period Length-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Tail Period & Acquisition Proposal Details",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "12 months or longer",
+      "Other",
+      "within 12 months",
+      "within 6 months",
+      "within 9 months"
+    ]
+  },
+  "11-0": {
+    "question": "Materiality/MAE Scrape applies to",
+    "subquestion": "Capitalization R&Ws",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "Capitalization R&Ws"
+    ]
+  },
+  "11-1": {
+    "question": "Materiality/MAE Scrape applies to",
+    "subquestion": "General R&Ws",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "General R&Ws"
+    ]
+  },
+  "11-2": {
+    "question": "Materiality/MAE Scrape applies to",
+    "subquestion": "Specified R&Ws only",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "Specified R&Ws only"
+    ]
+  },
+  "11-3": {
+    "question": "Materiality/MAE Scrape applies to",
+    "subquestion": "fundamental/Special R&Ws",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "<OTHER>",
+      "fundamental/Special R&Ws"
+    ]
+  },
+  "113": {
+    "question": "Breach of No Shop required to be willful, material and/or intentional",
+    "subquestion": "<NONE>",
+    "text_type": "Breach of No Shop",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "115": {
+    "question": "Breach of Meeting Covenant required to be willful, material and/or intentional",
+    "subquestion": "<NONE>",
+    "text_type": "Breach of Meeting Covenant",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "117": {
+    "question": "Buyer consent requirement (ordinary course)-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Ordinary course covenant",
+    "category": "Operating and Efforts Covenant",
+    "answers": [
+      "Consent may not be unreasonably withheld, conditioned or delayed",
+      "Flat consent"
+    ]
+  },
+  "118": {
+    "question": "Includes \"consistent with past practice\"",
+    "subquestion": "<NONE>",
+    "text_type": "Ordinary course covenant",
+    "category": "Operating and Efforts Covenant",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "119": {
+    "question": "Ordinary course efforts standard-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Ordinary course covenant",
+    "category": "Operating and Efforts Covenant",
+    "answers": [
+      "Commercially reasonable efforts",
+      "Flat covenant (no efforts standard)",
+      "Reasonable best efforts"
+    ]
+  },
+  "120": {
+    "question": "Ordinary Course Covenant includes carve-out for Pandemic responses-Answer (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "Ordinary course covenant",
+    "category": "Operating and Efforts Covenant",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "122": {
+    "question": "Buyer consent requirement (negative interim covenant)-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Negative interim operating covenant",
+    "category": "Operating and Efforts Covenant",
+    "answers": [
+      "Consent may not be unreasonably withheld, conditioned or delayed",
+      "Flat consent"
+    ]
+  },
+  "123": {
+    "question": "Application of Buyer consent requirement (negative interim covenant)-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Negative interim operating covenant",
+    "category": "Operating and Efforts Covenant",
+    "answers": [
+      "Applies only to specified negative covenants",
+      "Applies to all negative covenants"
+    ]
+  },
+  "124": {
+    "question": "Negative Interim Covenant includes carveout for pandemic responses-Answer (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "Negative interim operating covenant",
+    "category": "Operating and Efforts Covenant",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "126": {
+    "question": "General Antitrust Efforts Standard-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "General Antitrust Efforts Standard",
+    "category": "Operating and Efforts Covenant",
+    "answers": [
+      "Commercially reasonable efforts",
+      "Flat standard",
+      "Reasonable best efforts"
+    ]
+  },
+  "13": {
+    "question": "Compliance with Target Covenant Closing Condition-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Compliance with Covenant Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "All Covenants",
+      "Each Covenant",
+      "Hybrid/Other Standard"
+    ]
+  },
+  "130": {
+    "question": "Specific Performance-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Specific Performance",
+    "category": "Remedies",
+    "answers": [
+      "\"entitled to seek\" specific performance",
+      "\"entitled to\" specific performance"
+    ]
+  },
+  "15": {
+    "question": "Absence of Litigation Closing Condition: Governmental v. Non-Governmental-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Absence of Litigation Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "Governmental litigation only",
+      "Non-Governmental & governmental litigation"
+    ]
+  },
+  "16": {
+    "question": "Absence of Litigation Closing Condition: Pending v. Threatened v. Threatened in Writing-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Absence of Litigation Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "Pending",
+      "Pending or threatened (without \"writing\" requirement)",
+      "Pending or threatened in writing"
+    ]
+  },
+  "21": {
+    "question": "MAE definition includes adverse impact on Target's ability to consummate (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "22": {
+    "question": "\"Ability to consummate\" concept is subject to MAE carveouts",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "23": {
+    "question": "MAE definition includes reference to Target \"prospects\" (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "24": {
+    "question": "MAE Forward looking standard (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "25-0": {
+    "question": "FLS (MAE) applies to",
+    "subquestion": "No",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "No"
+    ]
+  },
+  "25-1": {
+    "question": "FLS (MAE) applies to",
+    "subquestion": "ability to consummate transaction",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "ability to consummate transaction"
+    ]
+  },
+  "25-2": {
+    "question": "FLS (MAE) applies to",
+    "subquestion": "business and operation of Target",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "business and operation of Target"
+    ]
+  },
+  "26": {
+    "question": "FLS (MAE) Standard-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "\"Could\" (reasonably) be expected to",
+      "\"Would\"",
+      "\"Would\" (reasonably) be expected to",
+      "No",
+      "Other forward-looking standard"
+    ]
+  },
+  "27": {
+    "question": "MAE applies to Target and subsidiaries (MAE)-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "Applies to Target and subsidiaries \"taken as a whole\"",
+      "No"
+    ]
+  },
+  "28": {
+    "question": "General political and/or social conditions (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "29": {
+    "question": "General political and/or social conditions:  subject to \"disproportionate impact\" modifier",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "3": {
+    "question": "Type of Consideration-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Type of Consideration",
+    "category": "General Information",
+    "answers": [
+      "All Cash",
+      "All Stock",
+      "Mixed Cash/Stock",
+      "Mixed Cash/Stock: Election"
+    ]
+  },
+  "30": {
+    "question": "General economic and financial conditions (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "31": {
+    "question": "General economic and financial conditions: subject to \"disproportionate impact\" modifier",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "32": {
+    "question": "Changes in Target's industry (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "33": {
+    "question": "Change in Target's industry: subject to \"disproportionate impact\" modifier",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "34": {
+    "question": "Change in law (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "35": {
+    "question": "Change in law:  subject to \"disproportionate impact\" modifier",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "36": {
+    "question": "Changes in GAAP or other accounting principles (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "37": {
+    "question": "Changes in GAAP or other accounting principles:  subject to \"disproportionate impact\" modifier",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "38": {
+    "question": "Announcement, pendency or consummation of deal (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "39-0": {
+    "question": "A/P/C application to-Answer",
+    "subquestion": "No",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "No"
+    ]
+  },
+  "39-1": {
+    "question": "A/P/C application to-Answer",
+    "subquestion": "announcement",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "announcement"
+    ]
+  },
+  "39-2": {
+    "question": "A/P/C application to-Answer",
+    "subquestion": "consummation",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "consummation"
+    ]
+  },
+  "39-3": {
+    "question": "A/P/C application to-Answer",
+    "subquestion": "pendency",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "pendency"
+    ]
+  },
+  "42": {
+    "question": "Failure to meet projections (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "43": {
+    "question": "Failure to meet projections: subject to \"disproportionate impact\" modifier",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "44": {
+    "question": "Changes in market price/trading volume of Target's securities or credit rating (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "45": {
+    "question": "Target's securities or credit rating: subject to \"disproportionate impact\" modifier",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "46": {
+    "question": "War, terrorism, natural disasters, \"acts of God\" or force majeure-Answer (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "47-0": {
+    "question": "W/N/A/F applies to-Answer",
+    "subquestion": "\"act of God\"",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "\"act of God\""
+    ]
+  },
+  "47-1": {
+    "question": "W/N/A/F applies to-Answer",
+    "subquestion": "Natural disaster",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "Natural disaster"
+    ]
+  },
+  "47-2": {
+    "question": "W/N/A/F applies to-Answer",
+    "subquestion": "No",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "No"
+    ]
+  },
+  "47-3": {
+    "question": "W/N/A/F applies to-Answer",
+    "subquestion": "War or terrorism",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "War or terrorism"
+    ]
+  },
+  "47-4": {
+    "question": "W/N/A/F applies to-Answer",
+    "subquestion": "force majeure",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "force majeure"
+    ]
+  },
+  "48-0": {
+    "question": "W/N/A/F subject to \"disproportionate impact\"-Answer",
+    "subquestion": "\"act of God\"",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "\"act of God\""
+    ]
+  },
+  "48-1": {
+    "question": "W/N/A/F subject to \"disproportionate impact\"-Answer",
+    "subquestion": "Natural disaster",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "Natural disaster"
+    ]
+  },
+  "48-2": {
+    "question": "W/N/A/F subject to \"disproportionate impact\"-Answer",
+    "subquestion": "No",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "No"
+    ]
+  },
+  "48-3": {
+    "question": "W/N/A/F subject to \"disproportionate impact\"-Answer",
+    "subquestion": "War or terrorism",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "War or terrorism"
+    ]
+  },
+  "48-4": {
+    "question": "W/N/A/F subject to \"disproportionate impact\"-Answer",
+    "subquestion": "force majeure",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "force majeure"
+    ]
+  },
+  "49": {
+    "question": "Pandemic or other public health event-Answer (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "50": {
+    "question": "Pandemic or other public health event: Specific reference to COVID-19",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "51": {
+    "question": "Pandemic or other public health event: specific reference to pandemic-related governmental responses or measures",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "52": {
+    "question": "Pandemic or other public health event:  subject to \"disproportionate impact\" modifier",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "53": {
+    "question": "Actions required under transaction agreement-Answer (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "54": {
+    "question": "Actions taken with consent or approval of Buyer-Answer (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "55": {
+    "question": "Target stockholder proceedings-Answer (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "57": {
+    "question": "Matters listed on disclosure schedules-Answer (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "58": {
+    "question": "Actions taken by Buyer-Answer (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "59": {
+    "question": "Action prohibited/omission required by the agreement-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "6": {
+    "question": "Accuracy of Target \"General\" R&W: Bringdown Timing Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "At Closing Only",
+      "At Signing & At Closing"
+    ]
+  },
+  "60": {
+    "question": "Relational language (MAE carveout)-Answer (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "61-0": {
+    "question": "Relational language (MAE carveout)-Answer (Dropdown)",
+    "subquestion": "\"Arising from/out of\"",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "\"Arising from/out of\""
+    ]
+  },
+  "61-1": {
+    "question": "Relational language (MAE carveout)-Answer (Dropdown)",
+    "subquestion": "\"Attributable to\"",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "\"Attributable to\""
+    ]
+  },
+  "61-2": {
+    "question": "Relational language (MAE carveout)-Answer (Dropdown)",
+    "subquestion": "\"Relating to\"",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "\"Relating to\""
+    ]
+  },
+  "61-3": {
+    "question": "Relational language (MAE carveout)-Answer (Dropdown)",
+    "subquestion": "\"Resulting from\"",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "\"Resulting from\""
+    ]
+  },
+  "61-4": {
+    "question": "Relational language (MAE carveout)-Answer (Dropdown)",
+    "subquestion": "No",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "No"
+    ]
+  },
+  "61-5": {
+    "question": "Relational language (MAE carveout)-Answer (Dropdown)",
+    "subquestion": "Other",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "Other"
+    ]
+  },
+  "61-6": {
+    "question": "Relational language (MAE carveout)-Answer (Dropdown)",
+    "subquestion": "Relational language varies among carveouts",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "<OTHER>",
+      "Relational language varies among carveouts"
+    ]
+  },
+  "62": {
+    "question": "Relational language (MAE) applies to",
+    "subquestion": "<NONE>",
+    "text_type": "MAE Definition",
+    "category": "Material Adverse Effect",
+    "answers": [
+      "All MAE carveouts",
+      "No",
+      "Some MAE carveouts"
+    ]
+  },
+  "66": {
+    "question": "Knowledge Definition-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Knowledge Definition",
+    "category": "Knowledge",
+    "answers": [
+      "Actual knowledge",
+      "Constructive knowledge"
+    ]
+  },
+  "67": {
+    "question": "Constructive Knowledge-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Knowledge Definition",
+    "category": "Knowledge",
+    "answers": [
+      "Based on investigation or inquiry",
+      "Based on role"
+    ]
+  },
+  "68": {
+    "question": "Knowledge Definition limited to one or more identified persons-Answer (Y/",
+    "subquestion": "<NONE>",
+    "text_type": "Knowledge Definition",
+    "category": "Knowledge",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "7": {
+    "question": "Accuracy of Target \"General\" R&W: Bringdown Standard Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "All/The R&Ws accurate at MAE standard",
+      "All/The R&Ws accurate in all respects (repeating R&Ws)",
+      "Each R&W accurate at MAE standard",
+      "R&Ws accurate at another materiality standard (e.g., hybrid standard)"
+    ]
+  },
+  "70": {
+    "question": "Liability for breaches of no-shop by Target Representatives (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "No-Shop",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "72": {
+    "question": "Liability standard for no-shop breach by Target Non-D&O Representatives",
+    "subquestion": "<NONE>",
+    "text_type": "No-Shop",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "Reasonable standard",
+      "Strict liability"
+    ]
+  },
+  "74": {
+    "question": "Fiduciary exception:  Board determination standard-Answer (no-shop)",
+    "subquestion": "<NONE>",
+    "text_type": "Fiduciary exception:  Board determination (no-shop)",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "\"Breach\" of fiduciary duties",
+      "\"Inconsistent\" with fiduciary duties",
+      "\"Reasonably likely/expected breach\" of fiduciary duties",
+      "\"Reasonably likely/expected to be inconsistent\" with fiduciary duties",
+      "\"Reasonably likely/expected violation\" of fiduciary duties",
+      "\"Required to comply\" with fiduciary duties",
+      "\"Violation\" of fiduciary duties",
+      "None",
+      "Other specified standard"
+    ]
+  },
+  "75": {
+    "question": "Fiduciary exception: Board determination trigger (no shop)-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Fiduciary exception:  Board determination (no-shop)",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "Acquisition Proposal only",
+      "Superior Offer, or Acquisition Proposal reasonably likely/expected to result in a Superior Offer"
+    ]
+  },
+  "77": {
+    "question": "COR permitted with board fiduciary determination only",
+    "subquestion": "<NONE>",
+    "text_type": "Fiduciary exception to COR covenant",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "78": {
+    "question": "COR standard (board determination only)-answer",
+    "subquestion": "<NONE>",
+    "text_type": "Fiduciary exception to COR covenant",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "\"Reasonably likely/expected breach\" of fiduciary duties",
+      "\"Reasonably likely/expected to be inconsistent\" with fiduciary duties",
+      "More likely than not violate fiduciary duties",
+      "Other specified standard"
+    ]
+  },
+  "8": {
+    "question": "Accuracy of Target Capitalization R&W (outstanding shares): Bringdown Standard Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "Accurate in all material respects",
+      "Accurate in all respects",
+      "Accurate in all respects with below-threshold carveout",
+      "Accurate in all respects with de minimis exception"
+    ]
+  },
+  "80": {
+    "question": "COR standard (superior offer)",
+    "subquestion": "<NONE>",
+    "text_type": "Fiduciary exception to COR covenant",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "\"Breach\" of fiduciary duties",
+      "\"Inconsistent\" with fiduciary duties",
+      "\"Reasonably likely/expected breach\" of fiduciary duties",
+      "\"Reasonably likely/expected to be inconsistent\" with fiduciary duties",
+      "\"Reasonably likely/expected violation\" of fiduciary duties",
+      "\"Required to comply\" with fiduciary duties",
+      "\"Violation\" of fiduciary duties",
+      "More likely than not violate fiduciary duties",
+      "None",
+      "Other specified standard"
+    ]
+  },
+  "81": {
+    "question": "COR permitted in response to Intervening Event",
+    "subquestion": "<NONE>",
+    "text_type": "Fiduciary exception to COR covenant",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "82": {
+    "question": "COR standard (intervening event)",
+    "subquestion": "<NONE>",
+    "text_type": "Fiduciary exception to COR covenant",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "\"Breach\" of fiduciary duties",
+      "\"Inconsistent\" with fiduciary duties",
+      "\"Reasonably likely/expected breach\" of fiduciary duties",
+      "\"Reasonably likely/expected to be inconsistent\" with fiduciary duties",
+      "\"Reasonably likely/expected violation\" of fiduciary duties",
+      "\"Required to comply\" with fiduciary duties",
+      "\"Violation\" of fiduciary duties",
+      "More likely than not violate fiduciary duties",
+      "Other specified standard"
+    ]
+  },
+  "84": {
+    "question": "Initial matching rights period (COR)-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Agreement provides for matching rights in connection with COR",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "2 business days or less",
+      "3 business days",
+      "3 calendar days",
+      "4 business days",
+      "4 calendar days",
+      "5 business days",
+      "Greater than 5 business days"
+    ]
+  },
+  "85": {
+    "question": "Additional matching rights period for modifications (COR)-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Agreement provides for matching rights in connection with COR",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "2 business days or less",
+      "3 business days",
+      "3 days",
+      "4 business days",
+      "5 business days",
+      "> 5 business days",
+      "None"
+    ]
+  },
+  "86": {
+    "question": "Number of additional matching rights periods for modifications (COR)",
+    "subquestion": "<NONE>",
+    "text_type": "Agreement provides for matching rights in connection with COR",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "Continuous matching right",
+      "None"
+    ]
+  },
+  "88": {
+    "question": "Definition includes stock deals-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Superior Offer Definition",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "\"All or substantially all\"",
+      "50%",
+      "Greater than 50% but not \"all or substantially all\"",
+      "Less than 50%"
+    ]
+  },
+  "89": {
+    "question": "Definition includes asset deals-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "Superior Offer Definition",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "\"All or substantially all\"",
+      "50%",
+      "Greater than 50% but not \"all or substantially all\"",
+      "Less than 50%"
+    ]
+  },
+  "9": {
+    "question": "Accuracy of Fundamental Target R&Ws: Bringdown Standard",
+    "subquestion": "<NONE>",
+    "text_type": "Accuracy of Target R&W Closing Condition",
+    "category": "Conditions to Closing",
+    "answers": [
+      "Accurate at another materiality standard (e.g., hybrid standard)",
+      "Accurate in all material respects",
+      "Accurate in all respects"
+    ]
+  },
+  "90": {
+    "question": "\"Financial point of view\" is the sole consideration",
+    "subquestion": "<NONE>",
+    "text_type": "Superior Offer Definition",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "92": {
+    "question": "Definition contains knowledge requirement - answer",
+    "subquestion": "<NONE>",
+    "text_type": "Intervening Event Definition",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "Known, but consequences unknown or not reasonably foreseeable, at signing",
+      "Known, but consequences unknown, at signing",
+      "Not known and not reasonably foreseeable at signing",
+      "Not known at signing"
+    ]
+  },
+  "93": {
+    "question": "Knowledge persons include Target management (intervening event)",
+    "subquestion": "<NONE>",
+    "text_type": "Intervening Event Definition",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "94": {
+    "question": "Intervening Event - Required to Occur After Signing - answer",
+    "subquestion": "<NONE>",
+    "text_type": "Intervening Event Definition",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "May occur or arise prior to signing",
+      "Must occur or arise after signing"
+    ]
+  },
+  "95": {
+    "question": "Definition contains a materiality standard (Y/N)",
+    "subquestion": "<NONE>",
+    "text_type": "Intervening Event Definition",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "No",
+      "Yes"
+    ]
+  },
+  "97": {
+    "question": "FTR Triggers-Answer",
+    "subquestion": "<NONE>",
+    "text_type": "FTR Triggers",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "Superior Offer",
+      "Superior Offer, Intervening Event"
+    ]
+  },
+  "99-0": {
+    "question": "Limitations on FTR Exercise-Answer",
+    "subquestion": "(Material) breach of other provisions of agreement",
+    "text_type": "Limitations on FTR Exercise",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "(Material) breach of other provisions of agreement"
+    ]
+  },
+  "99-1": {
+    "question": "Limitations on FTR Exercise-Answer",
+    "subquestion": "Any breach of no-shop",
+    "text_type": "Limitations on FTR Exercise",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Any breach of no-shop"
+    ]
+  },
+  "99-2": {
+    "question": "Limitations on FTR Exercise-Answer",
+    "subquestion": "Breach of no-shop resulting in a Superior Offer",
+    "text_type": "Limitations on FTR Exercise",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Breach of no-shop resulting in a Superior Offer"
+    ]
+  },
+  "99-3": {
+    "question": "Limitations on FTR Exercise-Answer",
+    "subquestion": "Material breach of no-shop",
+    "text_type": "Limitations on FTR Exercise",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Material breach of no-shop"
+    ]
+  },
+  "99-4": {
+    "question": "Limitations on FTR Exercise-Answer",
+    "subquestion": "Material breach of no-shop resulting in a Superior Offer",
+    "text_type": "Limitations on FTR Exercise",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Material breach of no-shop resulting in a Superior Offer"
+    ]
+  },
+  "99-5": {
+    "question": "Limitations on FTR Exercise-Answer",
+    "subquestion": "Other",
+    "text_type": "Limitations on FTR Exercise",
+    "category": "Deal Protection and Related Provisions",
+    "answers": [
+      "<OTHER>",
+      "Other"
+    ]
+  }
+}

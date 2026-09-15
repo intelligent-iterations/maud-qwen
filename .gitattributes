@@ -1,0 +1,4 @@
+*.jsonl.gz binary
+*.svg linguist-generated=true
+reports/maud-fine-tuning.html linguist-generated=true
+results/published/** linguist-generated=true

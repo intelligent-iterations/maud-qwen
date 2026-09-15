@@ -1,0 +1,97 @@
+{
+  "verified_utc": "2026-09-09T18:31:36.610306+00:00",
+  "analysis_split": "validation",
+  "rows": 5043,
+  "agreements": 23,
+  "eligible_tasks": 119,
+  "complete_metrics_match": true,
+  "input_identities_match": true,
+  "primary_bootstrap_matches": true,
+  "primary_difference": 0.005970930182759959,
+  "bootstrap": {
+    "unit": "agreement",
+    "paired": true,
+    "replicates": 2000,
+    "seed": 42,
+    "agreements": 23,
+    "valid_replicates": 2000,
+    "replicates_missing_tasks": 697,
+    "left_ci95": [
+      0.5946840379977167,
+      0.643510286646929
+    ],
+    "right_ci95": [
+      0.5997046995063477,
+      0.6493454278916908
+    ],
+    "difference_right_minus_left_ci95": [
+      -0.004001243487983771,
+      0.014810310283982867
+    ]
+  },
+  "paired_errors": {
+    "nonrare": {
+      "both_correct": 4343,
+      "both_wrong": 390,
+      "correction": 91,
+      "regression": 65
+    },
+    "rare": {
+      "both_wrong": 94,
+      "both_correct": 55,
+      "regression": 4,
+      "correction": 1
+    }
+  },
+  "rare_training_support": {
+    "unsupported": {
+      "n": 24,
+      "control_correct": 12,
+      "weighted_correct": 10
+    },
+    "one_or_two_agreements": {
+      "n": 25,
+      "control_correct": 5,
+      "weighted_correct": 4
+    },
+    "three_or_more_agreements": {
+      "n": 105,
+      "control_correct": 42,
+      "weighted_correct": 42
+    }
+  },
+  "rare_recall_difference_ci95_exploratory": [
+    -0.046153846153846156,
+    0.016813905049199128
+  ],
+  "rare_bootstrap_valid_replicates": 2000,
+  "invalid_outputs": 0,
+  "truncated_rows": 0,
+  "training": {
+    "steps": 1577,
+    "examples": 25225,
+    "upweighted_examples": 716,
+    "sum_optimizer_step_seconds": 42254.490815657686,
+    "mean_seconds_per_optimizer_step": 26.794223725845075,
+    "peak_allocated_gib": 12.010520458221436,
+    "peak_reserved_gib": 13.326171875
+  },
+  "evaluation_performance": {
+    "inference_seconds": 3794.471298119519,
+    "examples_per_second": 1.3290389105062497,
+    "generated_tokens_per_second": 2.6580778210124993,
+    "latency_p50_seconds": 0.6337725659832358,
+    "latency_p95_seconds": 1.799122355895814,
+    "peak_allocated_gib": 11.677100658416748,
+    "peak_reserved_gib": 12.14453125,
+    "memory_scope": "current process segment; latency includes all prediction rows"
+  },
+  "prediction_sha256": [
+    "ada13f759f70307b79eb8fccc0b1f6df773a348a886fa3abe5d049dc93f15f9d",
+    "1986c1509dfed389856615dacbbf023f362be37f61be803ddb96d9d20bdde1b6"
+  ],
+  "freeze_sha256": "2102136c0be405200b0152951053f7678765711ed136b495eaae73d29d5ff655",
+  "promising_under_registered_rule": false,
+  "test_accessed": false,
+  "verification_script_sha256": "1a49cdeedada53a2de3f9d891e5106d868d183bf72fc1d6397eead2294bc888c"
+}

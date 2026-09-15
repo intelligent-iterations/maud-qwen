@@ -1,0 +1,39 @@
+{
+  "archive_snapshot_commit": "e9b8a2f2d7d6b179278aabccf1e2c10b8ce02fb1",
+  "model_evaluator_commit": "874c27a33e4f3982ed2241bbaf05aa612d5749b4",
+  "original_module_sha256": {
+    "src/maud_qwen/metrics.py": "4981b15b1e16e53137419a74cc46fffcc8a7eec1771569194d6698c993780f03",
+    "src/maud_qwen/__init__.py": "1bafcafae88d2bf53bd2b78144c1f8b99217379219b07dd4580576d6000657fa",
+    "src/maud_qwen/weighted_branch.py": "5fe95d564cfe4610d2de498bed0f6454ea0d0de0aecbdd36357bf6145a42b881",
+    "src/maud_qwen/model.py": "df0390ac6bfae43d2540b91c80553c0a9090fcad9d3e0e2e3a4becccb38b86c7",
+    "src/maud_qwen/cli.py": "bf688d7d00a115c4c9be2f3e9af52aa5280dcf075a315a35dba264c78c7ca7a9",
+    "src/maud_qwen/common.py": "f096a4d074bfd00f743d60de05509137f7bf81168e2c18290dc8b3e009994255",
+    "src/maud_qwen/train.py": "8aba96b76863013aa4cc2f38fe1345442b89185fd231945441b09bdee3d573c5",
+    "src/maud_qwen/evaluate.py": "f109a9630dcdfda53762d7df429fdad8b285a5e74d6087d7e985694462fbd2c6",
+    "src/maud_qwen/prompt.py": "992c0ef2aad6ed874516b5f3c7b6cbc9d7ac2df9bcc5e0fbac6c6f3917ed3747",
+    "src/maud_qwen/__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+    "src/maud_qwen/data.py": "369a88f7799be6bcbdba0c1a868b5ea2012d4efd7011f8a7d7b0cf90d31b9a46"
+  },
+  "publication": "Curated initial public snapshot; original private operations history is not included. See docs/provenance.md for portability changes.",
+  "model_source_archive": {
+    "path": "results/published/model-source.tar.gz",
+    "sha256": "d019c808f17fe0a5212d2db1bf136ac3ca2d0ceb0f72190cd09ed69154740c62",
+    "commit": "874c27a33e4f3982ed2241bbaf05aa612d5749b4",
+    "files": {
+      "configs/initial.json": "c8b665229ea6089834fca2638aa61d48343d7458e2dc1c4bb3e40aad334e3c71",
+      "configs/resolved.json": "448d775453e912b3f6b4b465dcbfc430f56377d85d806d4229d856910d79d6f6",
+      "configs/runtime.json": "ae7a3a72ae4408d0e9386025cdd057619c284b95a8be28fa5e39d7e51cc32711",
+      "docs/evaluation_protocol.md": "bd83ec4722f64e6aae177766eb8c633834960748511dc2d83751d07081d4aaf2",
+      "src/maud_qwen/__init__.py": "1bafcafae88d2bf53bd2b78144c1f8b99217379219b07dd4580576d6000657fa",
+      "src/maud_qwen/__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+      "src/maud_qwen/cli.py": "bf688d7d00a115c4c9be2f3e9af52aa5280dcf075a315a35dba264c78c7ca7a9",
+      "src/maud_qwen/common.py": "f096a4d074bfd00f743d60de05509137f7bf81168e2c18290dc8b3e009994255",
+      "src/maud_qwen/data.py": "369a88f7799be6bcbdba0c1a868b5ea2012d4efd7011f8a7d7b0cf90d31b9a46",
+      "src/maud_qwen/evaluate.py": "f109a9630dcdfda53762d7df429fdad8b285a5e74d6087d7e985694462fbd2c6",
+      "src/maud_qwen/metrics.py": "4981b15b1e16e53137419a74cc46fffcc8a7eec1771569194d6698c993780f03",
+      "src/maud_qwen/model.py": "df0390ac6bfae43d2540b91c80553c0a9090fcad9d3e0e2e3a4becccb38b86c7",
+      "src/maud_qwen/prompt.py": "992c0ef2aad6ed874516b5f3c7b6cbc9d7ac2df9bcc5e0fbac6c6f3917ed3747",
+      "src/maud_qwen/train.py": "8e2fd165c9bb56e138a626cd513b50dff1fc03a04d9c9fc7ed4268084dfc450e"
+    }
+  }
+}

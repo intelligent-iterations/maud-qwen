@@ -1,0 +1,25 @@
+{
+  "finding": "duplicate source text files but distinct raw annotation provenance",
+  "contract_file_sha256": "7a84e0d4d21183ede27195bbaded6976e3ef3af05e72ad05aea0a73f4ad6a96e",
+  "contracts": [
+    {
+      "agreement_id": "contract_148",
+      "split": "train",
+      "raw_filename_exact_passage_matches": [
+        "Weingarten Realty Investors_Kimco Realty Corporation.pdf"
+      ],
+      "example_id": "train:95:41525c9f194b8352",
+      "passage_sha256": "9d7f6feac90e33c965aebafd68fa460a31dcfffd65cae58e5b0e29a4ba3dd7bb"
+    },
+    {
+      "agreement_id": "contract_149",
+      "split": "train",
+      "raw_filename_exact_passage_matches": [
+        "Welbilt_Inc_Ali_Group_S_r_l.pdf.pdf"
+      ],
+      "example_id": "dev:16:a50154cfd6f6d538",
+      "passage_sha256": "cc623e150d3a184db18713a27176877151cff86323823f5ee99153d0ce5bcfa4"
+    }
+  ],
+  "decision": "Retain source-assigned passages; both IDs are training-only. Do not use duplicate full-contract files as model input. No split change."
+}
